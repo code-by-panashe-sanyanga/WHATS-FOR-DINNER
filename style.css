@@ -189,6 +189,24 @@ nav a:hover {
     max-width: 250px;
 }
 
+.dish-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dish-content h4 {
+    font-size: 1.3rem;
+    margin: 10px 0;
+    color: var(--primary-black);
+}
+
+.dish-content p {
+    font-size: 0.95rem;
+    color: var(--dark-grey);
+    line-height: 1.5;
+}
+
 .circle-img {
     width: 180px;
     height: 180px;
