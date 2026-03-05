@@ -294,6 +294,15 @@ nav a:hover {
     box-shadow: 0 8px 20px rgba(0,0,0,0.04);
     text-decoration: none;
     color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.category-card .country-flag {
+    width: 80px;
+    height: 60px;
 }
 
 .recipe-img {
@@ -407,11 +416,27 @@ nav a:hover {
     text-align: center;
     border-radius: 8px;
     cursor: pointer;
-    transition: background 0.3s;
+    transition: background 0.3s, transform 0.3s;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
 }
 
 .country-tile:hover {
     background: var(--medium-grey);
+    transform: translateY(-3px);
+}
+
+.country-flag {
+    width: 80px;
+    height: 60px;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    object-fit: cover;
 }
 
 /* ABOUT PAGE */
