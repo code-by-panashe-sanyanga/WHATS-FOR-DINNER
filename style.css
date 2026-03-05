@@ -1,11 +1,11 @@
 /* VARIABLES / THEME COLORS */
 :root {
-    --primary-green: #8DAA91; /* soft olive green for main highlights */
-    --soft-cream: #F6F4EB; /* warm neutral background */
-    --earth-brown: #5C4A3D; /* earthy brown for text */
-    --accent-blue: #A9C6C2; /* subtle blue for hover and accents */
-    --white: #FFFFFF; /* for cards and highlights */
-    --accent-terra: #D9A68C; /* muted terracotta for secondary accents */
+    --primary-black: #000000; /* deep black for text and strong elements */
+    --clean-white: #FFFFFF; /* pure white for backgrounds and cards */
+    --light-grey: #F5F5F5; /* light grey for subtle backgrounds */
+    --medium-grey: #CCCCCC; /* medium grey for borders and accents */
+    --dark-grey: #666666; /* dark grey for secondary text */
+    --industrial-grey: #B0B0B0; /* metallic grey for modern industrial feel */
 }
 
 /* RESET */
@@ -16,21 +16,21 @@
 }
 
 body {
-    background-color: var(--soft-cream);
-    color: var(--earth-brown);
+    background-color: var(--clean-white);
+    color: var(--primary-black);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
 }
 
 /* HEADER */
 header {
-    background: var(--white);
-    border-bottom: 2px solid #eee;
+    background: var(--clean-white);
+    border-bottom: 2px solid var(--medium-grey);
 }
 
 .top-bar {
-    background: var(--primary-green);
-    color: var(--white);
+    background: var(--industrial-grey);
+    color: var(--primary-black);
     padding: 6px 20px;
     display: flex;
     justify-content: flex-end;
@@ -52,25 +52,25 @@ header {
 
 nav a {
     text-decoration: none;
-    color: var(--earth-brown);
+    color: var(--primary-black);
     margin: 0 15px;
     font-weight: 600;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: var(--primary-green);
+    color: var(--industrial-grey);
 }
 
 .nav-actions input {
     padding: 8px;
     border-radius: 5px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--medium-grey);
 }
 
 .btn-signin {
-    background: var(--primary-green);
-    color: var(--white);
+    background: var(--primary-black);
+    color: var(--clean-white);
     border: none;
     padding: 8px 16px;
     border-radius: 5px;
@@ -98,7 +98,7 @@ nav a:hover {
     height: 350px;
     border-radius: 50%;
     overflow: hidden;
-    border: 8px solid var(--white);
+    border: 8px solid var(--clean-white);
     box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 }
 
@@ -133,7 +133,7 @@ nav a:hover {
 }
 
 .dot.active {
-    background-color: var(--primary-green);
+    background-color: var(--industrial-grey);
 }
 
 /* INSPO SECTIONS */
@@ -161,7 +161,7 @@ nav a:hover {
 .circle-img {
     width: 180px;
     height: 180px;
-    background: var(--accent-blue);
+    background: var(--medium-grey);
     border-radius: 50%;
     margin: 0 auto 15px;
     transition: transform 0.3s;
@@ -186,7 +186,7 @@ nav a:hover {
 
 /* INGREDIENT SEARCH */
 .ingredient-search {
-    background: var(--white);
+    background: var(--clean-white);
     padding: 50px;
     margin: 40px auto;
     max-width: 900px;
@@ -211,8 +211,8 @@ nav a:hover {
 }
 
 .btn-primary {
-    background: var(--primary-green);
-    color: var(--white);
+    background: var(--primary-black);
+    color: var(--clean-white);
     border: none;
     padding: 12px 30px;
     border-radius: 5px;
@@ -222,7 +222,7 @@ nav a:hover {
 }
 
 .btn-secondary {
-    background: var(--accent-terra);
+    background: var(--medium-grey);
     border: none;
     padding: 12px 30px;
     border-radius: 5px;
@@ -234,7 +234,7 @@ nav a:hover {
 .page-hero {
     text-align: center;
     padding: 80px 20px;
-    background: var(--white);
+    background: var(--clean-white);
 }
 
 .page-hero h1 {
@@ -256,7 +256,7 @@ nav a:hover {
 
 .recipe-card,
 .category-card {
-    background: var(--white);
+    background: var(--clean-white);
     padding: 40px;
     text-align: center;
     border-radius: 12px;
@@ -305,7 +305,7 @@ nav a:hover {
     bottom: 30px;
     left: 40px;
     background: rgba(0,0,0,0.5);
-    color: var(--white);
+    color: var(--clean-white);
     padding: 15px 25px;
     border-radius: 8px;
 }
@@ -314,8 +314,8 @@ nav a:hover {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: var(--primary-green);
-    color: var(--white);
+    background: var(--primary-black);
+    color: var(--clean-white);
     border: none;
     padding: 15px;
     cursor: pointer;
@@ -349,7 +349,7 @@ nav a:hover {
 
 .dish-of-day,
 .country-section {
-    background: var(--white);
+    background: var(--clean-white);
     padding: 20px;
     border-radius: 12px;
     height: fit-content;
@@ -369,7 +369,7 @@ nav a:hover {
 }
 
 .country-tile {
-    background: var(--soft-cream);
+    background: var(--light-grey);
     padding: 20px;
     text-align: center;
     border-radius: 8px;
@@ -378,7 +378,7 @@ nav a:hover {
 }
 
 .country-tile:hover {
-    background: var(--accent-blue);
+    background: var(--medium-grey);
 }
 
 /* ABOUT PAGE */
@@ -409,7 +409,7 @@ nav a:hover {
 .newsletter {
     text-align: center;
     padding: 60px 20px;
-    background: var(--white);
+    background: var(--clean-white);
 }
 
 .newsletter input {
