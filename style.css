@@ -37,6 +37,11 @@ header {
     font-size: 0.8rem;
 }
 
+.top-bar a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .nav-container {
     display: flex;
     justify-content: space-between;
