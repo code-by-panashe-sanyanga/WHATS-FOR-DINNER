@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | Whats for Dinner</title>
+    <link rel="icon" type="image/x-icon" href="../assets/icons/favicon-32x32.png">
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body>
+    <!-- I keep the shared layout here so this page matches the rest of the site -->
+    <header>
+      <div class="top-bar">
+        <a href="https://instagram.com" title="Instagram"><img src="../assets/icons/instagram.svg" alt="Instagram"></a>
+          <a href="https://x.com" title="X"><img src="../assets/icons/x.svg" alt="X"></a>
+          <a href="https://facebook.com" title="Facebook"><img src="../assets/icons/facebook.svg" alt="Facebook"></a>
+      </div>
+      <div class="nav-container">
+        <div class="logo">WHATS FOR DINNER</div>
+        <nav>
+          <a href="index.html">HOME</a>
+          <a href="recipes.html">RECIPES</a>
+          <a href="meal-inspo.html">MEAL INSPIRATION</a>
+          <a href="about.html">ABOUT</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="auth-page about-page-shell">
+      <section class="auth-shell about-shell">
+        <h1>About Whats For Dinner</h1>
+        <p class="auth-intro">
+          A simple idea: make meal decisions faster and better.
+        </p>
+
+        <div class="auth-tabs" role="tablist" aria-label="About highlights">
+          <button class="auth-tab is-active" type="button">Mission</button>
+          <button class="auth-tab" type="button">What We Offer</button>
+        </div>
+
+        <div class="auth-message is-success">Helping people cook with confidence every day.</div>
+
+        <div class="about-copy">
+          <p>
+            Whats For Dinner was created to help people quickly decide what to cook
+            using simple ingredients and fresh ideas from around the world.
+          </p>
+          <p>
+            From quick weeknight picks to cuisine inspiration by country, the goal is
+            to make planning meals feel easy, visual, and enjoyable.
+          </p>
+        </div>
+      </section>
+
+      <section class="favorites-shell about-contact-shell">
+        <div class="favorites-head">
+          <h2>Contact Us</h2>
+        </div>
+        <p class="favorites-meta">Questions, feedback, or collaboration ideas? Send us a message.</p>
+
+        <form class="auth-form contact-form" action="#" method="post">
+          <label for="contactName">Your Name</label>
+          <input id="contactName" type="text" placeholder="Your Name" required />
+
+          <label for="contactEmail">Your Email</label>
+          <input id="contactEmail" type="email" placeholder="you@example.com" required />
+
+          <label for="contactMessage">Your Message</label>
+          <textarea id="contactMessage" placeholder="Tell us what you think..." rows="5" required></textarea>
+
+          <button class="btn-primary" type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer></footer>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>
