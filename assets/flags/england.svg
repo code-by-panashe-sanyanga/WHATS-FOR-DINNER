@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
-  <rect width="900" height="600" fill="#FFFFFF"/>
-  <g stroke="#CE1126" stroke-width="80">
-    <line x1="450" y1="0" x2="450" y2="600"/>
-    <line x1="0" y1="300" x2="900" y2="300"/>
-  </g>
-</svg>
