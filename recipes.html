@@ -15,7 +15,7 @@
       <div class="nav-container">
         <div class="logo">WHATS FOR DINNER</div>
         <nav>
-          <a href="home.html">HOME</a>
+          <a href="index.html">HOME</a>
           <a href="recipes.html">RECIPES</a>
           <a href="meal-inspo.html">MEAL INSPIRATION</a>
           <a href="about.html">ABOUT</a>
@@ -29,40 +29,36 @@
       <p>Browse & Discover Your Next Meal</p>
     </section>
 
+  <section class="ingredient-search">
+      <div class="search-inner">
+        <h3>ENTER UP TO THREE INGREDIENTS</h3>
+        <div class="input-row">
+          <input type="text" placeholder="Ingredient 1" />
+          <input type="text" placeholder="Ingredient 2" />
+          <input type="text" placeholder="Ingredient 3" />
+        </div>
+        <div class="btn-row">
+          <button class="btn-primary">FIND RECIPES</button>
+          <button class="btn-secondary">CLEAR</button>
+        </div>
+      </div>
+    </section>
+
     <!-- QUICK INSPO ABOVE HERO -->
     <section class="quick-inspo-top">
       <h2 class="section-title">TRENDING MEALS</h2>
-      <div class="inspo-grid">
-        <div class="inspo-card">TRENDING 1</div>
-        <div class="inspo-card">TRENDING 2</div>
-        <div class="inspo-card">TRENDING 3</div>
+      <div class="inspo-grid" id="recipesTrendingGrid">
+        <article class="inspo-card">Loading trending meals...</article>
       </div>
     </section>
 
     <!-- HERO CAROUSEL -->
     <section class="recipe-hero-carousel">
-      <div class="carousel-container">
+      <div class="carousel-container" id="recipesFeaturedCarousel">
         <div class="carousel-slide active">
-          <img
-            src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c"
-          />
-          <div class="carousel-text">FEATURED DISH 1</div>
+          <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" alt="Featured dish" />
+          <div class="carousel-text">Loading featured meals...</div>
         </div>
-        <div class="carousel-slide">
-          <img
-            src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1"
-          />
-          <div class="carousel-text">FEATURED DISH 2</div>
-        </div>
-        <div class="carousel-slide">
-          <img
-            src="https://images.unsplash.com/photo-1604908176997-431d03e39a6c"
-          />
-          <div class="carousel-text">FEATURED DISH 3</div>
-        </div>
-
-        <button class="carousel-btn prev">&#10094;</button>
-        <button class="carousel-btn next">&#10095;</button>
       </div>
     </section>
 
@@ -70,21 +66,18 @@
     <section class="recipe-filters">
       <h2 class="section-title">FILTER RECIPES</h2>
       <div class="filter-row">
-        <button class="btn-primary">CHICKEN</button>
-        <button class="btn-primary">VEGETARIAN</button>
-        <button class="btn-primary">PASTA</button>
-        <button class="btn-primary">UNDER 30 MIN</button>
+        <button class="btn-primary" type="button" data-filter-key="chicken">CHICKEN</button>
+        <button class="btn-primary" type="button" data-filter-key="vegetarian">VEGETARIAN</button>
+        <button class="btn-primary" type="button" data-filter-key="pasta">PASTA</button>
+        <button class="btn-primary" type="button" data-filter-key="under30">UNDER 30 MIN</button>
       </div>
     </section>
 
     <!-- MAIN RECIPE GRID -->
     <section class="recipe-grid">
-      <div class="recipe-card">RECIPE CARD 1</div>
-      <div class="recipe-card">RECIPE CARD 2</div>
-      <div class="recipe-card">RECIPE CARD 3</div>
-      <div class="recipe-card">RECIPE CARD 4</div>
-      <div class="recipe-card">RECIPE CARD 5</div>
-      <div class="recipe-card">RECIPE CARD 6</div>
+      <div id="recipesNameGrid" class="recipe-tiles">
+        <a class="recipe-card" href="recipes.html">Loading recipe names...</a>
+      </div>
     </section>
 
     <!-- CATEGORY SECTION -->
