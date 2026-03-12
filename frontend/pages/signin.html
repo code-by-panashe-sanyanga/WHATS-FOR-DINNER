@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In | Whats for Dinner</title>
+    <link rel="icon" type="image/x-icon" href="../assets/icons/favicon-32x32.png" />
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body>
+    <!-- I keep the shared layout here so this page matches the rest of the site -->
+    <header>
+      <div class="top-bar">
+        <div class="social-links">
+          <a href="https://instagram.com" title="Instagram"><img src="../assets/icons/instagram.svg" alt="Instagram"></a>
+          <a href="https://x.com" title="X"><img src="../assets/icons/x.svg" alt="X"></a>
+          <a href="https://facebook.com" title="Facebook"><img src="../assets/icons/facebook.svg" alt="Facebook"></a>
+        </div>
+      </div>
+      <div class="nav-container">
+        <div class="logo">WHATS FOR DINNER</div>
+        <nav>
+          <a href="index.html">HOME</a>
+          <a href="recipes.html">RECIPES</a>
+          <a href="meal-inspo.html">MEAL INSPIRATION</a>
+          <a href="about.html">ABOUT</a>
+        </nav>
+        <div class="nav-actions">
+          <input type="text" placeholder="SEARCH" />
+          <button class="btn-signin" type="button">SIGN IN</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="auth-page">
+      <section class="auth-shell">
+        <h1>Customer Account</h1>
+        <p class="auth-intro">Create an account to save favourite dishes and quickly find them later.</p>
+
+        <div class="auth-tabs" role="tablist" aria-label="Authentication tabs">
+          <button class="auth-tab is-active" type="button" data-tab="signin">Sign In</button>
+          <button class="auth-tab" type="button" data-tab="signup">Create Account</button>
+        </div>
+
+        <div id="authMessage" class="auth-message" aria-live="polite"></div>
+
+        <form id="signinForm" class="auth-form">
+          <label for="signinEmail">Email</label>
+          <input id="signinEmail" type="email" required placeholder="you@example.com" />
+
+          <label for="signinPassword">Password</label>
+          <input id="signinPassword" type="password" required placeholder="Enter your password" />
+
+          <button class="btn-primary" type="submit">Sign In</button>
+        </form>
+
+        <form id="signupForm" class="auth-form is-hidden">
+          <label for="signupName">Full Name</label>
+          <input id="signupName" type="text" required placeholder="Your name" />
+
+          <label for="signupEmail">Email</label>
+          <input id="signupEmail" type="email" required placeholder="you@example.com" />
+
+          <label for="signupPassword">Password</label>
+          <input id="signupPassword" type="password" minlength="6" required placeholder="At least 6 characters" />
+
+          <button class="btn-primary" type="submit">Create Account</button>
+        </form>
+      </section>
+
+      <section id="favorites" class="favorites-shell is-hidden">
+        <div class="favorites-head">
+          <h2>Your Favourites</h2>
+          <button id="signOutBtn" class="btn-secondary" type="button">Sign Out</button>
+        </div>
+        <p id="welcomeText" class="favorites-meta"></p>
+        <div id="favoritesList" class="favorites-list"></div>
+      </section>
+    </main>
+
+    <footer></footer>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/signin.js"></script>
+  </body>
+</html>
