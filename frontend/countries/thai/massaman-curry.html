@@ -26,43 +26,70 @@
       </div>
     </header>
 
+    <main class="recipe-container">
     <section class="recipe-hero">
-      <h1>Massaman Curry</h1>
-      <div class="recipe-main-img">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Kaeng_matsaman_kai.JPG/330px-Kaeng_matsaman_kai.JPG" alt="Massaman Curry" />
-      </div>
+        <div class="hero-text-box">
+            <span class="dish-country">Thailand</span>
+            <h1>Massaman Curry</h1>
+            <div class="recipe-meta" style="display: flex; justify-content: center; gap: 20px; margin-top: 10px; color: var(--dark-grey); font-weight: 600;">
+                <span><i class="far fa-clock"></i> 2.5 HOURS</span>
+                <span><i class="fas fa-utensils"></i> SERVES 6</span>
+            </div>
+        </div>
+        <div class="recipe-main-img">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Kaeng_matsaman_kai.JPG/330px-Kaeng_matsaman_kai.JPG" alt="Massaman Curry" />
+        </div>
     </section>
 
-    <section class="recipe-content">
-      <div class="ingredients">
-        <h2>Ingredients</h2>
-        <ul>
-          <li>1 tablespoon vegetable oil</li>
-          <li>1 4–4 1/2-pound chicken, cut into 10 pieces</li>
-          <li>Kosher salt</li>
-          <li>4 medium Yukon Gold potatoes (about 1 1/2 pounds), quartered</li>
-          <li>2 medium red onions, cut into wedges</li>
-          <li>3/4 cup prepared massaman curry paste</li>
-          <li>12 ounces Belgian-style wheat beer</li>
-          <li>4 13.5-ounce cans unsweetened coconut milk</li>
-          <li>2 cups low-sodium chicken broth</li>
-          <li>1/2 cup fish sauce</li>
-          <li>1/4 cup fresh lime juice</li>
-          <li>1 tablespoon palm or light brown sugar</li>
-          <li>1 teaspoon red chile powder</li>
-          <li>Freshly ground black pepper</li>
-          <li>Cilantro sprigs</li>        </ul>
-      </div>
-      <div class="instructions">
-        <h2>Instructions</h2>
-        <ol>
-          <li>Heat oil in a large heavy pot over medium-high heat. Season chicken with salt and cook in batches, skin side down, until golden brown (do not turn), 8–10 minutes; transfer to a plate.</li>
-          <li>Cook potatoes in same pot, turning occasionally, until brown, 8–10 minutes; transfer to another plate. Cook onions in pot, stirring occasionally, until golden brown, 5–8 minutes; transfer to plate with potatoes.</li>
-          <li>Add curry paste to pot and cook, stirring, until fragrant, about 4 minutes. Add beer. Bring to a boil, reduce heat, and simmer until reduced by half, 5–7 minutes. Add chicken, coconut milk, and broth. Bring to a boil, reduce heat, and simmer until chicken is very tender, 1–1 1/2 hours.</li>
-          <li>Return potatoes and onions to pot and cook until potatoes are soft, about 30 minutes. Remove from heat and mix in fish sauce, lime juice, palm sugar, and chile powder; season with salt and pepper. Top with cilantro and shallots. Serve with rice.</li>
-          <li>DO AHEAD: Chicken can be made 2 days ahead. Cover and chill.</li>        </ol>
-      </div>
+    <section class="recipe-details-container" style="max-width: 900px; margin: 40px auto; padding: 0 20px;">
+        <div class="recipe-info-layout">
+            <div class="ingredients-list">
+                <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Ingredients</h2>
+                <ul style="list-style: none; padding: 0;">
+                    <li class="recipe-step-item"><input type="checkbox"> 1 tbsp vegetable oil</li>
+                    <li class="recipe-step-item"><input type="checkbox"> 4–4 1/2 lb chicken pieces</li>
+                    <li class="recipe-step-item"><input type="checkbox"> 4 Yukon Gold potatoes</li>
+                    <li class="recipe-step-item"><input type="checkbox"> 2 red onions, wedged</li>
+                    <li class="recipe-step-item"><input type="checkbox"> 3/4 cup massaman paste</li>
+                    <li class="recipe-step-item"><input type="checkbox"> 12 oz wheat beer</li>
+                    <li class="recipe-step-item"><input type="checkbox"> 4 cans coconut milk</li>
+                    <li class="recipe-step-item"><input type="checkbox"> 2 cups chicken broth</li>
+                    <li class="recipe-step-item"><input type="checkbox"> Fish sauce, lime, palm sugar</li>
+                    <li class="recipe-step-item"><input type="checkbox"> Cilantro & shallots for garnish</li>
+                </ul>
+            </div>
+
+            <div class="instructions-list">
+                <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Instructions</h2>
+                
+                <div class="instruction-step">
+                    <span class="step-label">01</span>
+                    <p><strong>Sear the Chicken:</strong> Heat oil in a heavy pot. Season chicken with salt and cook skin side down until golden brown (8–10 mins). Transfer to a plate.</p>
+                </div>
+
+                <div class="instruction-step">
+                    <span class="step-label">02</span>
+                    <p><strong>Brown the Vegetables:</strong> In the same pot, cook potatoes until brown (8–10 mins), then onions until golden (5–8 mins). Transfer both to a plate.</p>
+                </div>
+
+                <div class="instruction-step">
+                    <span class="step-label">03</span>
+                    <p><strong>Bloom the Paste:</strong> Stir curry paste into the pot until fragrant (4 mins). Add beer and simmer until reduced by half.</p>
+                </div>
+
+                <div class="instruction-step">
+                    <span class="step-label">04</span>
+                    <p><strong>Slow Simmer:</strong> Add chicken, coconut milk, and broth. Simmer for 1–1.5 hours until chicken is very tender.</p>
+                </div>
+
+                <div class="instruction-step">
+                    <span class="step-label">05</span>
+                    <p><strong>Final Finish:</strong> Return potatoes and onions to the pot for 30 minutes. Season with fish sauce, lime, and sugar. Garnish with cilantro.</p>
+                </div>
+            </div>
+        </div>
     </section>
+</main>
 
     <footer>
       <div class="footer-links">

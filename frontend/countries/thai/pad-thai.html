@@ -26,40 +26,69 @@
       </div>
     </header>
 
+    <main class="recipe-container">
     <section class="recipe-hero">
-      <h1>Pad Thai</h1>
-      <div class="recipe-main-img">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Phat_Thai_kung_Chang_Khien_street_stall.jpg/330px-Phat_Thai_kung_Chang_Khien_street_stall.jpg" alt="Pad Thai" />
-      </div>
+        <div class="hero-text-box">
+            <span class="dish-country">Thailand</span>
+            <h1>Pad Thai</h1>
+            <div class="recipe-meta" style="display: flex; justify-content: center; gap: 20px; margin-top: 10px; color: var(--dark-grey); font-weight: 600;">
+                <span><i class="far fa-clock"></i> 30 MINS</span>
+                <span><i class="fas fa-utensils"></i> SERVES 2</span>
+            </div>
+        </div>
+        <div class="recipe-main-img">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Phat_Thai_kung_Chang_Khien_street_stall.jpg/330px-Phat_Thai_kung_Chang_Khien_street_stall.jpg" alt="Pad Thai" />
+        </div>
     </section>
 
-    <section class="recipe-content">
-      <div class="ingredients">
-        <h2>Ingredients</h2>
-        <ul>
-          <li>5 ounces pad thai rice noodles</li>
-          <li>3 tablespoons vegetable oil</li>
-          <li>1 large egg, room temperature</li>
-          <li>6 medium shrimp, peeled, deveined (optional)</li>
-          <li>2 tablespoons 1x1/2x1/8" slices pressed tofu (bean curd)</li>
-          <li>1 tablespoon sweet preserved shredded radish, rinsed, chopped into 1" pieces</li>
-          <li>1 cup bean sprouts</li>
-          <li>5 tablespoons tamarind water, or 2 tablespoons plus 1 teaspoon tamarind paste mixed with 2 tablespoons plus 1 teaspoon water</li>
-          <li>1 1/2 tablespoons (or more) Thai fish sauce (nam pla)</li>
-          <li>1 1/2 tablespoons simple syrup, preferably made with palm sugar</li>
-          <li>4 garlic chives, 2 cut into 1" pieces</li>
-          <li>1/2 teaspoon ground dried Thai chiles, divided</li>
-          <li>2 tablespoons crushed roasted, unsalted peanuts, divided</li>
-          <li>2 lime wedges</li>        </ul>
-      </div>
-      <div class="instructions">
-        <h2>Instructions</h2>
-        <ol>
-          <li>Place noodles in a large bowl; pour hot water over to cover. Let soak until tender but not mushy, 5-10 minutes. Drain; set aside.</li>
-          <li>Heat vegetable oil in a wok or large skillet over medium-high heat. Add egg; stir until barely set, about 30 seconds. Add shrimp, if using. Cook, stirring, until shrimp and egg are almost cooked through, 2-3 minutes. Add tofu and radish; cook for 30 seconds. Add noodles and cook for 1 minute. Stir in sprouts. Add tamarind water, fish sauce, and simple syrup and stir-fry until sauce is absorbed by noodles and noodles are well coated, about 1 minute. Stir in chopped garlic chives. Add 1/4 teaspoon ground chiles and 1 tablespoon peanuts and toss well. Transfer to serving plates.</li>
-          <li>Garnish with remaining 1/4 teaspoon ground chiles, 1 tablespoon peanuts, and lime wedges.</li>        </ol>
-      </div>
+    <section class="recipe-details-container" style="max-width: 900px; margin: 40px auto; padding: 0 20px;">
+        <div class="recipe-info-layout">
+            <div class="ingredients-list">
+                <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Ingredients</h2>
+                <ul style="list-style: none; padding: 0;">
+                    <li class="recipe-step-item"><input type="checkbox"> 5 oz rice noodles</li>
+                    <li class="recipe-step-item"><input type="checkbox"> 3 tbsp vegetable oil</li>
+                    <li class="recipe-step-item"><input type="checkbox"> 1 large egg</li>
+                    <li class="recipe-step-item"><input type="checkbox"> 6 medium shrimp (optional)</li>
+                    <li class="recipe-step-item"><input type="checkbox"> 2 tbsp pressed tofu slices</li>
+                    <li class="recipe-step-item"><input type="checkbox"> 1 tbsp sweet radish</li>
+                    <li class="recipe-step-item"><input type="checkbox"> 1 cup bean sprouts</li>
+                    <li class="recipe-step-item"><input type="checkbox"> Tamarind, Fish Sauce, Syrup</li>
+                    <li class="recipe-step-item"><input type="checkbox"> Garlic chives & peanuts</li>
+                </ul>
+            </div>
+
+            <div class="instructions-list">
+                <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Instructions</h2>
+                
+                <div class="instruction-step">
+                    <span class="step-label">01</span>
+                    <p><strong>Soak the Noodles:</strong> Place noodles in a bowl of hot water. Let soak for 5–10 minutes until tender but not mushy, then drain.</p>
+                </div>
+
+                <div class="instruction-step">
+                    <span class="step-label">02</span>
+                    <p><strong>Sauté Protein:</strong> Heat oil in a wok. Scramble the egg for 30 seconds, then add shrimp and cook until almost done.</p>
+                </div>
+
+                <div class="instruction-step">
+                    <span class="step-label">03</span>
+                    <p><strong>The Stir-Fry:</strong> Add tofu and radish. Toss in the noodles and cook for 1 minute. Stir in bean sprouts.</p>
+                </div>
+
+                <div class="instruction-step">
+                    <span class="step-label">04</span>
+                    <p><strong>Sauce & Finish:</strong> Add tamarind, fish sauce, and syrup. Stir-fry until the sauce is absorbed. Mix in chives, chiles, and peanuts.</p>
+                </div>
+
+                <div class="instruction-step">
+                    <span class="step-label">05</span>
+                    <p><strong>Serve:</strong> Garnish with extra peanuts, chiles, and fresh lime wedges.</p>
+                </div>
+            </div>
+        </div>
     </section>
+</main>
 
     <footer>
       <div class="footer-links">
