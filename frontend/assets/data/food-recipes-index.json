@@ -12253,5 +12253,956 @@
         "imageName":  "https://www.themealdb.com/images/media/meals/0umm891763364625.jpg",
         "country":  "Slovakian",
         "category":  "Side"
+    },
+    {
+        "id":  595,
+        "title":  "BBQ Ribs",
+        "ingredients":  [
+                            "1 cup pineapple juice, unsweetened",
+                            "2 teaspoons salt",
+                            "1 teaspoon ground black pepper",
+                            "2 teaspoons sugar",
+                            "1 teaspoon paprika",
+                            "About 1 1/2 cups water",
+                            "1 cup Barbecue Sauce",
+                            "1. Preheat the oven to 250Â°F.",
+                            "2. Wash the ribs under cold running water and pat them dry."
+                        ],
+        "instructions":  "1. Preheat the oven to 250Â°F. 2. Wash the ribs under cold running water and pat them dry. 3. Put the ribs in a large deep dish and pour the pineapple juice over it. Cover and marinate in the refrigerator for at least 4 hours, preferably overnight. 4. Whisk together the salt, pepper, sugar, and paprika in a large baking dish. Roll the ribs in the mixture, then arrange them in the baking dish. Add enough water to come halfway up the sides of the baking pan. 5. Bake the ribs for about 1 hour or until they are no longer pink when the meat is sliced away from the bone, then remove them from the oven and drain. Add the barbecue sauce and toss the ribs evenly to coat. 6. Increase the oven temperature to 400Â°F and return the baking dish to the oven. Bake for 20 to 30 minutes. Remove from heat and serve.",
+        "imageName":  "countries/american/bbq-ribs.html",
+        "country":  "american",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  596,
+        "title":  "Buffalo Wings",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Buffalo Wings Ingredients 4 large carrots, peeled",
+                            "4 large ribs celery, trimmed",
+                            "4 pounds chicken wings, (about 24), tips removed, rinsed and patted dry",
+                            "1/2 cup unsalted butter",
+                            "2 tablespoons Tabasco sauce",
+                            "1 cup peanut oil",
+                            "1 cup vegetable oil",
+                            "Salt and pepper, to taste",
+                            "Danish Blue-Cheese Dip",
+                            "1. Cut the carrots and celery into sticks; set aside.",
+                            "2. Using a sharp knife, separate the chicken wings at the joint so you have a \"drumstick\" and a \"thigh.\" Set aside.",
+                            "3. Melt the butter with the Tabasco sauce in a small saucepan. Transfer it to a large bowl and set aside."
+                        ],
+        "instructions":  "1. Cut the carrots and celery into sticks; set aside. 2. Using a sharp knife, separate the chicken wings at the joint so you have a \"drumstick\" and a \"thigh.\" Set aside. 3. Melt the butter with the Tabasco sauce in a small saucepan. Transfer it to a large bowl and set aside. 4. Heat the peanut and vegetable oils in a deep, heavy pot over medium-high heat. When the oils are hot, cook the chicken in batches until golden brown and cooked through, about 10 minutes. Remove with tongs and drain on paper towels. Place in the bowl and toss with the Tabasco mixture to coat. Season with salt and pepper. 5. Serve the wings immediately with the carrot and celery sticks and dip alongside",
+        "imageName":  "countries/american/buffalo-wings.html",
+        "country":  "american",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  597,
+        "title":  "Cheeseburger",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Cheeseburger Ingredients 3/4 pound freshly ground sirloin",
+                            "\"4 potato rolls, preferably Martins brand\", 2 tablespoons vegetable oil",
+                            "Kosher salt, to taste",
+                            "Freshly ground black pepper, to taste",
+                            "4 slices American cheese",
+                            "Four 1/4-inch-thick tomato slices",
+                            "4 burger-sized pieces green-leaf lettuce",
+                            "Epicurious Not-So-Secret Sauce",
+                            "2 large griddle spatulas",
+                            "Top burgers with tomatoes and lettuce; spread top buns with Not-So-Secret Sauce and place on top. Serve immediately."
+                        ],
+        "instructions":  "In a large bowl, use your hands to gently combine ground sirloin and brisket. Divide into four equal-sized, loosely meat pucks about 2 1/2 inches thick. Place patties on a plate lined with plastic wrap or parchment; transfer to the freezer for 15 minutes (do not exceed this amount of time). Meanwhile, heat a griddle, large cast-iron skillet, or large heavy stainless-steel skillet over medium-high heat. Melt 2 tablespoons butter and place the buns, cut-side down, in the pan. Cook until cut sides are golden-brown, about 2 minutes (you may need to do this in two batches, using additional butter if needed). Place toasted buns on four plates, reserving griddle or skillet. Remove patties from freezer. Increase heat to high and add 2 tablespoons oil to the griddle or skillet; heat until oil begins to smoke. Working one at a time, add a patty to griddle and immediately press one of the spatulas flat on top of the patty. Use the handle of the other to hammer the spatula down, smashing the patty until 1/2 inch thick. (You\u0027ll have to hammer harder and longer than you might think.) Press down and slide the spatula to remove it without tearing the patty; generously season patty with salt and pepper. Repeat smashing process with remaining patties. Flip each patty once the first side is deeply browned and crisp with craggly edges, 1 1/2 to 2 minutes for medium. Season the cooked side generously with salt and pepper, then add a slice of cheese and continue to cook until melted, 1 1/2 to 2 minutes more. Transfer cooked patties to bottom burger buns. Top burgers with tomatoes and lettuce; spread top buns with Not-So-Secret Sauce and place on top. Serve immediately.",
+        "imageName":  "countries/american/cheeseburger.html",
+        "country":  "american",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  598,
+        "title":  "Fried Chicken",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Fried Chicken Ingredients 1 quart buttermilk",
+                            "3 1/2 pound chicken parts (bone-in, skin-on; if using breasts, halve)",
+                            "2 cups all-purpose flour",
+                            "1 tablespoon paprika",
+                            "1 teaspoon cayenne pepper",
+                            "1 teaspoon garlic powder",
+                            "2 teaspoons kosher salt",
+                            "Freshly ground pepper",
+                            "Peanut oil, for frying",
+                            "Deep-fry thermometer",
+                            "Combine flour, paprika, cayenne, garlic powder, salt, and pepper in a large plastic bag.",
+                            "Remove chicken pieces from buttermilk and add to bag with flour mixture. Shake to coat; dust off excess."
+                        ],
+        "instructions":  "Place buttermilk in a large, shallow nonreactive dish and add chicken. Cover and refrigerate for at least 2 hours or overnight. Combine flour, paprika, cayenne, garlic powder, salt, and pepper in a large plastic bag. Remove chicken pieces from buttermilk and add to bag with flour mixture. Shake to coat; dust off excess. Pour 3/4\" peanut oil into a heavy skillet. Heat oil over medium-high heat until it registers 350Â° on a deep-fry thermometer. Reduce heat to medium and add the chicken pieces, a few at a time. Fry each piece for 10-12 minutes, turning occasionally, until it is crispy and golden and internal temperature registers 165Â° on an instant-read thermometer. Drain on paper towels; serve.",
+        "imageName":  "countries/american/fried-chicken.html",
+        "country":  "american",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  599,
+        "title":  "Hot Dog",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Hot Dog Ingredients About 3 tablespoons unsalted butter, softened",
+                            "4 large rolls, preferably teleras, Portuguese, kaiser, or ciabatta, split",
+                            "1/2 cup Refried Black Beans, homemade or canned",
+                            "8 thin slices yellow American cheese",
+                            "Scant 1/4 cup Mexican crema or crÃ¨me fraÃ®che",
+                            "4 teaspoons Dijon or yellow mustard",
+                            "6 fully-cooked beef hot dogs (2 ounces each)",
+                            "halved lengthwise"
+                        ],
+        "instructions":  "Heat a large nonstick skillet over medium-high heat. Spread the butter evenly over the cut sides of the rolls. Cook the rolls, buttered sides down, in the skillet until they are light golden brown and crisp, but still soft in the middle, a minute or two. Spread a layer of beans (a tablespoon or two) over the bottom half of each roll, then put a slice of cheese on the roll bottoms. Spread the crema and mustard over the roll tops and add the remaining cheese. Cook the hot dogs, cut side down, in the same pan until they\u0027re golden brown, about 2 minutes per side. Set the bun bottoms, cheese side down, on top of the hot dogs. Cook for a minute more, so the cheese has a chance to melt. Flip the bun bottoms and the hot dogs together onto a cutting board. Top with SLICED CANNED PICKLED JALAPEÃ‘OS, THINLY SLICED WHITE ONIONS, slices of RIPE MEXICAN HASS AVOCADO, and a pinch of salt. Cover with the roll tops and press firmly but gently.",
+        "imageName":  "countries/american/hot-dog.html",
+        "country":  "american",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  600,
+        "title":  "Mac and Cheese",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Mac and Cheese Ingredients 1 cup evaporated milk",
+                            "1 cup whole milk",
+                            "1 tsp. garlic powder",
+                            "1 tsp. onion powder",
+                            "1 tsp. smoked paprika",
+                            "Â½ tsp. freshly ground black pepper",
+                            "1 tsp. kosher salt, plus more",
+                            "2 lb. extra-sharp cheddar, coarsely grated",
+                            "4 oz. full-fat cream cheese",
+                            "1 lb. elbow macaroni"
+                        ],
+        "instructions":  "Place a rack in middle of oven; preheat to 400Â°. Bring evaporated milk and whole milk to a bare simmer in a large saucepan over medium heat. Whisk in garlic powder, onion powder, paprika, pepper, and 1 tsp. salt. Working in batches, whisk in three fourths of the cheddar, then all of the cream cheese. Meanwhile, bring a large pot of generously salted water to a boil (it should have a little less salt than seawater). Cook macaroni, stirring occasionally, until very al dente, about 4 minutes. Drain in a colander. Add macaroni to cheese sauce in pan and mix until well coated. Evenly spread out half of macaroni mixture in a 13x9\" baking dish. Sprinkle half of remaining cheddar evenly over. Layer remaining macaroni mixture on top and sprinkle with remaining cheddar. Bake until all of the cheese is melted, about 10 minutes. Let cool slightly before serving.",
+        "imageName":  "countries/american/mac-and-cheese.html",
+        "country":  "american",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  601,
+        "title":  "Peking Duck",
+        "ingredients":  [
+                            "1 tablespoon coarse salt",
+                            "1 bunch fresh thyme",
+                            "1 bunch fresh rosemary",
+                            "6 garlic cloves, peeled",
+                            "2 oranges, one quartered and seeded; the other sliced in 1/4-inch-thick rounds",
+                            "2 to 3 onions sliced in 1/2-inch-thick rounds",
+                            "1 bunch carrots, peeled and halved lengthwise",
+                            "1/4 cup Cointreau or other orange liqueur",
+                            "1 teaspoon salt",
+                            "2 teaspoons freshly ground black pepper",
+                            "16 ounces beef or chicken stock",
+                            "Giblets and necks from the ducklings"
+                        ],
+        "instructions":  "Preheat the oven to 425Â°F. If convection is an option, choose it. Make the ducks. Cut away the flap of fatty skin from the neck, and scrape any loose fat from inside the cavities. Prick the skin all over gently with a sharp fork, or cross-hatch it with a sharp knife. Be careful not to pierce the meat. Fill an 18-quart stock pot (or as large as you have) about two-thirds full with water, and add the salt. Place the bunches of thyme and rosemary and the garlic cloves in it. Bring to a rapid boil. (You may need to use two pots if you do not have a single pot large enough to hold both ducklings at once; if so, divide the thyme and rosemary into smaller held-together bunches, and divide the garlic between the pots.) Place the ducks in the pot. If they pop up, keep them submerged using a smaller pot full of water or some other weight. Be aware of overflow. Bring the water back to a slow boil. Simmer the ducks for about 30 minutes. Remove them, and use paper towels to dry them thoroughly. Stuff each of the ducksâ€™ cavities with half of the boiled thyme, rosemary, and garlic and the quartered orange. Line the bottom of a large shallow roasting pan with the onions, carrots, and the orange rounds. Place the ducks, breast-side down, on top. Massage them with the Cointreau. This will give them a mahogany finish. Let them sit for 10 minutes for the skin to absorb the liqueur. Sprinkle with salt and pepper. Roast until the bottoms brown, about 20 minutes. Turn them breast-side up, and lower the oven temperature to 350Â°F. Several times during roasting, spoon off any excess fat as it accumulates, or suck it up using a baster. Use some of the fat to baste the ducks, and set the rest aside, saving some for the sauce. Depending on how long you boiled the ducks and the size of the ducks, roasting time will be another hour or longer. The ducks are done when a meat thermometer inserted into the thickest part of the thigh registers at least 180Â°F, or until the juices run clear and the leg bones wiggle easily. You want the meat to slide off the bones. Donâ€™t be afraid of overcooking these. Ducks donâ€™t dry out easily. The skin should be crisp. If not, no worries. You will pass the pieces under the broiler before serving. (If the ducks are too crisp and the meat is not finished cooking, cover them with foil as you continue roasting.) Once the ducks are ready, remove them from the oven, and cover them with aluminum foil while you finish the sauce. Meanwhile, make the sauce. Combine the stock, giblets, and necks in a saucepot over medium-high heat, and bring to a boil. Reduce the heat to medium-low to maintain a gentle boil, until the stock is reduced by half. Finish the sauce when you have retrieved rendered duck fat from the roasting duck. In a medium saucepan, warm the duck fat over medium heat. Add the flour, whisking with a fork as you do so. Remove the giblets and necks from the stock reduction, and discard. Add the stock to the duck fatâ€“flour mixture, raise the heat to medium-high, and stir continuously to prevent lumps as you bring it to a slow boil. Add the Cointreau, vinegars, orange juice, marmalade, and orange peel to the pan. Bring back to a boil, melting the marmalade, then simmer uncovered on low heat until the sauce thickens and is reduced. Preheat a broiler with the rack set a notch or two down from the top position. When the ducks have rested at least 20 minutes, use a sharp knife or poultry scissors to split them and cut the breasts from the legs. Discard the orange quarters, herbs, wings, and any pockets of fat that remain. Slip the breast meat from the bones. Leave the legs intact. Put a little sauce in a broiling pan, and lay the duck pieces on top. Spoon a little sauce on top of each piece. Put them under the broiler for about 1 minute to crisp and glaze. Watch them carefully; the sugar in the sauce caramelizes quickly.",
+        "imageName":  "countries/chinese/peking-duck.html",
+        "country":  "chinese",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  602,
+        "title":  "Sichuan Hot Pot",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Sichuan Hot Pot Ingredients 5 pounds boneless beef shank",
+                            "1/4 cup vegetable oil",
+                            "1 2 1/2-inch piece fresh ginger, peeled, cut into 1/3-inch-thick rounds, each smashed with flat side of knife",
+                            "3 large garlic cloves, coarsely chopped",
+                            "2 cups chopped onions",
+                            "2 1/2 tablespoons chili bean paste (Sichuan hot bean paste; dou ban jiang)",
+                            "3 whole green onions, trimmed, plus 2 cups chopped green onions (for garnish)",
+                            "1/2 cup (or more) soy sauce (do not use low-sodium)",
+                            "2 tablespoons (or more) salt",
+                            "6 whole star anise",
+                            "2 1 1/2-inch cubes Chinese yellow rock sugar (about 2 1/2 ounces) or 2 1/2 tablespoons sugar",
+                            "1/2 tablespoon Sichuan peppercorns"
+                        ],
+        "instructions":  "Bring large pot of water to boil over high heat. Add beef; return water to boil. Reduce heat. Simmer until beef is brown on outside, turning occasionally, about 8 minutes; drain. Rinse beef under cold water until cool; cut into 1 1/2-inch cubes. Wipe out pot. Heat 1/4 cup oil in same pot over medium-high heat. Add ginger and garlic. SautÃ© 1 minute. Add chopped onions; sautÃ© until translucent, about 3 minutes. Add chili bean paste; stir 30 seconds. Add 16 cups water, whole green onions, 1/2 cup soy sauce, 2 tablespoons salt, star anise, and rock sugar. Mix in beef. Tie peppercorns in cheesecloth; add to pot. Bring soup to boil. Reduce heat to medium-low. Gently simmer uncovered 1 hour, adjusting heat to avoid boiling. Add tomatoes to pot. Continue to simmer soup until beef is very tender, 45 to 60 minutes. Adjust seasoning, adding more soy sauce by tablespoonfuls and more salt, if desired. Season with pepper. Meanwhile, cook noodles according to package directions. Drain well. Divide noodles among large soup bowls. Add some bok choy to each, if desired. Ladle soup and meat over. Garnish with chopped green onions and cilantro. Serve with Pickled Mustard Greens . Chili bean paste is a spicy, fermented soybean paste. **Star aniseâ€”**a star-shaped seedpodâ€”is available at some supermarkets. Chinese yellow rock sugar is made from raw sugar; it is often used in Chinese sauces and teas. Despite their name, Sichuan peppercorns aren\u0027t related to regular peppercorns; the mildly hot dried berries, which resemble split peppercorns, come from the prickly ash tree. Shandong la mian are Chinese wheat noodles. Look for these ingredients at specialty foods stores and Asian markets.",
+        "imageName":  "countries/chinese/sichuan-hot-pot.html",
+        "country":  "chinese",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  603,
+        "title":  "Spring Rolls",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Spring Rolls Ingredients 4 tablespoons coconut oil, divided",
+                            "1 small yellow onion, finely diced",
+                            "1 garlic clove, minced",
+                            "1 teaspoon freshly grated ginger",
+                            "1 large carrot, grated, about 1 1/2 cups",
+                            "6â€“8 shiitake mushrooms, diced",
+                            "1 cup thinly sliced kale",
+                            "1 cup thinly sliced napa cabbage",
+                            "1 scallion, diced",
+                            "1/2 teaspoon salt",
+                            "1/4 cup low sodium soy sauce",
+                            "1 tablespoon rice vinegar"
+                        ],
+        "instructions":  "1. Heat 1 tablespoon of the oil in a large skillet or wok over medium heat. 2. Add the onions, saute for 2 minutes. Add in garlic, ginger, carrots and mushrooms and saute for 3 minutes. 3. Add the cabbage, kale, scallions and salt and saute an additional 3 minutes. 4. In a small bowl, whisk together the soy sauce, rice vinegar and sesame oil, and add it to the skillet. Stir to coat the veggies well. Remove from the heat and allow to cool slightly. 5. Place one spring roll wrapper on a flat surface in front of you, with a corner facing you, so it makes a diamond shape. 6. Place 2 tablespoons of the filling in a line in middle of the wrapper. 7. Fold the corners toward the center on top of the filling and the bottom corner over the top of the filing. Brush a little water on the top corner and roll it up like a burrito. 8. Heat the remaining 3 tablespoons oil in the skillet or wok over medium heat. 9. Place a few spring rolls in the pan, making sure you have room to roll them. Cook them on each side for 2â€“5 minutes, until they are golden brown on each side. Each spring roll will take about 7â€“10 minutes to fully cook.",
+        "imageName":  "countries/chinese/spring-rolls.html",
+        "country":  "chinese",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  604,
+        "title":  "Bangers and Mash",
+        "ingredients":  [
+                            "1 small red onion, halved through root end, thinly sliced lengthwise",
+                            "3 sprigs rosemary",
+                            "4 Tbsp. extra-virgin olive oil, divided, plus more for drizzling",
+                            "Kosher salt, freshly ground pepper",
+                            "7 sweet Italian sausages (about 1 1/2 lb. total)",
+                            "1 medium navel orange",
+                            "1 Tbsp. red wine vinegar",
+                            "Flaky sea salt"
+                        ],
+        "instructions":  "Place a rack in highest position in oven; preheat to 425Â°F. Combine fennel bulbs, red onion, and rosemary sprigs on a large rimmed baking sheet. Drizzle with 3 Tbsp. oil, season generously with kosher salt and pepper, and toss to combine. Arrange sausages on top, spacing evenly and nestling into vegetables. Prick sausages all over with the tip of a paring knife and drizzle with 1 Tbsp. oil. Roast until sausages are browned on top and cooked though and fennel is tender and deeply browned in spots, 25â€“30 minutes. Meanwhile, coarsely chop reserved fennel fronds (you want about 1/4 cup); set aside. Cut the ends off orange to reveal flesh. Rest orange upright on a cut side and cut down around orange to remove peel and white pith, rotating it as you go; discard peel. Working over a small bowl, hold orange in your hand and cut between membranes to release segments into bowl. Squeeze membranes to extract any remaining juice into bowl; discard membranes. Add vinegar to orange segments and juice and toss to combine; season with kosher salt and pepper. Remove baking sheet from oven. Using your hand or a spoon to block segments, pour juices from orange over sausage and fennel mixture. Set orange segments aside and let sausages and fennel mixture cool 5 minutes. Transfer sausages and fennel mixture to a platter. Crumble rosemary leaves over and scatter reserved orange segments and fennel fronds on top. Season with sea salt and a bit more pepper; drizzle with oil.",
+        "imageName":  "countries/english/bangers-and-mash.html",
+        "country":  "english",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  605,
+        "title":  "Chicken Tikka Masala",
+        "ingredients":  [
+                            "1/4 cup plain whole-milk Greek-style yogurt",
+                            "2 tablespoons peanut oil",
+                            "2 teaspoons fresh lime or lemon juice",
+                            "1 large clove garlic, minced",
+                            "1 tablespoon ground coriander",
+                            "1 1/2 teaspoons ground cumin",
+                            "1/2 teaspoon ground cardamom",
+                            "1/2 teaspoon ground nutmeg",
+                            "1 1/2 teaspoons paprika",
+                            "1/2 teaspoon cayenne",
+                            "1 tablespoon grated peeled fresh ginger (from 1-inch piece)",
+                            "4 tablespoons (1/2 stick) unsalted butter"
+                        ],
+        "instructions":  "Use a fork to prick the chicken breasts all over on both sides. Arrange the chicken breasts on a large sheet of plastic wrap, spacing them apart from one another, then cover with a second large sheet of plastic wrap. Using the smooth side of a meat mallet or a rolling pin, beat the chicken until the breasts are an even 1/2- to 3/4-inch thickness. In a small bowl, whisk together the yogurt, 1 tablespoon peanut oil, lime juice, and garlic. Add the pounded chicken, and rub the marinade over the meat. Set the chicken aside while you make the sauce. In a small bowl, whisk together the coriander, cumin, cardamom, nutmeg, paprika, cayenne, and grated ginger. In a heavy, wide 4-quart pot or sautÃ© pan over moderately high heat, melt the butter. Add the onion and sautÃ©, stirring occasionally, until light brown and caramelized, about 5 minutes. (Note that because they are sautÃ©ed so quickly over moderately high heat, the onions will not caramelize evenly.) Reduce the heat to moderate then stir in the spice and ginger mixture. Add the tomato purÃ©e, water, heavy cream, and salt, and bring the sauce to a boil. Reduce the heat to gently simmer the sauce, uncovered, until thickened slightly, about 10 minutes. DO AHEAD: The sauce can be prepared ahead and refrigerated, in an airtight container, up to 3 days. Heat a heavy 11-inch to 12-inch griddle or skillet over moderately high heat until very hot and add 1/2 tablespoon of peanut oil. Working in two batches, cook the chicken breasts, turning them a few times and lowering the heat if the chicken chars too quickly, until just cooked through and browned well on both sides, 6 to 8 minutes total. Transfer the chicken as cooked to a cutting board. Wipe the griddle or skillet clean with a paper towel and cook the remaining chicken, adding the remaining 1/2 tablespoon peanut oil between batches. When all the chicken is cooked, cut it into 1 1/2-inch pieces. Add the chicken to the simmering sauce and continue to gently simmer it, stirring occasionally, for 5 minutes. Remove the pan from the heat, stir in the black pepper and chopped cilantro, and season with salt. DO AHEAD: Chicken tikka masala can be prepared ahead, cooled, uncovered, and refrigerated, covered, up to 3 days. Transfer the chicken to a serving dish and garnish with additional cilantro sprigs. Serve with naan, and/or if desired with Basmati Rice .",
+        "imageName":  "countries/english/chicken-tikka-masala.html",
+        "country":  "english",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  606,
+        "title":  "Fish and Chips",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Fish and Chips Ingredients 6 large russet potatoes",
+                            "Vegetable oil, for deep-frying",
+                            "6 cups all-purpose flour",
+                            "3 tablespoons baking powder",
+                            "1 tablespoon kosher salt, plus more for seasoning",
+                            "1 tablespoon freshly ground black pepper, plus more for seasoning",
+                            "3 large eggs, lightly beaten",
+                            "3 (12-ounce) cans soda water",
+                            "1 to 2 cups rice flour",
+                            "6 cod fillets",
+                            "sliced diagonally into 1/2-inch-wide strips",
+                            "1. Peel the potatoes and cut them into strips that are 1/4 inch thick and 3 inches long."
+                        ],
+        "instructions":  "1. Peel the potatoes and cut them into strips that are 1/4 inch thick and 3 inches long. 2. In a deep-sided pot, heat 3 inches of oil to 325Â°F. (Please remember to use caution when cooking with hot oil.) Put the potatoes in the oil. Fry until they have softened and become slightly browned but not crisp, 2 to 3 minutes. 3. Remove the chips with a large slotted spoon and set them aside on paper towels. 4. Increase heat until the oil reaches a temperature of 375Â°F. In a large mixing bowl, combine the all-purpose flour, baking powder, salt, pepper, and eggs. Pour in the soda water and whisk until the batter is smooth. Spread the rice flour on a separate plate. Dredge the fish pieces in it, then dip them into the batter, letting the excess drip off. 5. Put the chips in the bottom of a fryer basket (or use a slotted spoon) and carefully submerge them in the hot oil. Carefully add the fish to the bubbling oil. Fry the fish-and-chips until crispy and brown, 4 to 5 minutes. Remove the basket and drain the fish-and-chips on paper towels; season lightly with the salt and pepper. Serve with the Aioli and Mignonette Dipping Sauce .",
+        "imageName":  "countries/english/fish-and-chips.html",
+        "country":  "english",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  607,
+        "title":  "Roast Beef",
+        "ingredients":  [
+                            "Kosher salt, freshly ground pepper",
+                            "6 garlic cloves, finely grated",
+                            "3 Tbsp. finely chopped rosemary",
+                            "5 Tbsp. extra-virgin olive oil, divided",
+                            "1/2 cup plain whole-milk Greek yogurt",
+                            "1/2 cup sour cream",
+                            "2 Tbsp. prepared horseradish",
+                            "1/2 tsp. finely grated lemon zest",
+                            "Warm rolls and cornichons (for serving)",
+                            "Mix together yogurt, sour cream, horseradish, and lemon zest in a small bowl; season sauce with salt.",
+                            "Beef can be roasted and browned 3 days ahead. Cover and chill. Let sit at room temperature 1â€“2 hours before serving."
+                        ],
+        "instructions":  "Lightly score fat cap of roast, spacing cuts about 3/4\" apart, with a sharp knife, being careful not to slice into the flesh. Season roast generously on all sides with salt and pepper. Mix garlic, rosemary, and 3 Tbsp. oil in a small bowl and rub all over roast. Loosely cover with plastic wrap and chill at least 12 hours and up to 2 days. Preheat oven to 200Â°F. Place roast on a wire rack set inside a large rimmed baking sheet. Roast until an instant-read thermometer inserted into the thickest part of meat registers 118Â°Fâ€“120Â°F for medium-rare, about 2 1/2 hours. Let rest 1 hour (internal temperature will continue to climb to 125Â°Fâ€“130Â°F). Mix together yogurt, sour cream, horseradish, and lemon zest in a small bowl; season sauce with salt. Heat remaining 2 Tbsp. oil in a large skillet over medium. Cook roast just until browned, about 2 minutes per side. Transfer to a cutting board and thinly slice. Serve with horseradish sauce, rolls, and cornichons. Beef can be roasted and browned 3 days ahead. Cover and chill. Let sit at room temperature 1â€“2 hours before serving.",
+        "imageName":  "countries/english/roast-beef.html",
+        "country":  "english",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  608,
+        "title":  "Shepherd\u0027s Pie",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Shepherd\u0027s Pie Ingredients 1 tablespoon vegetable oil",
+                            "1 large onion, peeled and chopped",
+                            "1 large carrot, peeled and chopped",
+                            "1 pound ground lamb (or substitute half with another ground meat)",
+                            "1 cup beef or chicken broth",
+                            "1 tablespoon tomato paste",
+                            "1 teaspoon chopped fresh or dry rosemary",
+                            "1 tablespoon chopped Italian parsley",
+                            "1 cup frozen peas",
+                            "2 pounds russet potatoes, peeled and cut into chunks",
+                            "6 tablespoons unsalted butter",
+                            "1/2 cup milk (any fat content)"
+                        ],
+        "instructions":  "1. Preheat oven to 375Â°F. 2. In a large sautÃ© pan over medium-high heat, heat the oil, then add the onion, carrot, and meat. Cook until browned, 8 to 10 minutes. 3. Drain the fat and add the broth, tomato paste, and herbs. Simmer until the juices thicken, about 10 minutes, then add the peas. 4. Pour the mixture into a 1 1/2-quart baking dish; set aside. 5. Meanwhile, bring the potatoes to a boil in salted water. Cook until tender, about 20 minutes; drain. 6. Mash the potatoes with the butter, milk, and salt. 7. Spread them over the meat mixture, then crosshatch the top with a fork. 8. Bake until golden, 30 to 35 minutes.",
+        "imageName":  "countries/english/shepherds-pie.html",
+        "country":  "english",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  609,
+        "title":  "Creme Brulee",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Creme Brulee Ingredients 3 cups heavy cream",
+                            "1 vanilla bean, halved lengthwise, or 1 1/2 teaspoons vanilla extract",
+                            "6 large egg yolks",
+                            "1/3 cup granulated sugar",
+                            "Pinch of salt",
+                            "3 tablespoons turbinado sugar, such as Sugar in the Raw",
+                            "6 (5-ounce) flameproof ramekins; a small blowtorch",
+                            "Put a rack in the middle of oven and preheat oven to 325Â°F.",
+                            "Coffee CrÃ¨me BrÃ»lÃ©e: Stir 1 1/2 tablespoons instant espresso powder into the hot cream and proceed as directed."
+                        ],
+        "instructions":  "Put a rack in the middle of oven and preheat oven to 325Â°F. Pour cream into a 2-quart heavy saucepan. Using tip of a knife, scrape seeds from vanilla bean, if using, into cream and add pod (if using vanilla extract, do not add it yet). Heat cream over moderate heat until hot but not boiling; remove from heat and discard pod. Whisk together yolks, granulated sugar, and salt in a medium bowl until well combined. Add hot cream in a slow stream, whisking constantly until combined. Pour custard through a fine-mesh sieve into a bowl and whisk in vanilla extract, if using. Ladle custard into ramekins. Arrange ramekins in a roasting pan and add enough boiling water to pan to reach halfway up sides of ramekins. Bake until custards are just set, 25 to 30 minutes. With tongs, transfer custards to a rack to cool, then refrigerate, uncovered, for at least 4 hours. Just before serving, sprinkle turbinado sugar evenly over custards. Move blowtorch flame evenly back and forth close to sugar until sugar is caramelized. Let stand until sugar is hardened, 3 to 5 minutes. Coffee CrÃ¨me BrÃ»lÃ©e: Stir 1 1/2 tablespoons instant espresso powder into the hot cream and proceed as directed.",
+        "imageName":  "countries/french/creme-brulee.html",
+        "country":  "french",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  610,
+        "title":  "Crepes",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Crepes Ingredients 6 Tbsp. (100 g) sourdough starter",
+                            "2 cups (250 g) all-purpose flour, divided",
+                            "2 large eggs",
+                            "Â¾ cup plus 1 Tbsp. (or more) milk",
+                            "3 Tbsp. granulated sugar",
+                            "Â½ tsp. baking soda",
+                            "Â½ tsp. kosher salt",
+                            "3 Tbsp. unsalted butter, melted, plus more room temperature",
+                            "Grapeseed or vegetable oil (for pan)",
+                            "Jam",
+                            "crÃ¨me fraÃ®che",
+                            "demerara sugar"
+                        ],
+        "instructions":  "Mix starter, 1 cup plus 6 Tbsp. (172 g total) flour, and Â¾ cup plus 1 Tbsp. (193 g) room-temperature water (about 80Â°F) in a medium bowl until no lumps remain. Cover and let sit at room temperature overnight. Fold in remaining Â½ cup plus 2 Tbsp. (78 g total) flour. Then add eggs, milk, granulated sugar, baking soda, salt, and 3 Tbsp. melted butter and whisk, adding more milk if needed, until mixture is thick but pourable (you want it to be about the consistency of heavy cream). It will take awhile to work out lumpsâ€”a few small lumps are fine, but try to get batter as smooth as possible. Pour in enough oil to lightly coat a crepe pan or 10\" nonstick skillet and heat over medium-high (this is just to help get things going; you shouldnâ€™t need to add more oil to the pan). Pour Â¼ cup batter into center of pan and tilt and rotate pan as needed to coat bottom evenly with batter. Cook crepe, undisturbed, until surface looks dry and bottom is golden brown, about 45 seconds. Using tongs or an offset spatula, gently flip crepe and cook just until other side is golden, about 20 seconds. Transfer to a plate and slather a bit of room-temperature butter on top. Repeat process with remaining batter, stacking and buttering crepes as you go. Serve crepes with jam, crÃ¨me fraÃ®che, demerara sugar, lox, and/or more butter as desired. Do ahead: Crepes can be made 4 days ahead. Wrap tightly and chill, or freeze up to 2 weeks. If frozen, thaw in fridge before reheating. Reheatone at a time in crepe pan or skillet over medium until warmed through.",
+        "imageName":  "countries/french/crepes.html",
+        "country":  "french",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  611,
+        "title":  "Croissant",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Croissant Ingredients 70g (5 tbsp) softened butter, for greasing",
+                            "6â€“8 croissants (crescent rolls), cut into large pieces",
+                            "50g (1/3 cup) raisins",
+                            "300ml (1 1/4 cups) double (heavy) cream",
+                            "300ml (1 1/4 cups) milk",
+                            "4 eggs",
+                            "1/2 tsp ground cinnamon",
+                            "70g (1/3 cup) caster (superfine) sugar",
+                            "Generously butter an ovenproof dish that measures about 20 x 30cm (8 x 12 inches)."
+                        ],
+        "instructions":  "Generously butter an ovenproof dish that measures about 20 x 30cm (8 x 12 inches). Arrange a single layer of croissant chunks, slightly overlapping, in the bottom of the dish. Scatter over some of the raisins, place another layer of croissant chunks on top and scatter over the remaining raisins. Press down gently with a fish slice or spatula. To make the custard, heat the cream and milk in a saucepan until the mixture comes almost to the boil. Remove from the heat. Meanwhile, whisk together the eggs, ground cinnamon and sugar in a large heatproof bowl set over a saucepan of simmering water until the mixture is thickened and the whisk or beaters leave a trail when lifted. Remove from the heat and beat in the cream mixture until well combined. Pour two-thirds of the custard over the croissants and leave to stand for about 30 minutes or until they have soaked up all the liquid. Preheat the oven to 180Â°C/350Â°F/gas mark 4. Pour the remaining custard over the soaked croissants and press down firmly with a fish slice or spatula so that the custard reaches halfway up the croissants. Place the dish in a roasting pan and pour in enough water to come a third of the way up the side of the dish. Bake for 30â€“35 minutes until the custard is just set and the top is golden brown. Serve immediately.",
+        "imageName":  "countries/french/croissant.html",
+        "country":  "french",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  612,
+        "title":  "Biryani",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Biryani Ingredients 3/4 teaspoon crumbled saffron threads",
+                            "2 tablespoons boiling-hot water",
+                            "1/3 cup olive oil",
+                            "1 cup slivered almonds (4 ounces)",
+                            "1 very large onion, chopped (3 to 4 cups)",
+                            "3 cups white basmati rice (19 ounces)",
+                            "4 1/2 cups water",
+                            "1 cup dried currants (4 ounces)",
+                            "Soften saffron in hot water (2 tablespoons) in a small bowl.",
+                            "While rice stands, stir almonds and currants into bowl with onion.",
+                            "Fluff rice with a fork and serve with almond mixture spooned on top."
+                        ],
+        "instructions":  "Soften saffron in hot water (2 tablespoons) in a small bowl. Heat oil in a 5-quart heavy pot over medium-high heat until it shimmers. Fry almonds, stirring frequently, until golden, about 3 minutes. Transfer with a slotted spoon to paper towels to drain. Fry onion in oil remaining in pot, stirring occasionally, until golden brown, 15 to 20 minutes. Transfer half of onion to a bowl. Add rice to onion in pot and cook, stirring, until fragrant, about 2 minutes. Add water (4 1/2 cups), saffron mixture, 1 1/2 teaspoons salt, and 1/2 teaspoon pepper and bring to a simmer. Reduce heat to low and cook, covered, until water is absorbed and rice is tender, 18 to 20 minutes. Let rice stand, covered, off heat 5 minutes. While rice stands, stir almonds and currants into bowl with onion. Fluff rice with a fork and serve with almond mixture spooned on top.",
+        "imageName":  "countries/indian/biryani.html",
+        "country":  "indian",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  613,
+        "title":  "Butter Chicken",
+        "ingredients":  [
+                            "1 tablespoon fresh lemon juice",
+                            "1 teaspoon red (Kashmiri) chile powder",
+                            "1 cup plain yogurt",
+                            "1 teaspoon ground turmeric",
+                            "1 teaspoon garam masala",
+                            "3 garlic cloves, minced",
+                            "1 tablespoon grated fresh ginger",
+                            "1 tablespoon sunflower or",
+                            "Vegetable oil",
+                            "1 teaspoon sea salt",
+                            "2 tablespoons butter, melted",
+                            "4 tablespoons (1/2 stick) butter"
+                        ],
+        "instructions":  "Cut the chicken into 1-inch chunks and toss them with the lemon juice and chile powder. Transfer to a container and refrigerate for 20 minutes. In a small dish, combine the yogurt, turmeric, garam masala, garlic, ginger, sunflower oil, and salt. Stir well. Massage the chicken with the yogurt marinade, cover the container, and refrigerate overnight or for at least 12 hours. Dream about delicious curry all night long. Preheat the oven to 400Â°F. Soak 10 to 12 bamboo skewers in cold water for about 20 minutes. Thread the chicken onto the skewers and transfer to a rack set on a baking sheet. Bake the chicken skewers, turning halfway through, for 12 minutes, or until the juices run clear and the chicken is cooked through. Brush the chicken all over with the melted butter and set aside. In a large heavy-bottomed pot or Dutch oven, melt the butter over medium heat. Add the cloves, cardamom pods, and cinnamon stick and cook for 2 to 3 minutes, until fragrant. Stir in the garlic, ginger, fenugreek seeds, chiles, and tomato paste and cook for 2 minutes, stirring often. Stir in the tomatoes and chile powder and cook, stirring often to keep the sauce from sticking to the pot, for 20 minutes. Turn off the heat and purÃ©e the sauce directly in the pot with an immersion blender. (Alternatively, carefully transfer the sauce to a regular blender and purÃ©eâ€”be careful when blending hot liquids.) Turn the heat to medium and stir in the stock and sea salt. Bring to a simmer and cook for 15 minutes, or until the sauce has started to thicken beautifully. Remove the chicken pieces from the skewers and stir them into the curry, along with the maple syrup and dried fenugreek leaves. Cover and cook for 8 minutes. Turn the heat to medium- low and stir in the cream and garam masala. Simmer the sauce for a final 5 minutes. Top each bowl of curry with a drizzle of cream, fresh cilantro, and sliced red chiles, if you like it spicy. Serve with rice or naan. Immediately enter comfort food heaven.",
+        "imageName":  "countries/indian/butter-chicken.html",
+        "country":  "indian",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  614,
+        "title":  "Chole (Chickpea Curry)",
+        "ingredients":  [
+                            "2 tablespoons plus 2 teaspoons extra-virgin olive oil",
+                            "1 1/2 pints cherry tomatoes",
+                            "Coarse salt and freshly ground pepper",
+                            "1 large yellow onion, cut into medium dice",
+                            "3 garlic cloves, minced",
+                            "1 tablespoon minced peeled fresh ginger",
+                            "1 tablespoon plus 1 teaspoon curry powder",
+                            "3 cups cooked chickpeas, drained and rinsed",
+                            "2 1/2 cups baby spinach",
+                            "1 tablespoon chopped fresh cilantro leaves",
+                            "3. Add chickpeas, tomatoes, and 2 cups water; bring to a boil. Reduce heat to medium, cover, and simmer 8 minutes."
+                        ],
+        "instructions":  "1. Preheat oven to 375Â°F. Toss cauliflower with 1 teaspoon olive oil and arrange in a single layer on one side of a rimmed baking sheet. Toss tomatoes with 1 teaspoon olive oil and arrange on other side of sheet. Season with salt and pepper. Roast until florets are browned in spots and tomatoes are soft, about 25 minutes. 2. In a medium pot, heat 2 teaspoons oil over medium-high. Cook onion, stirring occasionally, until golden brown, about 10 minutes. Add garlic, ginger, and curry powder and cook, stirring, until fragrant, about 1 minute. 3. Add chickpeas, tomatoes, and 2 cups water; bring to a boil. Reduce heat to medium, cover, and simmer 8 minutes. 4. Add cauliflower and cook until warmed through and chickpeas are tender, about 8 minutes. Stir in spinach and cilantro and season with salt. To serve, divide among 4 bowls (over rice, if desired).",
+        "imageName":  "countries/indian/chole.html",
+        "country":  "indian",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  615,
+        "title":  "Palak Paneer",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Palak Paneer Ingredients 2 quarts whole milk",
+                            "Juice of 2 lemons",
+                            "Â½ teaspoon kosher salt"
+                        ],
+        "instructions":  "In a medium saucepan, heat the milk to 195Â°F over medium heat. Using a wooden spoon, stir frequently during the heating process to prevent the milk from scalding. Be sure to scrape the bottom of the pan when you stir because this is where the milk is most prone to sticking. The milk will become foamy and bubbles will form on its surface once it reaches the desired temperature. Remove from the heat and stir in the lemon juice until evenly distributed, which will cause the separation of curds from the whey. The process should begin right away, but donâ€™t fret if it takes a minute or two. Cover the pan and set aside at room temperature for 10 minutes to let the acid work its magic. Check the mixture at this point: It should be slightly yellow and the curds should have completely separated from the whey. Donâ€™t panic if this hasnâ€™t happened completely yet. Simply add another teaspoon of acid and set aside for a few minutes more. This should do the trick. Line a fine-mesh sieve with cheesecloth and set the sieve over a bowl. Ladle the curds and whey into the sieve. Reserve the whey for another use. Season the curds (still in the sieve) with salt, stirring it in using a wooden spoon, then gather up the edges of the cheesecloth into a tight bundle and squeeze the excess whey from the curds. Place the cheesecloth and curds on a large plate and shape them into a square. Wrap the cheesecloth edges around the paneer and place a second plate on top of it to compress it. Set aside at room temperature for 30 minutes. At this point the paneer is ready to use or it can be refrigerated in a covered container for up to 3 days.",
+        "imageName":  "countries/indian/palakpaneer.html",
+        "country":  "indian",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  616,
+        "title":  "Prawn Masala",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Prawn Masala Ingredients 6 green chillies",
+                            "55ml (about Â¼ cup) vegetable oil",
+                            "2 tsp. mustard seeds",
+                            "30 fresh curry leaves",
+                            "300g (2 cups) Spanish white onions, sliced (a little chunky is good)",
+                            "15g (1 Tbsp.) garlic paste",
+                            "15g (1 Tbsp.) ginger paste",
+                            "2 tsp. fine sea salt",
+                            "1 tsp. freshly ground black pepper",
+                            "1Â¼ tsp. ground turmeric",
+                            "25g (Â¼ cup) fresh root ginger, cut into matchsticks",
+                            "400ml (about 2 cups) coconut milk"
+                        ],
+        "instructions":  "Remove and discard the stalks from the chillies, then slice each one into 3 or 4 long strips. Set to one side. Place a large saucepan over a medium heat. Add 40ml of the oil, let it warm for a few seconds, then add the mustard seeds and 20 curry leaves. Let them crackle for a few seconds. Add the onions and sautÃ© lightly for 12â€“14 minutes, until soft but not coloured. Add the garlic and ginger pastes, salt, black pepper and turmeric and sautÃ© for 3 minutes, stirring regularly. Add the sliced chillies and ginger matchsticks and cook for 3 minutes. Pour in the coconut milk and cream and simmer for 20 minutes, stirring occasionally. While the curry is simmering, place a small frying pan over a medium-high heat and add the remaining 1 tbsp oil. Toss in the rest of the curry leaves and fry for 1 minute, until crisp. Drain on kitchen paper and set aside. Add the prawns and tomatoes to the sauce and simmer gently for a further 5â€“6 minutes, until the prawns are cooked; do not overcook or they will be tough. Serve scattered with the fried curry leaves, with lemon wedges on the side.",
+        "imageName":  "countries/indian/prawn-masala.html",
+        "country":  "indian",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  617,
+        "title":  "Samosas",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Samosas Ingredients 4 1/2 cups all-purpose flour",
+                            "1 teaspoon fine sea salt",
+                            "1/2 teaspoon baking powder",
+                            "4 ounces (10 tablespoons) vegetable shortening, preferably trans-fat-free, cut into small pieces",
+                            "3/4 cup plus 2 tablespoons water",
+                            "4 tablespoons (1/2 stick) unsalted butter",
+                            "1/2 small yellow onion, chopped",
+                            "1 teaspoon garam masala",
+                            "1 teaspoon brown mustard seeds",
+                            "1/2 teaspoon black or regular cumin seeds",
+                            "1/2 teaspoon yellow Madras curry powder",
+                            "4 large cloves garlic, minced"
+                        ],
+        "instructions":  "In a large bowl, whisk together the flour, salt, and baking powder. Add the shortening and use a pastry blender or 2 forks to cut the shortening into the flour mixture until it resembles a coarse meal. Gradually add the water in 3 batches and use the pastry blender or forks to gently work it into the dough (the dough will be shaggy at first). Transfer to a work surface, and knead the dough until it\u0027s hydrated and starting to smooth out, about 5 minutes (the surface of the dough will still appear shaggy; it will smooth out during resting). Wrap the dough in plastic wrap and let it rest at room temperature for 2 hours. In a heavy large saucepan over moderate heat, melt the butter. Add the onion, garam masala, mustard seeds, cumin seeds, and curry powder and sautÃ©, stirring occasionally, until the mustard seeds begin to pop and the onion is translucent, about 3 minutes. Add the garlic and sautÃ©, stirring occasionally, until fragrant, about 30 seconds. Remove the pan from the heat and add the turkey, mashed potatoes, peas, and hot chiles and stir to combine. Adjust the seasoning as needed with salt and set aside to let cool before filling the samosas. Divide the samosa dough into 6 equal parts and roll each into a ball. On a lightly floured surface using a lightly floured rolling pin, roll each ball into a circle that measures about 8 inches across and is about 1/8 inch thick. DO AHEAD: The circles of samosa dough can be made ahead, layered between sheets of wax paper, wrapped in a double layer of plastic, and refrigerated for 24 hours or frozen up to 3 months. Defrost before using. Cut the dough circles in half, so that there are 12 semicircles. Use a pastry brush to lightly brush the flat edge of 1 semicircle with water then fold 1 corner up and over middle. Fold the second corner over to make a triangle, and pinch the corners of the triangle to seal (leave the rounded side open). Hold the triangle in your hand with the open rounded side facing up and let dough fall open to make a cone. Fill with 1/4 cup filling, lightly brush the remaining open edge of the dough with water and then pinch along the rounded side to seal. Repeat with the remaining dough and filling. DO AHEAD: Filled samosas can be frozen, well wrapped in plastic, up to 3 months. Fry them from a partially defrosted state. Line a large baking sheet with paper towels. In a heavy large saucepan or Dutch oven over moderate heat, heat the oil until a deep-fry thermometer registers 325Â°F. Working in batches, fry the samosas until dark golden brown, about 4 minutes. Transfer as done to the paper-towel-lined baking sheet to drain and cool. Continue to fry the remaining samosas, returning the oil to 325Â°F between batches. Serve hot with the Cilantro-Mint Chutney and/or the mango Chutney, if desired.",
+        "imageName":  "countries/indian/samosas.html",
+        "country":  "indian",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  618,
+        "title":  "Italian Meatballs",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Italian Meatballs Ingredients 1/4 cup olive oil",
+                            "6 garlic cloves, thinly sliced",
+                            "2 sprigs basil",
+                            "2 (28-ounce) cans whole peeled tomatoes",
+                            "Kosher salt, freshly ground pepper",
+                            "3 thick slices white sandwich bread, crusts removed",
+                            "2 large eggs, beaten to blend",
+                            "2 garlic cloves, finely chopped",
+                            "1/3 cup fresh whole-milk ricotta",
+                            "1/4 cup finely chopped prosciutto",
+                            "1/4 cup finely chopped parsley",
+                            "1/3 cup grated Parmesan, plus more"
+                        ],
+        "instructions":  "Heat oil in a large heavy pot over medium-low. Cook garlic, stirring occasionally, until a few pieces are golden brown around the edges, about 5 minutes. Add basil sprigs and stir to wilt. Add tomatoes, crushing with your hands as you go, and their juices; season with salt and pepper. Increase heat to medium-high; bring mixture to a simmer, then reduce heat to maintain a very gentle simmer. Cook, stirring occasionally, until sauce is thickened and flavors have concentrated, 60â€“75 minutes. Run bread under cold running water until completely soaked. Firmly wring out to expel as much water as possible. Finely chop, then mix in a large bowl with eggs, garlic, ricotta, prosciutto, parsley, and 1/3 cup Parmesan. Finely grind fennel seeds in spice mill or with mortar and pestle; add to bread mixture along with oregano, nutmeg, black pepper, red pepper flakes, and 1 1/4 tsp. salt. Mix well (it should resemble a coarse, wet paste). Add beef and break up into small pieces (a couple of forks work well). Mix gently with your hands until smooth and ingredients are evenly incorporated; be careful not to overmix. Lightly oil your hands. Working one at a time, scoop out portions of meat mixture with a 1/4-cup measuring cup; roll gently between your hands into balls. Arrange on a rimmed baking sheet. This is the point where you should get the sauce reheating, if needed, so it\u0027s warm by the time you add the meatballs. Heat 1 Tbsp. oil in a medium nonstick skillet over medium. Add half of the meatballs and cook, turning and rolling occasionally, until browned on all sides, about 5 minutes total. Add meatballs to warm sauce. Repeat with remaining 1 Tbsp. oil and remaining meatballs. Cook meatballs in sauce (they should be mostly submerged) at a gentle simmer, carefully scraping bottom of pot and adding a splash of water if sauce begins to stick, until meatballs are cooked through and tender and sauce tastes rich and meaty, 40â€“50 minutes. Transfer meatballs to a clean baking sheet; cover with foil to keep warm. Pluck out and discard basil from sauce. Use a potato masher or immersion blender to break up any large pieces of tomato and smooth out sauce. Transfer 2 cups sauce to a small bowl; set aside for serving. Cook spaghetti in a large pot of boiling salted water, stirring occasionally, until al dente. Using tongs, transfer to pot with sauce. Gently stir, adding pasta cooking liquid by the tablespoonful as needed, until sauce coats pasta. Transfer spaghetti to a serving dish and top with meatballs and 1 cup reserved sauce. Sprinkle with more Parmesan and serve with some basil (if using) and remaining sauce alongside for topping. Sauce can be made 3 days ahead. Let cool; cover and chill. Meatballs can be formed 1 day ahead; cover and chill. Meatballs can be cooked in sauce 3 days ahead; let cool, then cover and chill.",
+        "imageName":  "countries/italian/italian-meatballs.html",
+        "country":  "italian",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  619,
+        "title":  "Neapolitan Pizza",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Neapolitan Pizza Ingredients 1 1/2 cups warm water, about 70Â°F",
+                            "1 (1/4-ounce) envelope active dry yeast",
+                            "1/4 cup extra-virgin olive oil, plus more for greasing as needed",
+                            "4 1/2 cups all-purpose or \"00\" flour, plus more as needed",
+                            "1 teaspoon kosher salt",
+                            "1 pound fresh buffalo mozzarella, sliced",
+                            "1 (15-ounce) can crushed San Marzano tomatoes",
+                            "10 to 12 fresh basil leaves, torn",
+                            "1 teaspoon dried Sicilian oregano, crumbled",
+                            "Freshly ground black pepper (optional)",
+                            "3. While the dough is rising, drain the sliced mozzarella on several paper towels to remove any excess moisture."
+                        ],
+        "instructions":  "1. In the bowl of a stand mixer fitted with the hook attachment (or in a small bowl with a spoon), combine the warm water, yeast, and oil. With the mixer on low, stir the mixture to dissolve the yeast. Add the flour and salt, and continue to stir on low just until the ingredients are combined, then increase the mixer speed to medium and knead the dough until it\u0027s smooth and elastic, 5 to 6 minutes. (Alternatively, turn the flour and salt onto a work surface and create a well in the center. Pour the liquid mixture into the middle of the well and use your fingertips to drag the flour into the wet ingredients, then mix them until a soft, ragged dough forms. Gather the dough into a ball and knead until soft but elastic, about 10 minutes. Dust the dough, your hands, and the work surface with additional flour as needed to keep the dough from sticking, but use as little flour as possible.) 2. Gather the dough into a ball and transfer it to a clean bowl that\u0027s large enough to hold the dough after it doubles in volume. Dust the surface of the dough with flour, cover tightly with plastic wrap, and let the dough rise at room temperature until it doubles in volume, about 1 hour. 3. While the dough is rising, drain the sliced mozzarella on several paper towels to remove any excess moisture. 4. Position an oven rack in the bottom third of the oven, placing a pizza stone on the rack if available. If a pizza stone is unavailable, brush a pizza pan lightly with olive oil. Preheat the oven to 450Â°F. 5. Transfer the dough to a floured work surface. Gently press it into a rough square then pull the four corners in toward the center and flip the dough over so the upper surface is smooth. Drape the ball of dough with the plastic you used during the first rise, and let it rest until it\u0027s relaxed, about 30 minutes. 6. Uncover the dough then spread and stretch it into a circle about the same dimensions as your stone or prepared pan. Carefully lift and transfer the dough to a pizza peel (if using a stone) or the pan and stretch it out into an even layer. Spread the crushed tomatoes over the pizza in an even layer and top with the mozzarella slices. 7. If using a pizza stone, use the peel to slide the pizza onto the oven rack positioned in the lower third of the oven; if using a pizza pan, simply place the pan directly on the rack. Bake the pizza until the edges are golden and the cheese is bubbling, 8 to 10 minutes. Sprinkle with the torn basil and oregano, and season with salt and pepper if desired. Cut into wedges and serve.",
+        "imageName":  "countries/italian/neapolitan.html",
+        "country":  "italian",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  620,
+        "title":  "Pasta",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Pasta Ingredients 1 (2.2-oz.) can oil-packed anchovy fillets",
+                            "1 head of garlic, cloves separated, thinly sliced",
+                            "3/4 cup extra-virgin olive oil",
+                            "3/4 tsp. crushed red pepper flakes",
+                            "1 lb. penne pasta",
+                            "Kosher salt",
+                            "3 Tbsp. cold unsalted butter",
+                            "3 Tbsp. fresh lemon juice",
+                            "1 head of radicchio, trimmed, quartered, leaves separated",
+                            "1 (5-oz.) package baby arugula",
+                            "1 cup basil leaves, torn if large",
+                            "Freshly ground black pepper"
+                        ],
+        "instructions":  "Combine anchovies, garlic, oil, and red pepper flakes in a large skillet. Cook over medium heat, stirring often, until anchovies have disintegrated into oil and garlic is lightly browned, 6â€“8 minutes. Meanwhile, cook pasta in a large pot of boiling salted water, stirring occasionally, until al dente. Drain, reserving 1 cup pasta cooking liquid. Remove skillet with anchovy mixture from heat and stir in butter and lemon juice until butter is melted. Add pasta and 1/2 cup pasta cooking liquid and stir constantly until a thick glossy sauce forms, adding more pasta cooking liquid as needed. Place radicchio in a large bowl. Add pasta and sauce and toss to coat, adding more pasta cooking liquid as needed. Add arugula and basil but donâ€™t toss; season with salt and black pepper. Divide pasta among plates or bowls, very gently tossing so arugula gets coated in sauce but doesnâ€™t wilt too much.",
+        "imageName":  "countries/italian/pasta.html",
+        "country":  "italian",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  621,
+        "title":  "Risotto",
+        "ingredients":  [
+
+                        ],
+        "instructions":  "For enough risotto to serve four, heat about 2 tablespoons of butter in a sauce pan. Add 1 cup of a round-grain rice such as Arborio or Carnaroli and stir the rice over medium heat. Add the broth, one cup at a time, until the rice has absorbed 3 cups of liquid. You should stir the risotto frequently as it cooks to get a good creamy texture. (If you like, replace 1/2 cup of the broth with 1/2 cup dry white wine.) For a saffron risotto, add a few threads of crushed saffron with the first cup of broth. Once the rice is tender and creamy, pull it off the heat and add 2 tablespoon butter and 1/3 to 1/2 cup grated Parmesan cheese. Stir the risotto vigorously until the butter and cheese are blended in. Serve at once on heated plates.",
+        "imageName":  "countries/italian/risotto.html",
+        "country":  "italian",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  622,
+        "title":  "Spaghetti",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Spaghetti Ingredients 1 pound good-quality spaghetti",
+                            "1 tablespoon butter",
+                            "3 large eggs, beaten",
+                            "1 cup homemade red sauce or prepared tomato sauce",
+                            "1/4 teaspoon coarsely ground black pepper",
+                            "Pinch of salt",
+                            "3 ounces mozzarella cheese, grated (about 1 cup)",
+                            "1 1/2 ounces Parmesan cheese",
+                            "grated (about 1/2 cup)",
+                            "Preheat the oven to 400Â°F. Butter a 9-inch springform pan (see Note) and set aside.",
+                            "Bake until the top is nicely browned and crisp, 30 to 35 minutes. Let cool for 5 minutes before unmolding."
+                        ],
+        "instructions":  "Cook the pasta in generously salted water according to the package directions until just shy of al dente. Drain and set aside. Preheat the oven to 400Â°F. Butter a 9-inch springform pan (see Note) and set aside. In a large bowl, stir together the eggs, red sauce, pepper, salt, and all but 1 tablespoon each of the mozzarella and Parmesan. Add the pasta and toss to coat evenly. Transfer to the prepared springform pan and sprinkle with the reserved cheeses. Bake until the top is nicely browned and crisp, 30 to 35 minutes. Let cool for 5 minutes before unmolding.",
+        "imageName":  "countries/italian/spaghetti.html",
+        "country":  "italian",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  623,
+        "title":  "Chicken Teriyaki",
+        "ingredients":  [
+                            "1 1/2 tsp. kosher salt, divided",
+                            "1/3 cup low-sodium soy sauce",
+                            "1/3 cup mirin (sweet Japanese rice wine)",
+                            "1/3 cup sake",
+                            "5 radishes, trimmed, thinly sliced",
+                            "5 scallions, thinly sliced on a diagonal",
+                            "2 tsp. unseasoned rice vinegar",
+                            "Cooked white rice (for serving)",
+                            "Place chicken on a cutting board and poke several holes through the skin with a sharp knife. Season with 1 tsp salt.",
+                            "Meanwhile, whisk soy sauce, mirin, and sake in a small bowl.",
+                            "Toss radishes, scallions, and vinegar in a small bowl. Season with remaining 1/2 tsp. salt.",
+                            "Place rice on a platter and arrange chicken over. Drizzle with reserved teriyaki sauce and top with radish salad."
+                        ],
+        "instructions":  "Place chicken on a cutting board and poke several holes through the skin with a sharp knife. Season with 1 tsp salt. Place chicken, skin side down, in a cold large cast-iron skillet and cook over medium heat, undisturbed, until chicken skin releases easily, about 5 minutes. Reduce heat to medium-low and continue to cook, lifting up once or twice to let hot fat run underneath, until skin is evenly golden brown and crisp, about 12 minutes. Meanwhile, whisk soy sauce, mirin, and sake in a small bowl. Transfer chicken skin side up to a plate. Wipe out skillet and increase heat to medium. Pour in soy sauce mixture and cook, stirring occasionally, until thickened slightly, about 4 minutes. Return chicken to pan, arranging skin side up, and cook, adding a splash of water if sauce looks too thick, until underside is cooked through, about 1 minute. Turn thighs skin side down and continue to cook until warmed through and coated, about 1 minute more. Transfer chicken to a cutting board and slice into 1/2\" strips; set teriyaki sauce in skillet aside. Toss radishes, scallions, and vinegar in a small bowl. Season with remaining 1/2 tsp. salt. Place rice on a platter and arrange chicken over. Drizzle with reserved teriyaki sauce and top with radish salad.",
+        "imageName":  "countries/japanese/chicken-teriyaki.html",
+        "country":  "japanese",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  624,
+        "title":  "Japanese Noodles",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Japanese Noodles Ingredients 2 Tbsp. vegetable oil, divided",
+                            "4 cups very coarsely chopped green cabbage (about 1/4 medium head)",
+                            "2 (7-oz.) packages instant udon noodles, flavor packets discarded",
+                            "2 tsp. toasted sesame oil",
+                            "8 oz. ground pork",
+                            "5 scallions, white and pale green parts coarsely chopped, dark green parts thinly sliced",
+                            "2 tsp. finely grated peeled ginger",
+                            "1 tsp. crushed red pepper flakes",
+                            "1/3cup mirin (sweet Japanese rice wine)",
+                            "1/3 cup soy sauce",
+                            "1 Tbsp. toasted sesame seeds",
+                            "plus more for serving"
+                        ],
+        "instructions":  "Heat 1 Tbsp. vegetable oil in a large skillet over medium-high. Cook cabbage, tossing often, until edges are browned, about 4 minutes. Reduce heat to low and continue to cook, tossing often, until thickest parts of cabbage are tender, about 4 minutes longer. Remove from heat; set aside. Place noodles in a large heatproof bowl (or pot if you donâ€™t have one) and cover with 6 cups boiling water. Let sit 1 minute, stirring to break up noodles, then drain. Transfer noodles back to bowl and toss with sesame oil. Add reserved cabbage and wipe out skillet. Heat remaining 1 Tbsp. vegetable oil in skillet over medium-high and add pork, breaking up and spreading across surface of pan with a spatula or tongs. Cook pork, undisturbed, until underside is browned, about 3 minutes. Break up meat into smaller pieces and continue to cook, tossing, just until meat is cooked through and no longer pink, about 1 minute. Add chopped scallions (the white and pale green parts), ginger, and red pepper flakes and cook, tossing often, until scallions are softened and inside of skillet starts to brown, about 1 minute. Add noodle mixture, mirin, and soy sauce and cook, tossing constantly and scraping up browned bits, until noodles are coated in sauce, about 45 seconds. Remove from heat and mix in sliced scallions (the dark green parts) and 1 Tbsp. sesame seeds. Divide noodles among bowls and top with more sesame seeds.",
+        "imageName":  "countries/japanese/japanese-noodles.html",
+        "country":  "japanese",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  625,
+        "title":  "Miso Soup",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Miso Soup Ingredients 1 pound sweet potatoes",
+                            "1 tablespoon canola oil",
+                            "2 cloves garlic, chopped",
+                            "1 shallot, chopped",
+                            "1/8 teaspoon red pepper flakes",
+                            "1/2 teaspoon salt",
+                            "1/4 teaspoon freshly ground black pepper",
+                            "4 cups sliced bok choy",
+                            "1 cup bean sprouts",
+                            "1 cup edamame, shelled",
+                            "12 wonton wrappers",
+                            "3 tablespoons white miso, plus more to taste"
+                        ],
+        "instructions":  "Heat oven to 375Â°F. Prick holes in potatoes. Bake on a baking sheet until soft, turning once, about 1 hour. Cool, then peel and mash. Heat oil in a small skillet over medium heat. Cook garlic and shallot, stirring, until fragrant, 1 to 2 minutes. Add pepper flakes. Stir garlic mixture, salt and pepper into potatoes. Place bok choy, sprouts and edamame in a pot with 2 cups water and set aside. Lay 1 wonton wrapper in palm of hand.",
+        "imageName":  "countries/japanese/miso-soup.html",
+        "country":  "japanese",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  626,
+        "title":  "Ramen",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Ramen Ingredients Â½ cup seasoned rice vinegar",
+                            "Â¼ cup extra-virgin olive oil",
+                            "Â¼ cup fresh lime juice",
+                            "Â¼ cup soy sauce",
+                            "2 Tbsp. toasted sesame seeds",
+                            "1 tsp. mild red pepper flakes (such as Aleppo-style or Maras)",
+                            "1 tsp. toasted sesame oil",
+                            "20 oz. fresh or 12 oz. dried ramen noodles",
+                            "Kosher salt",
+                            "5-6 cups shredded or shaved vegetables (such as radishes",
+                            "carrots",
+                            "scallions"
+                        ],
+        "instructions":  "Whisk vinegar, olive oil, lime juice, soy sauce, sesame seeds, mild red pepper flakes, and sesame oil in a small bowl to combine. Set dressing aside. Cook noodles in a large pot of boiling salted water according to package directions. Drain and rinse under cold water to stop the cooking. Transfer to a large bowl, add half of reserved dressing, and toss to coat. Divide noodles among bowls. Top with vegetables and drizzle with remaining dressing.",
+        "imageName":  "countries/japanese/ramen.html",
+        "country":  "japanese",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  627,
+        "title":  "Sashimi",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Sashimi Ingredients 4 oranges",
+                            "1 or 2 limes",
+                            "1 tablespoon soy sauce",
+                            "3 tablespoons grapeseed oil",
+                            "\"6 cups mÃ¢che (lambs lettuce) leaves\", 2 cups frisÃ©e lettuce, torn into bite-size pieces",
+                            "1/2 cucumber, peeled, seeded, and thinly sliced (optional)",
+                            "7 ounces sushi-grade salmon, skin removed",
+                            "1 teaspoon sesame seeds",
+                            "toasted",
+                            "Divide the salad among 4 serving plates. Sprinkle with the toasted sesame seeds, and serve."
+                        ],
+        "instructions":  "Grate the zest of 1 orange and the lime into a large bowl. Squeeze 1 tablespoon of juice from the grated orange and 2 tablespoons of juice from the grated lime into the bowl (you may need a second lime to get the 2 tablespoons of juice). Whisk in the soy sauce and the oil. Set the dressing aside. Use a sharp knife to slice the rind and pith from the remaining oranges. Working over a mixing bowl, cut between the membranes to free the orange segments, letting them drop into the bowl. Pour any juice into a cup and reserve it for another use. Add the mÃ¢che, frisÃ©e, and cucumbers, if using, to the orange segments. Using a large sharp knife, cut the salmon into 1/3-inch-thick slices. Add the salmon to the bowl. Drizzle with the dressing, and toss gently to coat. Allow the flavors to meld for at least 2 minutes. Divide the salad among 4 serving plates. Sprinkle with the toasted sesame seeds, and serve.",
+        "imageName":  "countries/japanese/sashimi.html",
+        "country":  "japanese",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  628,
+        "title":  "Burritos",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Burritos Ingredients 4 eggs",
+                            "2 tablespoons milk",
+                            "3/4 cup pinto beans, cooked, rinsed and drained",
+                            "1/2 cup salsa",
+                            "canola oil spray, oil or butter for pan",
+                            "2 corn tortillas, warmed if desired",
+                            "sour cream",
+                            "cheese or avocado",
+                            "optional",
+                            "Whisk the eggs, milk, and salt in a bowl.",
+                            "Heat a nonstick pan over low to medium heat and spray or grease with oil or butter.",
+                            "Pour in the egg mixture and stir until almost scrambled, about 2 minutes."
+                        ],
+        "instructions":  "Whisk the eggs, milk, and salt in a bowl. Heat a nonstick pan over low to medium heat and spray or grease with oil or butter. Pour in the egg mixture and stir until almost scrambled, about 2 minutes. Add the beans and salsa and cook for 2 minutes or until ingredients are heated through. Place scrambled egg mixture and other optional ingredients into tortillas and roll or fold in half. Serve.",
+        "imageName":  "countries/mexican/burritos.html",
+        "country":  "mexican",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  629,
+        "title":  "Enchiladas",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Enchiladas Ingredients 1 Tbsp. vegetable oil",
+                            "1/2 white onion, coarsely chopped",
+                            "4 garlic cloves, crushed",
+                            "3 small serrano chiles, halved lengthwise, seeds removed if desired",
+                            "12 oz. tomatillos (6â€“7), husks removed, rinsed, halved",
+                            "1 cup cilantro leaves with tender stems",
+                            "Kosher salt",
+                            "1 Tbsp. vegetable oil",
+                            "1/4 white onion, coarsely chopped",
+                            "1 garlic clove, crushed",
+                            "3 guajillo chiles, seeds removed",
+                            "2 dried chiles de Ã¡rbol (optional; omit for a milder sauce)"
+                        ],
+        "instructions":  "Heat oil in a large saucepan over medium. Cook onion and garlic, stirring occasionally, until starting to soften, about 5 minutes. Add chiles and cook, stirring occasionally, until onion is lightly browned and vegetables are soft, about 5 minutes. Add tomatillos and cook, stirring occasionally, just until starting to soften, about 3 minutes. Add cilantro and 1 1/2 cups water. Bring to a boil, reduce heat, and simmer until tomatillos soften, 20â€“25 minutes. Let cool slightly; transfer to a blender. PurÃ©e until smooth; season with salt. Return salsa verde to saucepan and keep warm until ready to use. Heat oil in a large saucepan over medium. Cook onion and garlic, stirring occasionally, until starting to soften, about 5 minutes. Add both chiles, tomatoes, and 1 1/2 cups water. Bring to a boil, reduce heat, and simmer until tomatoes and chiles soften, 20â€“25 minutes. Let cool slightly; transfer to a blender. PurÃ©e until smooth; season with salt. Return salsa roja to saucepan and keep warm until ready to use. Place chicken, bay leaves, and allspice in a small pot and pour in water to cover by 1\"; season lightly with salt. Bring to a boil, reduce heat, and simmer gently until chicken is nearly cooked through (an instant-read thermometer inserted into the thickest part of chicken should register 145Â°Fâ€“150Â°F), 20â€“25 minutes from the time water starts simmering. Let chicken cool at least 1 hour (it should be just warm). If you have the time, cover and chill up to 12 hours. Remove chicken from broth. Pull meat from bones and shred; discard skin and bones. Place meat in a large saucepan and pour in just enough broth to cover. Set aside any remaining broth for another use. Gently reheat chicken over medium-low; season with salt. Meanwhile, mix crÃ¨me fraÃ®che and queso fresco in a small bowl to combine. Heat oil in a small skillet over medium-high until hot but not smoking. Submerge each tortilla in oil long enough to soften but not so long that they fall apart, 5â€“10 seconds each. Transfer to a rimmed baking sheet lined with paper towels to drain. Working one at a time, fill each tortilla with about 1/3 cup shredded chicken and roll up tightly. Place 3 tortillas each, seam side down, into bowls. Ladle 1/2 cup of each sauce on opposite ends of enchiladas. Top with a big spoonful of crÃ¨me fraÃ®che mixture and scatter onion over. Chicken can be poached and shredded 3 days ahead. Place in a small bowl and pour in broth to submerge; cover and chill.",
+        "imageName":  "countries/mexican/enchiladas.html",
+        "country":  "mexican",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  630,
+        "title":  "Guacamole",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Guacamole Ingredients 2 cups kale leaves",
+                            "4 Hass ripe avocados",
+                            "3 ripe tomatoes, seeded, finely chopped",
+                            "1/4 cup minced red onion",
+                            "2 jalapeno chilies, seeded, finely chopped",
+                            "1 lime, juiced",
+                            "1/2 teaspoon sea salt",
+                            "1/4 cup fresh cilantro",
+                            "minced"
+                        ],
+        "instructions":  "Place the kale leaves in a food processor and pulse until they are finely chopped. Cut the avocados in half, and remove the pits. Scoop out the flesh and place in a large wooden or metal bowl. Add salt and mash with the back of a wooden spoon until desired texture is reachedâ€”I like mine a bit chunky. Stir in kale leaves and remaining ingredients. Taste and adjust the seasonings with salt. Place a piece of plastic wrap directly over the surface of the dip. Store in the refrigerator up to 10 hours. Serve with whole grain tortilla chips, toasted whole wheat pita wedges, or toasted soft corn tortillas.",
+        "imageName":  "countries/mexican/guacamole.html",
+        "country":  "mexican",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  631,
+        "title":  "Nachos",
+        "ingredients":  [
+                            "2 cups cheese (I used a mexican blend cheese which is a blend of monterey jack, cheddar and queso blanco)",
+                            "1- 15 oz can black beans",
+                            "drained and rinsed",
+                            "Preheat oven to 350 degrees.",
+                            "Place 1/2 of chips in an oven safe dish or on a cookie sheet.",
+                            "Cover with 1/2 of the cheese and beans.",
+                            "Cover with the remaining chips, cheese and beans and bake for 10-15 minutes or until cheese is melted over chips.",
+                            "Top with guacamole, sour cream, salsa and or olives.",
+                            "Optional Accompaniments: Sour Cream, Guacamole, Salsa, Sliced Black Olives"
+                        ],
+        "instructions":  "Preheat oven to 350 degrees. Place 1/2 of chips in an oven safe dish or on a cookie sheet. Cover with 1/2 of the cheese and beans. Cover with the remaining chips, cheese and beans and bake for 10-15 minutes or until cheese is melted over chips. Top with guacamole, sour cream, salsa and or olives. Optional Accompaniments: Sour Cream, Guacamole, Salsa, Sliced Black Olives",
+        "imageName":  "countries/mexican/nachos.html",
+        "country":  "mexican",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  632,
+        "title":  "Quesadillas",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Quesadillas Ingredients 2 tortillas",
+                            "1/2 cup grated cheese, such as monterey jack or cheddar",
+                            "1/2 cup sliced mushrooms",
+                            "Flip the tortilla over and sprinkle cheese all over the top.",
+                            "Once the cheese begins to melt, top half of the tortilla with mushrooms, and fold in half.",
+                            "Cook for 2 minutes on each side, until the cheese is melted and everything is hot.",
+                            "Remove the quesadilla from the heat, open, and add your choice of stuffings."
+                        ],
+        "instructions":  "Heat a skillet over medium-high heat. Place the tortilla in the pan and cook for about 1 minute, until it begins to bubble. Flip the tortilla over and sprinkle cheese all over the top. Once the cheese begins to melt, top half of the tortilla with mushrooms, and fold in half. Cook for 2 minutes on each side, until the cheese is melted and everything is hot. Remove the quesadilla from the heat, open, and add your choice of stuffings.",
+        "imageName":  "countries/mexican/quesadillas.html",
+        "country":  "mexican",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  633,
+        "title":  "Tacos",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Tacos Ingredients 1 can (14 oz) young green jackfruit in water",
+                            "1 white onion",
+                            "4 garlic cloves",
+                            "1 tbsp vegetable oil",
+                            "1 tbsp maple syrup",
+                            "7 tbsp vegetable stock",
+                            "1/2 tsp Tabasco sauce",
+                            "4 limes",
+                            "1 1/2 tsp ground cumin",
+                            "1 1/2 tsp smoked paprika",
+                            "1/2-1 tsp chili powder",
+                            "1/2 tsp salt"
+                        ],
+        "instructions":  "Tip the jackfruit into a sieve or colander to drain the excess water and pat the pieces down with a clean kitchen towel to dry them off | Cut into 1/4-inch strips and put to one side Peel and slice the onion and garlic very thinly | Warm the vegetable oil in the frying pan | Add the onion and garlic to the pan and stir with a wooden spoon until soft and translucent | Add the jackfruit, maple syrup, vegetable stock, and Tabasco sauce | Cut 1 of the limes in half and squeeze in the juice of one half, catching any seeds in your other hand | Stir until the jackfruit is well covered Put the lid on the pan, turn down the heat, and let it simmer for 7â€“10 minutes, stirring occasionally, until the liquid has been absorbed into the jackfruit | Take the lid off the pan and sprinkle in all the spices and the salt | Stir until the jackfruit pieces are well covered and taking on the color of the spices | Transfer the jackfruit pieces to a serving dish Slice the remaining limes into wedges and remove the leaves from the cilantro by running your thumb and forefinger from the top to the base of the stems (the leaves should easily come away), saving the stems for another recipe | Serve the taco shells, jackfruit, guacamole, salsa, lime wedges, and cilantro leaves on individual plates and let everyone build their own tacos",
+        "imageName":  "countries/mexican/tacos.html",
+        "country":  "mexican",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  634,
+        "title":  "Croquetas",
+        "ingredients":  [
+                            "WHATS FOR DINNER HOME RECIPES MEAL INSPIRATION ABOUT Croquetas Ingredients 1 pound large boiling potatoes (about 2)",
+                            "3 large eggs",
+                            "1 tablespoon chopped fresh flat-leaf parsley",
+                            "1 tablespoon finely chopped fresh chives",
+                            "1/4 teaspoon chopped fresh tarragon",
+                            "2 tablespoons unsalted butter, softened",
+                            "1/2 teaspoon salt",
+                            "1/8 teaspoon black pepper",
+                            "3/4 cup all-purpose flour",
+                            "3/4 cup fine dry bread crumbs",
+                            "About 4 cups olive oil (not extra-virgin) for frying",
+                            "Accompaniment: saffron alioli"
+                        ],
+        "instructions":  "Peel potatoes and cut into 1-inch pieces. Cover with salted cold water by 1 inch in a 2-quart saucepan, then boil until tender, about 8 minutes. Drain in a colander. Force potatoes through ricer into a medium bowl and cool. Lightly beat 1 egg in a small bowl with a fork. Add to cooled potatoes along with herbs, butter, salt, and pepper and stir just until combined. Spoon tablespoons of potato mixture onto a tray, then lightly roll each into a ball between palms of your hands and return to tray. Lightly beat remaining 2 eggs in a small bowl and set aside. Spread flour in a shallow bowl, then spread bread crumbs in another shallow bowl. Working in 4 batches (of 6 or 7), roll balls in flour to coat, gently shaking off excess flour. Dip balls in egg, turning to coat and letting excess drip off, then roll in bread crumbs and return to tray. Chill, covered, 30 minutes. Preheat oven to 200Â°F. Heat 1 1/2 inches oil in a 3-quart pot until it registers 360Â°F on thermometer. Working in 4 batches, fry croquetas, turning if necessary, until browned, about 1 1/2 minutes per batch. Transfer with a slotted spoon to paper towels to drain, then transfer to a baking pan and keep warm in oven while frying remaining croquetas. (Return oil to 360Â°F between batches.)",
+        "imageName":  "countries/spanish/croquetas.html",
+        "country":  "spanish",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  635,
+        "title":  "Gazpacho",
+        "ingredients":  [
+                            "1 large cucumber, peeled, seeded, and chopped (about 2 cups)",
+                            "1 red bell pepper, chopped (about 1 cup)",
+                            "1 medium onion, chopped (about 11/4 cups)",
+                            "3 cups canned tomato juice",
+                            "2 tablespoons fresh herbs (such as tarragon, thyme, or parsley), chopped",
+                            "1/4 cup red wine vinegar",
+                            "2 cloves garlic, peeled and finely chopped",
+                            "2 tablespoons tomato paste",
+                            "Juice of 1/2 a lemon",
+                            "Kosher salt",
+                            "Cayenne pepper",
+                            "1 cup croutons"
+                        ],
+        "instructions":  "1. In a bowl, reserve 2 tablespoons each of the tomato, cucumber, pepper, and onion to garnish. 2. In the food processor or blender, purÃ©e the remaining ingredients (except the croutons) until smooth, adjusting the seasoning to taste with lemon juice, salt, and cayenne pepper. 3. Cover and chill thoroughly, at least 3 hours but preferably overnight. Adjust the consistency as desired with water. Serve in chilled bowls garnished with the reserved vegetables and croutons.",
+        "imageName":  "countries/spanish/gazpacho.html",
+        "country":  "spanish",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  636,
+        "title":  "Tortilla Espanola",
+        "ingredients":  [
+                            "2 teaspoons kosher salt plus more",
+                            "2 cups olive oil",
+                            "1 medium onion, chopped",
+                            "10 large eggs",
+                            "beaten to blend"
+                        ],
+        "instructions":  "Place potatoes in a large colander, sprinkle with 2 teaspoons salt, and toss to coat. Let stand for 30 minutes. Pat dry with paper towels. Heat oil in a large nonstick skillet over medium-high heat. Add potatoes and cook, turning occasionally, until crisp-tender, 10-15 minutes. Add onion to potatoes in skillet; cook until onion and potatoes are soft, 5-8 minutes. Using a slotted spoon, transfer mixture to a large bowl; let cool slightly. Strain oil into a heatproof bowl; set aside. Add eggs to potato mixture; season with salt. Wipe out skillet. Heat 1/4 cup reserved oil over medium-high heat (chill remaining oil for another use). Add egg mixture, arranging potatoes to submerge. Reduce heat to medium; cook tortilla until almost set (it will be slightly runny on top), 25-30 minutes. Invert onto a large plate. Slide into skillet browned side up. Cook until golden on bottom and cooked through, about 4 minutes more. Serve warm or at room temperature. Cut into wedges. DO AHEAD: Tortilla can be made 2 hours ahead. Let stand at room temperature.",
+        "imageName":  "countries/spanish/tortilla-espanola.html",
+        "country":  "spanish",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  637,
+        "title":  "Green Curry",
+        "ingredients":  [
+                            "8 ounces serrano chiles (12â€“15), seeds removed",
+                            "1 large shallot, chopped",
+                            "4 garlic cloves, peeled",
+                            "1 (3-inch) piece ginger, peeled, thinly sliced",
+                            "1 (2-inch) piece turmeric, peeled, chopped",
+                            "1 kaffir lime leaf, chopped",
+                            "1 tsp ground coriander",
+                            "1 tsp ground cumin",
+                            "1 tsp kosher salt",
+                            "1 tsp sugar"
+                        ],
+        "instructions":  "",
+        "imageName":  "countries/thai/green-curry.html",
+        "country":  "thai",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  638,
+        "title":  "Mango Sticky Rice",
+        "ingredients":  [
+                            "2 cups coconut milk",
+                            "3/4 cup palm or brown sugar",
+                            "1 tsp salt",
+                            "4 ripe mangoes",
+                            "Fresh mint or basil for garnish"
+                        ],
+        "instructions":  "",
+        "imageName":  "countries/thai/mango-sticky-rice.html",
+        "country":  "thai",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  639,
+        "title":  "Massaman Curry",
+        "ingredients":  [
+                            "4â€“4 1/2 lb chicken pieces",
+                            "4 Yukon Gold potatoes",
+                            "2 red onions, wedged",
+                            "3/4 cup massaman paste",
+                            "12 oz wheat beer",
+                            "4 cans coconut milk",
+                            "2 cups chicken broth",
+                            "Fish sauce, lime, palm sugar",
+                            "Cilantro \u0026 shallots for garnish"
+                        ],
+        "instructions":  "",
+        "imageName":  "countries/thai/massaman-curry.html",
+        "country":  "thai",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  640,
+        "title":  "Som Tum",
+        "ingredients":  [
+                            "2 tbsp palm or dark brown sugar",
+                            "2 tbsp fish sauce",
+                            "2 tbsp dried shrimp, chopped",
+                            "1 clove garlic, minced",
+                            "1/2 lb Chinese long beans or green beans",
+                            "1 (1.5-lb) unpeeled green papaya",
+                            "10 large cherry tomatoes, halved",
+                            "1 cup fresh cilantro, chopped",
+                            "2 green onions, thinly sliced",
+                            "1 fresh red Thai chile with seeds, sliced",
+                            "2 tbsp salted peanuts, coarsely chopped"
+                        ],
+        "instructions":  "",
+        "imageName":  "countries/thai/som-tum.html",
+        "country":  "thai",
+        "category":  "Local Recipe"
+    },
+    {
+        "id":  641,
+        "title":  "Tom Yum Soup",
+        "ingredients":  [
+                            "1 cup Onion and Garlic Mix",
+                            "1 1/2 cups low-sodium chicken broth",
+                            "1 tsp green curry paste",
+                            "1/2 tsp ground ginger",
+                            "1 cup Lime Shrimp",
+                            "1 cup frozen peas",
+                            "Juice of 2 limes, divided",
+                            "Slices from 1/2 lime"
+                        ],
+        "instructions":  "",
+        "imageName":  "countries/thai/tom-yum-soup.html",
+        "country":  "thai",
+        "category":  "Local Recipe"
     }
 ]
