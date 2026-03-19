@@ -205,9 +205,43 @@
 
       async function loadDataset() {
         try {
-          const res = await fetch('../assets/data/food-recipes-index.json');
-          if (!res.ok) throw new Error(`HTTP ${res.status}`);
-          dataset = await res.json();
+          const datasetPathCandidates = [
+            '../assets/data/food-recipes-index.json',
+            '/assets/data/food-recipes-index.json',
+            '/frontend/assets/data/food-recipes-index.json',
+            'assets/data/food-recipes-index.json',
+            './assets/data/food-recipes-index.json',
+            './frontend/assets/data/food-recipes-index.json'
+          ];
+
+          let loaded = false;
+          let lastError = null;
+
+          for (const path of datasetPathCandidates) {
+            try {
+              const res = await fetch(path, { cache: 'no-store' });
+              if (!res.ok) {
+                lastError = new Error(`HTTP ${res.status} for ${path}`);
+                continue;
+              }
+
+              const parsed = await res.json();
+              if (!Array.isArray(parsed)) {
+                lastError = new Error(`Invalid dataset format from ${path}`);
+                continue;
+              }
+
+              dataset = parsed;
+              loaded = true;
+              break;
+            } catch (candidateError) {
+              lastError = candidateError;
+            }
+          }
+
+          if (!loaded) {
+            throw lastError || new Error('No dataset path resolved');
+          }
 
           if (activeUrlIngredients.length) {
             searchInput.value = activeUrlIngredients.join(', ');
@@ -223,8 +257,8 @@
             render(dataset);
           }
         } catch (err) {
-          meta.textContent = 'Could not load dataset file. Run the dataset build scripts first.';
-          grid.innerHTML = '<p class="dataset-empty">Dataset file missing: assets/data/food-recipes-index.json</p>';
+          meta.textContent = 'Could not load dataset file. Check the deployed data path.';
+          grid.innerHTML = '<p class="dataset-empty">Dataset file missing or unreachable. Expected: assets/data/food-recipes-index.json</p>';
           console.error(err);
         }
       }
