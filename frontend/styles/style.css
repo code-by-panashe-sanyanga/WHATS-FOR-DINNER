@@ -1354,6 +1354,8 @@ footer {
         gap: 40px;
     }
 }
+
+/* Optimized Recipe Card Stacking */
 .recipe-card {
     background: white;
     border-radius: 12px;
@@ -1361,16 +1363,14 @@ footer {
     box-shadow: 0 4px 15px rgba(0,0,0,0.05);
     transition: transform 0.3s ease;
     border: 1px solid var(--medium-grey);
-}
-
-.recipe-card:hover {
-    transform: translateY(-5px);
+    display: flex;
+    flex-direction: column;
 }
 
 .recipe-img {
     position: relative;
     height: 200px;
-    z-index: 1; /* This creates a new stacking order */
+    width: 100%;
     overflow: hidden;
 }
 
@@ -1379,8 +1379,7 @@ footer {
     height: 100%;
     object-fit: cover;
     display: block;
-    z-index: -1; /* This pushes the image BEHIND the tag */
-    position: relative;
+    /* Remove position: relative and negative z-index here */
 }
 
 .card-meta-tag {
@@ -1391,33 +1390,14 @@ footer {
     padding: 5px 12px;
     border-radius: 4px;
     font-size: 0.75rem;
-    font-weight: 800; /* Made it bolder for better contrast */
+    font-weight: 800;
     color: var(--primary-black);
-    z-index: 10; /* This forces the tag to stay on top */
+    /* Increase z-index to ensure it sits on top of the image */
+    z-index: 50; 
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
 
 .recipe-card h3 {
     margin-bottom: 10px;
     color: var(--header-dark);
-}
-
-.recipe-card p {
-    font-size: 0.9rem;
-    color: var(--dark-grey);
-    height: 4.5em; /* Keeps descriptions aligned */
-    overflow: hidden;
-}
-.recipe-grid {
-    display: grid;
-    /* This creates the responsive columns */
-    grid-template-columns: repeat(auto-fit, minmax(300px, 350px)); 
-    /* This centers the entire grid on the page */
-    justify-content: center; 
-    /* This centers the cards within their grid tracks */
-    justify-items: center;
-    gap: 40px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px 20px;
-}
 }}

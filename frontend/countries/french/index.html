@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="../../styles/style.css" />
   </head>
   <body>
-    <!-- I keep the shared layout here so this page matches the rest of the site -->
     <header>
       <div class="top-bar">
-        <div class="social-links"><a href="https://instagram.com" title="Instagram"><img src="../../assets/icons/instagram.svg" alt="Instagram"></a><a href="https://x.com" title="X"><img src="../../assets/icons/x.svg" alt="X"></a><a href="https://facebook.com" title="Facebook"><img src="../../assets/icons/facebook.svg" alt="Facebook"></a></div>
+        <a href="https://instagram.com" title="Instagram"><img src="../../assets/icons/instagram.svg" alt="Instagram"></a>
+        <a href="https://x.com" title="X"><img src="../../assets/icons/x.svg" alt="X"></a>
+        <a href="https://facebook.com" title="Facebook"><img src="../../assets/icons/facebook.svg" alt="Facebook"></a>
       </div>
+
       <div class="nav-container">
         <div class="logo">WHATS FOR DINNER</div>
         <nav>
@@ -25,69 +27,72 @@
     </header>
 
     <section class="page-hero">
-      <h1>France</h1>
+      <span class="category-tag" style="display: block; text-align: center; color: var(--primary); font-weight: bold; letter-spacing: 2px; margin-bottom: 10px;">CUISINE</span>
+      <h1 style="margin-top: 0;">France</h1>
     </section>
 
-    <section class="recipe-tiles">
-      <!-- Coq au Vin -->
+    <section class="recipe-grid">
+      
       <div class="recipe-card">
         <div class="recipe-img">
           <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Coq_au_vin.jpg" alt="Coq au Vin" />
+          <span class="card-meta-tag">2.5 HOURS</span>
         </div>
-        <h3>Coq au Vin</h3>
-        <p>Tender chicken slowly braised in red wine with mushrooms, lardons, and herbs.</p>
-        <a href="coq-au-vin.html">View Recipe</a>
+        <div class="card-content" style="padding: 20px;">
+          <h3>Coq au Vin</h3>
+          <p>Tender chicken slowly braised in red wine with mushrooms, lardons, and herbs.</p>
+          <a href="coq-au-vin.html" class="btn-primary" style="display: inline-block; margin-top: 15px; text-decoration: none; text-align: center;">View Recipe</a>
+        </div>
       </div>
 
-      <!-- Crêpes -->
       <div class="recipe-card">
         <div class="recipe-img">
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Crepes_dsc07085.jpg/330px-Crepes_dsc07085.jpg" alt="Crêpes" />
+          <span class="card-meta-tag">30 MINS</span>
         </div>
-        <h3>Crêpes</h3>
-        <p>Thin delicate French pancakes served sweet with sugar and lemon or savoury with ham and cheese.</p>
-        <a href="crepes.html">View Recipe</a>
+        <div class="card-content" style="padding: 20px;">
+          <h3>Crêpes</h3>
+          <p>Thin delicate French pancakes served sweet with sugar and lemon or savoury with ham and cheese.</p>
+          <a href="crepes.html" class="btn-primary" style="display: inline-block; margin-top: 15px; text-decoration: none; text-align: center;">View Recipe</a>
+        </div>
       </div>
 
-      <!-- French Onion Soup -->
       <div class="recipe-card">
         <div class="recipe-img">
           <img src="https://commons.wikimedia.org/wiki/Special:FilePath/French_onion_soup.jpg" alt="French Onion Soup" />
+          <span class="card-meta-tag">1 HOUR</span>
         </div>
-        <h3>French Onion Soup</h3>
-        <p>Rich caramelised onion broth topped with toasted bread and melted Gruyère cheese.</p>
-        <a href="french-onion-soup.html">View Recipe</a>
+        <div class="card-content" style="padding: 20px;">
+          <h3>French Onion Soup</h3>
+          <p>Rich caramelised onion broth topped with toasted bread and melted Gruyère cheese.</p>
+          <a href="french-onion-soup.html" class="btn-primary" style="display: inline-block; margin-top: 15px; text-decoration: none; text-align: center;">View Recipe</a>
+        </div>
       </div>
 
-      <!-- Croissant -->
-      <div class="recipe-card">
-        <div class="recipe-img">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Croissant-Petr_Kratochvil.jpg/330px-Croissant-Petr_Kratochvil.jpg" alt="Croissant" />
-        </div>
-        <h3>Croissant</h3>
-        <p>Buttery, flaky layered pastry with a golden exterior and soft, airy interior.</p>
-        <a href="croissant.html">View Recipe</a>
-      </div>
-
-      <!-- Ratatouille -->
       <div class="recipe-card">
         <div class="recipe-img">
           <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ratatouille.jpg" alt="Ratatouille" />
+          <span class="card-meta-tag">45 MINS</span>
         </div>
-        <h3>Ratatouille</h3>
-        <p>Provençal slow-cooked vegetable stew with courgette, aubergine, tomatoes, and herbs.</p>
-        <a href="ratatouille.html">View Recipe</a>
+        <div class="card-content" style="padding: 20px;">
+          <h3>Ratatouille</h3>
+          <p>Provençal slow-cooked vegetable stew with courgette, aubergine, tomatoes, and herbs.</p>
+          <a href="ratatouille.html" class="btn-primary" style="display: inline-block; margin-top: 15px; text-decoration: none; text-align: center;">View Recipe</a>
+        </div>
       </div>
 
-      <!-- Crème Brûlée -->
       <div class="recipe-card">
         <div class="recipe-img">
           <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Creme_brulee.jpg" alt="Crème Brûlée" />
+          <span class="card-meta-tag">40 MINS</span>
         </div>
-        <h3>Crème Brûlée</h3>
-        <p>Silky vanilla custard topped with a perfectly caramelised burnt sugar crust.</p>
-        <a href="creme-brulee.html">View Recipe</a>
+        <div class="card-content" style="padding: 20px;">
+          <h3>Crème Brûlée</h3>
+          <p>Silky vanilla custard topped with a perfectly caramelised burnt sugar crust.</p>
+          <a href="creme-brulee.html" class="btn-primary" style="display: inline-block; margin-top: 15px; text-decoration: none; text-align: center;">View Recipe</a>
+        </div>
       </div>
+
     </section>
 
     <footer>
