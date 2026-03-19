@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meal Inspiration | Whats for Dinner</title>
+    <link rel="icon" type="image/x-icon" href="../assets/icons/favicon-32x32.png">
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+
+  <body>
+    <!-- I keep the shared layout here so this page matches the rest of the site -->
+    <header>
+      <div class="top-bar">
+       <a href="https://instagram.com" title="Instagram"><img src="../assets/icons/instagram.svg" alt="Instagram"></a>
+          <a href="https://x.com" title="X"><img src="../assets/icons/x.svg" alt="X"></a>
+          <a href="https://facebook.com" title="Facebook"><img src="../assets/icons/facebook.svg" alt="Facebook"></a>
+      </div>
+      <div class="nav-container">
+        <div class="logo">WHATS FOR DINNER</div>
+        <nav>
+          <a href="index.html">HOME</a>
+          <a href="recipes.html">RECIPES</a>
+          <a href="meal-inspo.html">MEAL INSPIRATION</a>
+          <a href="about.html">ABOUT</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- I use this hero section to quickly explain what this page is for -->
+    <section class="page-hero">
+      <h1>MEAL INSPIRATION</h1>
+      <p>Quick ideas for your next dish</p>
+    </section>
+
+    <!-- I split the main content into dish of the day, featured meals, and country links -->
+    <section class="inspo-layout">
+      <!-- I keep the daily dish on the left so it stands out first -->
+      <aside class="dish-of-day">
+        <div id="dailyDish" class="big-tile">
+          <h3>DISH OF THE DAY</h3>
+          DAILY DISH WILL LOAD HERE
+        </div>
+      </aside>
+
+      <!-- I show a set of quick recipe ideas in the centre grid -->
+      <div class="inspo-main">
+        <div class="inspo-grid">
+          <article class="inspo-card meal-card">
+            <img class="meal-thumb" src="https://commons.wikimedia.org/wiki/Special:FilePath/Cheeseburger.png" alt="Cheeseburger" />
+            <h4>Cheeseburger</h4>
+            <p>American classic with a juicy beef patty and melted cheese.</p>
+            <a href="../countries/american/cheeseburger.html">View Recipe</a>
+          </article>
+          <article class="inspo-card meal-card">
+            <img class="meal-thumb" src="https://commons.wikimedia.org/wiki/Special:FilePath/Sweet-and-sour_pork.jpg" alt="Sweet and Sour Pork" />
+            <h4>Sweet and Sour Pork</h4>
+            <p>Crispy pork in a tangy sauce with peppers and pineapple notes.</p>
+            <a href="../countries/chinese/sweet-sour-pork.html">View Recipe</a>
+          </article>
+          <article class="inspo-card meal-card">
+            <img class="meal-thumb" src="https://commons.wikimedia.org/wiki/Special:FilePath/Gongbao_Jiding_Iron_Pot_in_China.jpeg" alt="Kung Pao Chicken" />
+            <h4>Kung Pao Chicken</h4>
+            <p>Spicy stir-fried chicken with peanuts and a savory glaze.</p>
+            <a href="../countries/chinese/kung-pao-chicken.html">View Recipe</a>
+          </article>
+          <article class="inspo-card meal-card">
+            <img class="meal-thumb" src="https://commons.wikimedia.org/wiki/Special:FilePath/Homemade_Mapo_doufu.jpg" alt="Ma Po Tofu" />
+            <h4>Ma Po Tofu</h4>
+            <p>Bold Sichuan tofu dish with rich chili and peppercorn flavor.</p>
+            <a href="../countries/chinese/ma-po-tofu.html">View Recipe</a>
+          </article>
+          <article class="inspo-card meal-card">
+            <img class="meal-thumb" src="https://commons.wikimedia.org/wiki/Special:FilePath/Peking_Duck_1.jpg" alt="Peking Duck" />
+            <h4>Peking Duck</h4>
+            <p>Roasted duck served with pancakes, scallions, and hoisin.</p>
+            <a href="../countries/chinese/peking-duck.html">View Recipe</a>
+          </article>
+          <article class="inspo-card meal-card">
+            <img class="meal-thumb" src="https://images.unsplash.com/photo-1603360946369-dc9bb6258143?auto=format&fit=crop&w=1000&q=80" alt="Butter Chicken" />
+            <h4>Butter Chicken</h4>
+            <p>Creamy tomato-based curry with tender marinated chicken.</p>
+            <a href="../countries/indian/butter-chicken.html">View Recipe</a>
+          </article>
+          <article class="inspo-card meal-card">
+            <img class="meal-thumb" src="https://commons.wikimedia.org/wiki/Special:FilePath/Cottage_cheese_in_spinach_gravy(palak_paneer).jpg" alt="Palak Paneer" />
+            <h4>Palak Paneer</h4>
+            <p>Paneer cubes in a smooth spinach gravy with warm spices.</p>
+            <a href="../countries/indian/palakpaneer.html">View Recipe</a>
+          </article>
+          <article class="inspo-card meal-card">
+            <img class="meal-thumb" src="https://commons.wikimedia.org/wiki/Special:FilePath/Hyderabadi_egg_biryani.jpg" alt="Biryani" />
+            <h4>Biryani</h4>
+            <p>Fragrant layered rice dish with spices and rich aromatics.</p>
+            <a href="../countries/indian/biryani.html">View Recipe</a>
+          </article>
+          <article class="inspo-card meal-card">
+            <img class="meal-thumb" src="https://commons.wikimedia.org/wiki/Special:FilePath/Vegetable_Samosa.jpg" alt="Samosas" />
+            <h4>Samosas</h4>
+            <p>Crisp pastry pockets filled with spiced potato and peas.</p>
+            <a href="../countries/indian/samosas.html">View Recipe</a>
+          </article>
+        </div>
+      </div>
+
+      <!-- I keep country shortcuts on the right so people can jump by cuisine -->
+      <article class="country-section">
+        <h3>MEALS BY COUNTRY</h3>
+
+        <!-- I use image tiles here so each country feels easy to scan -->
+        <div class="country-grid">
+          <a href="../countries/italian/index.html" class="country-tile">
+            <img src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Italian pasta" class="country-food-img">
+            <span>ITALY</span>
+          </a>
+          <a href="../countries/indian/index.html" class="country-tile">
+            <img src="https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Indian curry" class="country-food-img">
+            <span>INDIA</span>
+          </a>
+          <a href="../countries/chinese/index.html" class="country-tile">
+            <img src="https://images.pexels.com/photos/1907244/pexels-photo-1907244.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Chinese noodles" class="country-food-img">
+            <span>CHINA</span>
+          </a>
+          <a href="../countries/american/index.html" class="country-tile">
+            <img src="https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=400" alt="American burger" class="country-food-img">
+            <span>AMERICA</span>
+          </a>
+          <a href="../countries/thai/index.html" class="country-tile">
+            <img src="https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Thai food" class="country-food-img">
+            <span>THAILAND</span>
+          </a>
+          <a href="../countries/japanese/index.html" class="country-tile">
+            <img src="https://images.pexels.com/photos/357757/pexels-photo-357757.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Japanese sushi" class="country-food-img">
+            <span>JAPAN</span>
+          </a>
+          <a href="../countries/mexican/index.html" class="country-tile">
+            <img src="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Mexican tacos" class="country-food-img">
+            <span>MEXICO</span>
+          </a>
+          <a href="../countries/french/index.html" class="country-tile">
+            <img src="https://images.pexels.com/photos/2135/food-france-morning-breakfast.jpg?auto=compress&cs=tinysrgb&w=400" alt="French pastry" class="country-food-img">
+            <span>FRANCE</span>
+          </a>
+          <a href="../countries/english/index.html" class="country-tile">
+            <img src="https://images.pexels.com/photos/1893555/pexels-photo-1893555.jpeg?auto=compress&cs=tinysrgb&w=400" alt="English roast" class="country-food-img">
+            <span>ENGLAND</span>
+          </a>
+          <a href="../countries/spanish/index.html" class="country-tile">
+            <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Spanish paella" class="country-food-img">
+            <span>SPAIN</span>
+          </a>
+        </div>
+      </article>
+    </section>
+
+    <!-- I keep a simple ingredient search area here for quick meal ideas -->
+    <section class="ingredient-search">
+      <div class="search-inner">
+        <h3>ENTER UP TO THREE INGREDIENTS</h3>
+        <div class="input-row">
+          <input type="text" placeholder="Ingredient 1" />
+          <input type="text" placeholder="Ingredient 2" />
+          <input type="text" placeholder="Ingredient 3" />
+        </div>
+        <div class="btn-row">
+          <button class="btn-primary">FIND RECIPES</button>
+          <button class="btn-secondary">CLEAR</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- I keep the footer minimal on this page to avoid clutter -->
+    <footer>
+      <div class="footer-bottom">WHATS FOR DINNER @ 2026</div>
+    </footer>
+
+    <!-- I load shared page behaviour from the main script file -->
+    <script src="../js/script.js"></script>
+  </body>
+</html>

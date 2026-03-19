@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dataset Explorer | Whats for Dinner</title>
+    <link rel="icon" type="image/x-icon" href="../assets/icons/favicon-32x32.png">
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body>
+    <!-- I keep the shared layout here so this page matches the rest of the site -->
+    <header>
+      <div class="top-bar">
+        <div class="social-links">
+          <a href="https://instagram.com" title="Instagram"><img src="../assets/icons/instagram.svg" alt="Instagram"></a>
+          <a href="https://x.com" title="X"><img src="../assets/icons/x.svg" alt="X"></a>
+          <a href="https://facebook.com" title="Facebook"><img src="../assets/icons/facebook.svg" alt="Facebook"></a>
+        </div>
+      </div>
+      <div class="nav-container">
+        <div class="logo">WHATS FOR DINNER</div>
+        <nav>
+          <a href="index.html">HOME</a>
+          <a href="recipes.html">RECIPES</a>
+          <a href="meal-inspo.html">MEAL INSPIRATION</a>
+          <a href="about.html">ABOUT</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="page-hero">
+      <h1>INGREDIENTS + DISH DATASET</h1>
+      <p>Search 13k+ recipe records by title or ingredient.</p>
+    </section>
+
+    <section class="dataset-controls">
+      <div class="dataset-controls-inner">
+        <input id="datasetSearch" type="text" placeholder="Search by title, ingredient, or comma-separated ingredients" />
+        <button id="datasetSearchBtn" class="btn-primary">SEARCH DATASET</button>
+        <button id="datasetResetBtn" class="btn-secondary">RESET</button>
+      </div>
+      <p id="datasetMeta" class="dataset-meta">Loading dataset...</p>
+    </section>
+
+    <section class="dataset-controls">
+      <div class="search-inner">
+        <h3>ENTER UP TO THREE INGREDIENTS</h3>
+        <div class="input-row">
+          <input id="datasetIngredient1" type="text" placeholder="Ingredient 1" />
+          <input id="datasetIngredient2" type="text" placeholder="Ingredient 2" />
+          <input id="datasetIngredient3" type="text" placeholder="Ingredient 3" />
+        </div>
+        <div class="btn-row">
+          <button id="datasetIngredientSearchBtn" class="btn-primary" type="button">FIND RECIPES</button>
+          <button id="datasetIngredientClearBtn" class="btn-secondary" type="button">CLEAR</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="dataset-grid" id="datasetGrid"></section>
+
+    <footer>
+      <div class="footer-links">
+        <a href="index.html">HOME</a>
+        <a href="recipes.html">RECIPES</a>
+        <a href="meal-inspo.html">MEAL INSPIRATION</a>
+        <a href="about.html">ABOUT</a>
+      </div>
+      <div class="footer-bottom">WHATS FOR DINNER @ 2026</div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script>
+      const searchInput = document.getElementById('datasetSearch');
+      const searchBtn = document.getElementById('datasetSearchBtn');
+      const resetBtn = document.getElementById('datasetResetBtn');
+      const ingredientInputs = [
+        document.getElementById('datasetIngredient1'),
+        document.getElementById('datasetIngredient2'),
+        document.getElementById('datasetIngredient3')
+      ];
+      const ingredientSearchBtn = document.getElementById('datasetIngredientSearchBtn');
+      const ingredientClearBtn = document.getElementById('datasetIngredientClearBtn');
+      const grid = document.getElementById('datasetGrid');
+      const meta = document.getElementById('datasetMeta');
+      const urlQuery = new URLSearchParams(window.location.search).get('q') || '';
+      const urlIngredientsRaw = new URLSearchParams(window.location.search).get('ingredients') || '';
+      const quickFilter = new URLSearchParams(window.location.search).get('quickFilter') || '';
+      let activeQuickFilter = quickFilter.toLowerCase();
+      let activeUrlIngredients = urlIngredientsRaw
+        .split(',')
+        .map(v => v.trim().toLowerCase())
+        .filter(Boolean)
+        .slice(0, 3);
+
+      let dataset = [];
+
+      function parseIngredientFilters(raw) {
+        return (raw || '')
+          .split(',')
+          .map(v => v.trim().toLowerCase())
+          .filter(Boolean)
+          .slice(0, 3);
+      }
+
+      function recipeCard(item) {
+        const ingredients = (item.ingredients || []).slice(0, 8).map(i => `<li>${i}</li>`).join('');
+        const hasMore = (item.ingredients || []).length > 8 ? `<li>+${item.ingredients.length - 8} more</li>` : '';
+
+        return `
+          <article class="dataset-card">
+            <h3>${item.title}</h3>
+            <p class="dataset-image-name">Image key: ${item.imageName || 'N/A'}</p>
+            <h4>Ingredients</h4>
+            <ul>${ingredients}${hasMore}</ul>
+          </article>
+        `;
+      }
+
+      function render(items) {
+        if (!items.length) {
+          grid.innerHTML = '<p class="dataset-empty">No results found. Try another ingredient or dish name.</p>';
+          return;
+        }
+        grid.innerHTML = items.slice(0, 60).map(recipeCard).join('');
+      }
+
+      function runFilter() {
+        const raw = (searchInput.value || '').trim();
+        const q = raw.toLowerCase();
+        const typedIngredientFilters = parseIngredientFilters(raw);
+        const hasTypedIngredientFilters = raw.includes(',') && typedIngredientFilters.length > 0;
+        const ingredientFilters = hasTypedIngredientFilters ? typedIngredientFilters : activeUrlIngredients;
+        const useUnder30Filter = activeQuickFilter === 'under30';
+
+        const estimateMinutesFromText = (text) => {
+          if (!text) return null;
+          const lower = text.toLowerCase();
+
+          const minutePattern = /(\d+)\s*(?:-|to)?\s*(\d+)?\s*(?:minutes?|mins?|min)\b/g;
+          const hourPattern = /(\d+(?:\.\d+)?)\s*(?:-|to)?\s*(\d+(?:\.\d+)?)?\s*(?:hours?|hrs?|hr)\b/g;
+
+          const minuteValues = [];
+          let match;
+
+          while ((match = minutePattern.exec(lower)) !== null) {
+            const first = Number(match[1]);
+            const second = match[2] ? Number(match[2]) : first;
+            minuteValues.push(Math.max(first, second));
+          }
+
+          while ((match = hourPattern.exec(lower)) !== null) {
+            const first = Number(match[1]) * 60;
+            const second = match[2] ? Number(match[2]) * 60 : first;
+            minuteValues.push(Math.max(first, second));
+          }
+
+          if (!minuteValues.length) return null;
+          return Math.min(...minuteValues);
+        };
+
+        const matchesUnder30 = (item) => {
+          const joinedText = `${item.title || ''} ${(item.instructions || '')}`.toLowerCase();
+          const estimated = estimateMinutesFromText(joinedText);
+          if (estimated !== null) return estimated <= 30;
+          return /\bquick\b|\bfast\b|easy weeknight|30-minute/.test(joinedText);
+        };
+
+        if (!q && !ingredientFilters.length && !useUnder30Filter) {
+          meta.textContent = `Showing first 60 of ${dataset.length} records`;
+          render(dataset);
+          return;
+        }
+
+        let filtered = dataset;
+
+        if (q && !hasTypedIngredientFilters) {
+          filtered = filtered.filter(item => {
+            const inTitle = (item.title || '').toLowerCase().includes(q);
+            const inIngredients = (item.ingredients || []).some(ing => ing.toLowerCase().includes(q));
+            return inTitle || inIngredients;
+          });
+        }
+
+        if (ingredientFilters.length) {
+          filtered = filtered.filter(item => {
+            const itemIngredients = (item.ingredients || []).map(ing => ing.toLowerCase());
+            return ingredientFilters.every(filterTerm => itemIngredients.some(ing => ing.includes(filterTerm)));
+          });
+        }
+
+        if (useUnder30Filter) {
+          filtered = filtered.filter(matchesUnder30);
+        }
+
+        if (useUnder30Filter) {
+          meta.textContent = `Found ${filtered.length} records for under 30 min style meals`;
+        } else if (ingredientFilters.length) {
+          meta.textContent = `Found ${filtered.length} records matching ingredients: ${ingredientFilters.join(', ')}`;
+        } else {
+          meta.textContent = `Found ${filtered.length} records for "${q}"`;
+        }
+        render(filtered);
+      }
+
+      function getBuiltInFallbackDataset() {
+        return [
+          {
+            id: 1,
+            title: 'Pad Thai',
+            ingredients: ['rice noodles', 'egg', 'bean sprouts', 'fish sauce', 'peanuts'],
+            instructions: 'Soak noodles, stir-fry with sauce, add sprouts, and top with peanuts.',
+            imageName: 'countries/thai/pad-thai.html'
+          },
+          {
+            id: 2,
+            title: 'Chicken Teriyaki',
+            ingredients: ['chicken thigh', 'soy sauce', 'mirin', 'sugar', 'ginger'],
+            instructions: 'Pan-sear chicken and glaze with reduced teriyaki sauce.',
+            imageName: 'countries/japanese/chicken-teriyaki.html'
+          },
+          {
+            id: 3,
+            title: 'Lasagne',
+            ingredients: ['lasagne sheets', 'ground beef', 'tomato sauce', 'bechamel', 'mozzarella'],
+            instructions: 'Layer sauce, pasta, and cheese; then bake until bubbling.',
+            imageName: 'countries/italian/lasagne.html'
+          },
+          {
+            id: 4,
+            title: 'Butter Chicken',
+            ingredients: ['chicken', 'tomato', 'cream', 'butter', 'garam masala'],
+            instructions: 'Simmer marinated chicken in rich tomato-butter gravy.',
+            imageName: 'countries/indian/butter-chicken.html'
+          },
+          {
+            id: 5,
+            title: 'Fish and Chips',
+            ingredients: ['white fish', 'flour', 'potatoes', 'oil', 'salt'],
+            instructions: 'Batter and fry fish, serve with crispy fries.',
+            imageName: 'countries/english/fish-and-chips.html'
+          },
+          {
+            id: 6,
+            title: 'Tacos',
+            ingredients: ['tortillas', 'beef', 'lettuce', 'tomato', 'cheese'],
+            instructions: 'Cook filling and serve in warm tortillas with toppings.',
+            imageName: 'countries/mexican/tacos.html'
+          }
+        ];
+      }
+
+      async function loadDataset() {
+        try {
+          const datasetPathCandidates = [
+            '../assets/data/food-recipes-index.json',
+            '/assets/data/food-recipes-index.json',
+            '/frontend/assets/data/food-recipes-index.json',
+            'assets/data/food-recipes-index.json',
+            './assets/data/food-recipes-index.json',
+            './frontend/assets/data/food-recipes-index.json'
+          ];
+
+          let loaded = false;
+          let lastError = null;
+
+          for (const path of datasetPathCandidates) {
+            try {
+              const res = await fetch(path, { cache: 'no-store' });
+              if (!res.ok) {
+                lastError = new Error(`HTTP ${res.status} for ${path}`);
+                continue;
+              }
+
+              const parsed = await res.json();
+              if (!Array.isArray(parsed)) {
+                lastError = new Error(`Invalid dataset format from ${path}`);
+                continue;
+              }
+
+              dataset = parsed;
+              loaded = true;
+              break;
+            } catch (candidateError) {
+              lastError = candidateError;
+            }
+          }
+
+          if (!loaded) {
+            throw lastError || new Error('No dataset path resolved');
+          }
+
+          if (activeUrlIngredients.length) {
+            searchInput.value = activeUrlIngredients.join(', ');
+            runFilter();
+          } else if (activeQuickFilter === 'under30') {
+            searchInput.value = 'Under 30 min';
+            runFilter();
+          } else if (urlQuery) {
+            searchInput.value = urlQuery;
+            runFilter();
+          } else {
+            meta.textContent = `Dataset loaded: ${dataset.length} records`;
+            render(dataset);
+          }
+        } catch (err) {
+          dataset = getBuiltInFallbackDataset();
+          meta.textContent = `Dataset file unavailable. Showing fallback sample (${dataset.length} records).`;
+          render(dataset);
+          console.error(err);
+        }
+      }
+
+      searchBtn.addEventListener('click', runFilter);
+      resetBtn.addEventListener('click', () => {
+        activeUrlIngredients = [];
+        activeQuickFilter = '';
+        searchInput.value = '';
+        ingredientInputs.forEach(input => {
+          if (input) input.value = '';
+        });
+        runFilter();
+      });
+      searchInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') runFilter();
+      });
+
+      function runIngredientInputFilter() {
+        const ingredients = ingredientInputs
+          .map(input => (input?.value || '').trim().toLowerCase())
+          .filter(Boolean)
+          .slice(0, 3);
+
+        activeQuickFilter = '';
+        activeUrlIngredients = ingredients;
+        searchInput.value = ingredients.join(', ');
+        runFilter();
+      }
+
+      ingredientSearchBtn.addEventListener('click', runIngredientInputFilter);
+      ingredientClearBtn.addEventListener('click', () => {
+        activeQuickFilter = '';
+        activeUrlIngredients = [];
+        ingredientInputs.forEach(input => {
+          if (input) input.value = '';
+        });
+        searchInput.value = '';
+        runFilter();
+      });
+
+      ingredientInputs.forEach(input => {
+        input.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter') {
+            e.preventDefault();
+            runIngredientInputFilter();
+          }
+        });
+      });
+
+      if (activeUrlIngredients.length) {
+        ingredientInputs.forEach((input, index) => {
+          if (input) input.value = activeUrlIngredients[index] || '';
+        });
+      }
+
+      loadDataset();
+    </script>
+  </body>
+</html>

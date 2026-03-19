@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipes | Whats for Dinner</title>
+    <link rel="icon" type="image/x-icon" href="../assets/icons/favicon-32x32.png">
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body>
+    <!-- I keep the shared layout here so this page matches the rest of the site -->
+    <header>
+      <div class="top-bar">
+      <a href="https://instagram.com" title="Instagram"><img src="../assets/icons/instagram.svg" alt="Instagram"></a>
+          <a href="https://x.com" title="X"><img src="../assets/icons/x.svg" alt="X"></a>
+          <a href="https://facebook.com" title="Facebook"><img src="../assets/icons/facebook.svg" alt="Facebook"></a>
+      </div>
+      <div class="nav-container">
+        <div class="logo">WHATS FOR DINNER</div>
+        <nav>
+          <a href="index.html">HOME</a>
+          <a href="recipes.html">RECIPES</a>
+          <a href="meal-inspo.html">MEAL INSPIRATION</a>
+          <a href="about.html">ABOUT</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- I use this hero block to introduce the recipes page quickly -->
+    <section class="page-hero">
+      <h1>OUR RECIPES</h1>
+      <p>Browse & Discover Your Next Meal</p>
+    </section>
+
+    <!-- I keep ingredient search near the top for fast meal lookup -->
+    <section class="ingredient-search">
+      <div class="search-inner">
+        <h3>ENTER UP TO THREE INGREDIENTS</h3>
+        <div class="input-row">
+          <input type="text" placeholder="Ingredient 1" />
+          <input type="text" placeholder="Ingredient 2" />
+          <input type="text" placeholder="Ingredient 3" />
+        </div>
+        <div class="btn-row">
+          <button class="btn-primary">FIND RECIPES</button>
+          <button class="btn-secondary">CLEAR</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- I show trending picks here so the page feels active even before searching -->
+    <section class="quick-inspo-top">
+      <h2 class="section-title">TRENDING MEALS</h2>
+      <div class="inspo-grid" id="recipesTrendingGrid">
+        <article class="inspo-card">Loading trending meals...</article>
+      </div>
+    </section>
+
+    <!-- I use a featured carousel to highlight a few standout dishes -->
+    <section class="recipe-hero-carousel">
+      <div class="carousel-container" id="recipesFeaturedCarousel">
+        <div class="carousel-slide active">
+          <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" alt="Featured dish" />
+          <div class="carousel-text">Loading featured meals...</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- I keep quick filters here so users can narrow results in one click -->
+    <section class="recipe-filters">
+      <h2 class="section-title">FILTER RECIPES</h2>
+      <div class="filter-row">
+        <button class="btn-primary" type="button" data-filter-key="chicken">CHICKEN</button>
+        <button class="btn-primary" type="button" data-filter-key="vegetarian">VEGETARIAN</button>
+        <button class="btn-primary" type="button" data-filter-key="pasta">PASTA</button>
+        <button class="btn-primary" type="button" data-filter-key="under30">UNDER 30 MIN</button>
+      </div>
+    </section>
+
+    <!-- I render the main recipe results grid in this section -->
+    <section class="recipe-grid">
+      <div id="recipesNameGrid" class="recipe-tiles">
+        <a class="recipe-card" href="recipes.html">Loading recipe names...</a>
+      </div>
+    </section>
+
+    <!-- I keep country categories here as a second way to browse recipes -->
+    <section class="category-section">
+      <h2 class="section-title">POPULAR CATEGORIES</h2>
+      <div class="category-grid">
+        <a href="../countries/italian/index.html" class="category-card">
+          <img src="../assets/flags/italy.svg" alt="Italy flag" class="country-flag">
+          <span>ITALIAN</span>
+        </a>
+        <a href="../countries/indian/index.html" class="category-card">
+          <img src="../assets/flags/india.svg" alt="India flag" class="country-flag">
+          <span>INDIAN</span>
+        </a>
+        <a href="../countries/chinese/index.html" class="category-card">
+          <img src="../assets/flags/china.svg" alt="China flag" class="country-flag">
+          <span>CHINESE</span>
+        </a>
+        <a href="../countries/american/index.html" class="category-card">
+          <img src="../assets/flags/usa.svg" alt="USA flag" class="country-flag">
+          <span>AMERICAN</span>
+        </a>
+        <a href="../countries/thai/index.html" class="category-card">
+          <img src="../assets/flags/thailand.svg" alt="Thailand flag" class="country-flag">
+          <span>THAI</span>
+        </a>
+        <a href="../countries/japanese/index.html" class="category-card">
+          <img src="../assets/flags/japan.svg" alt="Japan flag" class="country-flag">
+          <span>JAPANESE</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- I use this newsletter block as a simple call to action at the end -->
+    <section class="newsletter">
+      <h2>GET WEEKLY RECIPES</h2>
+      <input type="email" placeholder="ENTER EMAIL" />
+      <button class="btn-primary">SUBSCRIBE</button>
+    </section>
+
+    <footer>
+      <div class="footer-bottom">WHATS FOR DINNER @ 2026</div>
+    </footer>
+
+    <!-- I load shared behaviour from the main script so dynamic sections can update -->
+    <script src="../js/script.js"></script>
+  </body>
+</html>

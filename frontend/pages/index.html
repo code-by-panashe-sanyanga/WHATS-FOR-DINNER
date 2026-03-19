@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whats for Dinner | Fresh Recipes</title>
+    <link rel="icon" type="image/x-icon" href="../assets/icons/favicon-32x32.png">
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body>
+    <!-- I keep the shared layout here so this page matches the rest of the site -->
+    <header>
+      <div class="top-bar">
+        <div class="social-links">
+          <a href="https://instagram.com" title="Instagram"><img src="../assets/icons/instagram.svg" alt="Instagram"></a>
+          <a href="https://x.com" title="X"><img src="../assets/icons/x.svg" alt="X"></a>
+          <a href="https://facebook.com" title="Facebook"><img src="../assets/icons/facebook.svg" alt="Facebook"></a>
+        </div>
+      </div>
+      <div class="nav-container">
+        <div class="logo">WHATS FOR DINNER</div>
+        <nav>
+          <a href="index.html">HOME</a>
+          <a href="recipes.html">RECIPES</a>
+          <a href="meal-inspo.html">MEAL INSPIRATION</a>
+          <a href="about.html">ABOUT</a>
+        </nav>
+        <div class="nav-actions">
+          <input type="text" placeholder="SEARCH" />
+          <button class="btn-signin">SIGN IN</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-circle-container">
+          <div class="hero-circle" id="main-plate">
+            <img
+              src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=500"
+              alt="Fresh Salad"
+            />
+          </div>
+          <div class="slider-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+        <div class="hero-text-box">
+          <h1>TEXT WITH FOOD SHOWN ON HERO PAGE</h1>
+          <p>PLAN OR GET YOUR MEAL INSPIRATION FROM US</p>
+        </div>
+      </div>
+    </section>
+    <section class="inspo">
+      <h2 class="section-title">QUICK INSPIRATION MEALS</h2>
+
+      <div class="inspo-grid-horizontal" id="quickInspoGrid">
+        <article class="inspo-card country-inspo-card">
+          <p>Loading random meals...</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="ingredient-search">
+      <div class="search-inner">
+        <h3>ENTER UP TO THREE INGREDIENTS</h3>
+        <div class="input-row">
+          <input type="text" placeholder="Ingredient 1" />
+          <input type="text" placeholder="Ingredient 2" />
+          <input type="text" placeholder="Ingredient 3" />
+        </div>
+        <div class="btn-row">
+          <button class="btn-primary">FIND RECIPES</button>
+          <button class="btn-secondary">CLEAR</button>
+        </div>
+      </div>
+    </section>
+
+    <footer></footer>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
