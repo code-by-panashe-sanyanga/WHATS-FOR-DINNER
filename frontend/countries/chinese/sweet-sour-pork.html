@@ -6,14 +6,14 @@
     <title>Sweet and Sour Pork | Whats for Dinner</title>
     <link rel="icon" type="image/x-icon" href="../../assets/icons/favicon-32x32.png">
     <link rel="stylesheet" href="../../styles/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   </head>
   <body>
-    <!-- I keep the shared layout here so this page matches the rest of the site -->
     <header>
       <div class="top-bar">
         <a href="https://instagram.com" title="Instagram"><img src="../../assets/icons/instagram.svg" alt="Instagram"></a>
-          <a href="https://x.com" title="X"><img src="../../assets/icons/x.svg" alt="X"></a>
-          <a href="https://facebook.com" title="Facebook"><img src="../../assets/icons/facebook.svg" alt="Facebook"></a>
+        <a href="https://x.com" title="X"><img src="../../assets/icons/x.svg" alt="X"></a>
+        <a href="https://facebook.com" title="Facebook"><img src="../../assets/icons/facebook.svg" alt="Facebook"></a>
       </div>
       <div class="nav-container">
         <div class="logo">WHATS FOR DINNER</div>
@@ -27,43 +27,65 @@
     </header>
 
     <section class="recipe-hero">
+  <div class="hero-text-box">
+      <span class="dish-country">Chinese</span>
       <h1>Sweet and Sour Pork</h1>
-      <div class="recipe-main-img">
-        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sweet-and-sour_pork.jpg" alt="Sweet and Sour Pork" />
+      <div class="recipe-meta" style="display: flex; justify-content: center; gap: 20px; margin-top: 10px; color: var(--dark-grey); font-weight: 600;">
+          <span><i class="far fa-clock"></i> 45 MINS PREP</span>
+          <span><i class="fas fa-utensils"></i> SERVES 4</span>
       </div>
-    </section>
+  </div>
+  <div class="recipe-main-img">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sweet_and_sour_pork.JPG" alt="Sweet and Sour Pork" />
+  </div>
+</section>
 
-    <section class="recipe-content">
-      <div class="ingredients">
-        <h2>Ingredients</h2>
-        <ul>
-          <li>2 large eggs, beaten</li>
-          <li>1/4 cup cornstarch</li>
-          <li>1/4 cup all-purpose flour</li>
-          <li>1 pound boneless pork loin, cut into1-inch pieces</li>
-          <li>3 tablespoons water</li>
-          <li>2 tablespoons ketchup</li>
-          <li>2 tablespoons fresh pineapple juice, or juice from the canned pineapple, or substitute orange juice</li>
-          <li>1 1/2 tablespoons cider vinegar</li>
-          <li>1 tablespoon Worcestershire sauce</li>
-          <li>1 tablespoon soy sauce</li>
-          <li>2 tablespoons sugar</li>
-          <li>2 cups peanut or vegetable oil for frying, plus 1 tablespoon for stir-frying</li>
-          <li>1 tablespoon minced garlic</li>
-          <li>1 teaspoon minced fresh ginger</li>
-          <li>1 cup fresh or canned bite-size pineapple chunks</li>
-        </ul>
-      </div>
+    <section class="recipe-details-container" style="max-width: 900px; margin: 40px auto; padding: 0 20px;">
+      <div class="recipe-info-layout">
+          <div class="ingredients-list">
+              <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Ingredients</h2>
+              <ul style="list-style: none; padding: 0;">
+                  <li class="recipe-step-item"><input type="checkbox"> 1 lb pork shoulder, cut into 1-inch cubes</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 1/4 cup cornstarch</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 1 egg, lightly beaten</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 2 cups vegetable oil for frying</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 1 bell pepper, cut into chunks</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 1/2 onion, cut into chunks</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 1/2 cup pineapple chunks</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 2 cloves garlic, minced</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 1 tsp ginger, minced</li>
+                  <li class="recipe-step-item"><input type="checkbox"> <strong>Sauce:</strong> 1/3 cup vinegar, 1/4 cup sugar, 2 tbsp ketchup, 1 tbsp soy sauce</li>
+              </ul>
+          </div>
 
-      <div class="instructions">
-        <h2>Instructions</h2>
-        <ol>
-          <li>1. Prepare the batter: In a medium bowl, stir together the eggs, cornstarch, and flour. The batter should be liquidy enough to coat the pork. If the batter looks too dry, add 1 to 2 tablespoons of water and stir again. Add the pork and stir gently to coat. Let stand at room temperature for 10 minutes.</li>
-          <li>2. Prepare the sauce: In a small bowl, stir together the water, ketchup, pineapple juice, cider vinegar, Worcestershire sauce, soy sauce, and sugar until the sugar is dissolved. Set aside.</li>
-          <li>3. Heat the peanut oil in a wok until it registers 350°F on an instant-read oil thermometer. Working in 2 or 3 batches, add the first batch of pork cubes and fry until golden brown on the outside and cooked through, 4 to 5 minutes. Remove the pork with a slotted spoon and drain on a plate lined with paper towels. Remove any excess bits of batter from the oil with a slotted spoon or fine-mesh strainer. Continue frying the rest of the pork.</li>
-          <li>4. Transfer the oil to a heat-proof container. (It will take about 1 hour to fully cool, after which you can transfer it to a container with a tight lid to dispose of it.) Wipe up any food remains in the wok with paper towels, being careful not to touch the metal directly with your hands.</li>
-          <li>5. Heat the remaining 1 tablespoon oil in the wok or a skillet over medium-high heat. Add the garlic and ginger and stir-fry until just aromatic, about 20 seconds. Add the pineapple and the sauce and stir to coat the vegetables. Let the sauce simmer for 2 to 3 minutes to allow the pineapple to become tender (about 1 minute for canned pineapple). Return pork to the wok and toss until well coated with the sauce. Transfer to a plate and serve.</li>
-        </ol>
+          <div class="instructions-list">
+              <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Instructions</h2>
+              
+              <div class="instruction-step">
+                  <span class="step-label">01</span>
+                  <p>In a medium bowl, combine the pork, cornstarch, and egg. Use your hands to thoroughly coat the pork with the batter. Let sit for 10 to 15 minutes.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">02</span>
+                  <p>In a small bowl, combine the vinegar, sugar, ketchup, and soy sauce. Stir until the sugar is dissolved and set aside.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">03</span>
+                  <p>Heat oil in a wok or large skillet over high heat. Working in batches, add the pork and fry until golden-brown on the outside and cooked through, 4 to 5 minutes. Remove and drain on paper towels.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">04</span>
+                  <p>Wipe the wok and heat 1 tbsp oil. Add garlic and ginger, stir-frying for 20 seconds. Add the pineapple, peppers, onion, and the sauce. Simmer for 2–3 minutes.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">05</span>
+                  <p>Return the pork to the wok and toss until well coated with the sauce. Transfer to a plate and serve immediately.</p>
+              </div>
+          </div>
       </div>
     </section>
 
@@ -76,7 +98,6 @@
       </div>
       <div class="footer-bottom">WHATS FOR DINNER @ 2026</div>
     </footer>
-
     <script src="../../js/script.js"></script>
   </body>
 </html>

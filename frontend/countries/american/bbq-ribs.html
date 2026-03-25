@@ -6,9 +6,9 @@
     <title>BBQ Ribs | Whats for Dinner</title>
     <link rel="icon" type="image/x-icon" href="../../assets/icons/favicon-32x32.png">
     <link rel="stylesheet" href="../../styles/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   </head>
   <body>
-    <!-- I keep the shared layout here so this page matches the rest of the site -->
     <header>
       <div class="top-bar">
         <a href="https://instagram.com" title="Instagram"><img src="../../assets/icons/instagram.svg" alt="Instagram"></a>
@@ -27,34 +27,68 @@
     </header>
 
     <section class="recipe-hero">
-      <h1>BBQ Ribs</h1>
+      <div class="hero-text-box">
+          <span class="dish-country">American</span>
+          <h1>BBQ Ribs</h1>
+          <div class="recipe-meta" style="display: flex; justify-content: center; gap: 20px; margin-top: 10px; color: var(--dark-grey); font-weight: 600;">
+              <span><i class="far fa-clock"></i> 3 HOURS PREP</span>
+              <span><i class="fas fa-utensils"></i> SERVES 4</span>
+          </div>
+      </div>
       <div class="recipe-main-img">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Spareribs_20160506_182617113.jpg/330px-Spareribs_20160506_182617113.jpg" alt="BBQ Ribs" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Spareribs_20160506_182617113.jpg/330px-Spareribs_20160506_182617113.jpg" alt="BBQ Ribs" />
       </div>
     </section>
 
-    <section class="recipe-content">
-      <div class="ingredients">
-        <h2>Ingredients</h2>
-        <ul>
-          <li>2 to 4 pounds boneless pork ribs (you could also use beef)</li>
-          <li>1 cup pineapple juice, unsweetened</li>
-          <li>2 teaspoons salt</li>
-          <li>1 teaspoon ground black pepper</li>
-          <li>2 teaspoons sugar</li>
-          <li>1 teaspoon paprika</li>
-          <li>About 1 1/2 cups water</li>
-          <li>1 cup Barbecue Sauce</li>        </ul>
-      </div>
-      <div class="instructions">
-        <h2>Instructions</h2>
-        <ol>
-          <li>1. Preheat the oven to 250°F.</li>
-          <li>2. Wash the ribs under cold running water and pat them dry.</li>
-          <li>3. Put the ribs in a large deep dish and pour the pineapple juice over it. Cover and marinate in the refrigerator for at least 4 hours, preferably overnight.</li>
-          <li>4. Whisk together the salt, pepper, sugar, and paprika in a large baking dish. Roll the ribs in the mixture, then arrange them in the baking dish. Add enough water to come halfway up the sides of the baking pan.</li>
-          <li>5. Bake the ribs for about 1 hour or until they are no longer pink when the meat is sliced away from the bone, then remove them from the oven and drain. Add the barbecue sauce and toss the ribs evenly to coat.</li>
-          <li>6. Increase the oven temperature to 400°F and return the baking dish to the oven. Bake for 20 to 30 minutes. Remove from heat and serve.</li>        </ol>
+    <section class="recipe-details-container" style="max-width: 900px; margin: 40px auto; padding: 0 20px;">
+      <div class="recipe-info-layout">
+          <div class="ingredients-list">
+              <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Ingredients</h2>
+              <ul style="list-style: none; padding: 0;">
+                  <li class="recipe-step-item"><input type="checkbox"> 2 to 4 pounds boneless pork ribs (you could also use beef)</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 1 cup pineapple juice, unsweetened</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 2 teaspoons salt</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 1 teaspoon ground black pepper</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 2 teaspoons sugar</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 1 teaspoon paprika</li>
+                  <li class="recipe-step-item"><input type="checkbox"> About 1 1/2 cups water</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 1 cup Barbecue Sauce</li>
+              </ul>
+          </div>
+
+          <div class="instructions-list">
+              <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Instructions</h2>
+              
+              <div class="instruction-step">
+                  <span class="step-label">01</span>
+                  <p>Preheat the oven to 250°F.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">02</span>
+                  <p>Wash the ribs under cold running water and pat them dry.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">03</span>
+                  <p>Put the ribs in a large deep dish and pour the pineapple juice over it. Cover and marinate in the refrigerator for at least 4 hours, preferably overnight.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">04</span>
+                  <p>Whisk together the salt, pepper, sugar, and paprika in a large baking dish. Roll the ribs in the mixture, then arrange them in the baking dish. Add enough water to come halfway up the sides of the baking pan.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">05</span>
+                  <p>Bake the ribs for about 1 hour or until they are no longer pink when the meat is sliced away from the bone, then remove them from the oven and drain. Add the barbecue sauce and toss the ribs evenly to coat.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">06</span>
+                  <p>Increase the oven temperature to 400°F and return the baking dish to the oven. Bake for 20 to 30 minutes. Remove from heat and serve.</p>
+              </div>
+          </div>
       </div>
     </section>
 

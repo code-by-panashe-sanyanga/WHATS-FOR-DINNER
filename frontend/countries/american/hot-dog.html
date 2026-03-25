@@ -6,9 +6,9 @@
     <title>Hot Dog | Whats for Dinner</title>
     <link rel="icon" type="image/x-icon" href="../../assets/icons/favicon-32x32.png">
     <link rel="stylesheet" href="../../styles/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   </head>
   <body>
-    <!-- I keep the shared layout here so this page matches the rest of the site -->
     <header>
       <div class="top-bar">
         <a href="https://instagram.com" title="Instagram"><img src="../../assets/icons/instagram.svg" alt="Instagram"></a>
@@ -27,32 +27,57 @@
     </header>
 
     <section class="recipe-hero">
-      <h1>Hot Dog</h1>
+      <div class="hero-text-box">
+          <span class="dish-country">American</span>
+          <h1>Hot Dog</h1>
+          <div class="recipe-meta" style="display: flex; justify-content: center; gap: 20px; margin-top: 10px; color: var(--dark-grey); font-weight: 600;">
+              <span><i class="far fa-clock"></i> 15 MINS PREP</span>
+              <span><i class="fas fa-utensils"></i> SERVES 4</span>
+          </div>
+      </div>
       <div class="recipe-main-img">
-        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Hotdog_-_Evan_Swigart.jpg" alt="Hot Dog" />
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Hotdog_-_Evan_Swigart.jpg" alt="Hot Dog" />
       </div>
     </section>
 
-    <section class="recipe-content">
-      <div class="ingredients">
-        <h2>Ingredients</h2>
-        <ul>
-          <li>About 3 tablespoons unsalted butter, softened</li>
-          <li>4 large rolls, preferably teleras, Portuguese, kaiser, or ciabatta, split</li>
-          <li>1/2 cup Refried Black Beans, homemade or canned</li>
-          <li>8 thin slices yellow American cheese</li>
-          <li>Scant 1/4 cup Mexican crema or crème fraîche</li>
-          <li>4 teaspoons Dijon or yellow mustard</li>
-          <li>6 fully-cooked beef hot dogs (2 ounces each)</li>
-          <li>halved lengthwise</li>        </ul>
-      </div>
-      <div class="instructions">
-        <h2>Instructions</h2>
-        <ol>
-          <li>Heat a large nonstick skillet over medium-high heat. Spread the butter evenly over the cut sides of the rolls. Cook the rolls, buttered sides down, in the skillet until they are light golden brown and crisp, but still soft in the middle, a minute or two.</li>
-          <li>Spread a layer of beans (a tablespoon or two) over the bottom half of each roll, then put a slice of cheese on the roll bottoms. Spread the crema and mustard over the roll tops and add the remaining cheese.</li>
-          <li>Cook the hot dogs, cut side down, in the same pan until they're golden brown, about 2 minutes per side. Set the bun bottoms, cheese side down, on top of the hot dogs. Cook for a minute more, so the cheese has a chance to melt.</li>
-          <li>Flip the bun bottoms and the hot dogs together onto a cutting board. Top with SLICED CANNED PICKLED JALAPEÑOS, THINLY SLICED WHITE ONIONS, slices of RIPE MEXICAN HASS AVOCADO, and a pinch of salt. Cover with the roll tops and press firmly but gently.</li>        </ol>
+    <section class="recipe-details-container" style="max-width: 900px; margin: 40px auto; padding: 0 20px;">
+      <div class="recipe-info-layout">
+          <div class="ingredients-list">
+              <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Ingredients</h2>
+              <ul style="list-style: none; padding: 0;">
+                  <li class="recipe-step-item"><input type="checkbox"> About 3 tablespoons unsalted butter, softened</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 4 large rolls, preferably teleras, Portuguese, kaiser, or ciabatta, split</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 1/2 cup Refried Black Beans, homemade or canned</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 8 thin slices yellow American cheese</li>
+                  <li class="recipe-step-item"><input type="checkbox"> Scant 1/4 cup Mexican crema or crème fraîche</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 4 teaspoons Dijon or yellow mustard</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 6 fully-cooked beef hot dogs (2 ounces each), halved lengthwise</li>
+              </ul>
+          </div>
+
+          <div class="instructions-list">
+              <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Instructions</h2>
+              
+              <div class="instruction-step">
+                  <span class="step-label">01</span>
+                  <p>Heat a large nonstick skillet over medium-high heat. Spread the butter evenly over the cut sides of the rolls. Cook the rolls, buttered sides down, in the skillet until they are light golden brown and crisp, but still soft in the middle, a minute or two.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">02</span>
+                  <p>Spread a layer of beans (a tablespoon or two) over the bottom half of each roll, then put a slice of cheese on the roll bottoms. Spread the crema and mustard over the roll tops and add the remaining cheese.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">03</span>
+                  <p>Cook the hot dogs, cut side down, in the same pan until they're golden brown, about 2 minutes per side. Set the bun bottoms, cheese side down, on top of the hot dogs. Cook for a minute more, so the cheese has a chance to melt.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">04</span>
+                  <p>Flip the bun bottoms and the hot dogs together onto a cutting board. Top with sliced canned pickled jalapeños, thinly sliced white onions, slices of ripe avocado, and a pinch of salt. Cover with the roll tops and press firmly but gently.</p>
+              </div>
+          </div>
       </div>
     </section>
 

@@ -6,9 +6,9 @@
     <title>Mac and Cheese | Whats for Dinner</title>
     <link rel="icon" type="image/x-icon" href="../../assets/icons/favicon-32x32.png">
     <link rel="stylesheet" href="../../styles/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   </head>
   <body>
-    <!-- I keep the shared layout here so this page matches the rest of the site -->
     <header>
       <div class="top-bar">
         <a href="https://instagram.com" title="Instagram"><img src="../../assets/icons/instagram.svg" alt="Instagram"></a>
@@ -27,33 +27,55 @@
     </header>
 
     <section class="recipe-hero">
-      <h1>Mac and Cheese</h1>
+      <div class="hero-text-box">
+          <span class="dish-country">American</span>
+          <h1>Mac and Cheese</h1>
+          <div class="recipe-meta" style="display: flex; justify-content: center; gap: 20px; margin-top: 10px; color: var(--dark-grey); font-weight: 600;">
+              <span><i class="far fa-clock"></i> 45 MINS PREP</span>
+              <span><i class="fas fa-utensils"></i> SERVES 6</span>
+          </div>
+      </div>
       <div class="recipe-main-img">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Original_Mac_n_Cheese_.jpg/330px-Original_Mac_n_Cheese_.jpg" alt="Mac and Cheese" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Original_Mac_n_Cheese_.jpg/330px-Original_Mac_n_Cheese_.jpg" alt="Mac and Cheese" />
       </div>
     </section>
 
-    <section class="recipe-content">
-      <div class="ingredients">
-        <h2>Ingredients</h2>
-        <ul>
-          <li>1 cup evaporated milk</li>
-          <li>1 cup whole milk</li>
-          <li>1 tsp. garlic powder</li>
-          <li>1 tsp. onion powder</li>
-          <li>1 tsp. smoked paprika</li>
-          <li>½ tsp. freshly ground black pepper</li>
-          <li>1 tsp. kosher salt, plus more</li>
-          <li>2 lb. extra-sharp cheddar, coarsely grated</li>
-          <li>4 oz. full-fat cream cheese</li>
-          <li>1 lb. elbow macaroni</li>        </ul>
-      </div>
-      <div class="instructions">
-        <h2>Instructions</h2>
-        <ol>
-          <li>Place a rack in middle of oven; preheat to 400°. Bring evaporated milk and whole milk to a bare simmer in a large saucepan over medium heat. Whisk in garlic powder, onion powder, paprika, pepper, and 1 tsp. salt. Working in batches, whisk in three fourths of the cheddar, then all of the cream cheese.</li>
-          <li>Meanwhile, bring a large pot of generously salted water to a boil (it should have a little less salt than seawater). Cook macaroni, stirring occasionally, until very al dente, about 4 minutes. Drain in a colander.</li>
-          <li>Add macaroni to cheese sauce in pan and mix until well coated. Evenly spread out half of macaroni mixture in a 13x9" baking dish. Sprinkle half of remaining cheddar evenly over. Layer remaining macaroni mixture on top and sprinkle with remaining cheddar. Bake until all of the cheese is melted, about 10 minutes. Let cool slightly before serving.</li>        </ol>
+    <section class="recipe-details-container" style="max-width: 900px; margin: 40px auto; padding: 0 20px;">
+      <div class="recipe-info-layout">
+          <div class="ingredients-list">
+              <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Ingredients</h2>
+              <ul style="list-style: none; padding: 0;">
+                  <li class="recipe-step-item"><input type="checkbox"> 1 cup evaporated milk</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 1 cup whole milk</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 1 tsp. garlic powder</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 1 tsp. onion powder</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 1 tsp. smoked paprika</li>
+                  <li class="recipe-step-item"><input type="checkbox"> ½ tsp. freshly ground black pepper</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 1 tsp. kosher salt, plus more</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 2 lb. extra-sharp cheddar, coarsely grated</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 4 oz. full-fat cream cheese</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 1 lb. elbow macaroni</li>
+              </ul>
+          </div>
+
+          <div class="instructions-list">
+              <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Instructions</h2>
+              
+              <div class="instruction-step">
+                  <span class="step-label">01</span>
+                  <p>Place a rack in middle of oven; preheat to 400°. Bring evaporated milk and whole milk to a bare simmer in a large saucepan over medium heat. Whisk in garlic powder, onion powder, paprika, pepper, and 1 tsp. salt. Working in batches, whisk in three fourths of the cheddar, then all of the cream cheese.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">02</span>
+                  <p>Meanwhile, bring a large pot of generously salted water to a boil (it should have a little less salt than seawater). Cook macaroni, stirring occasionally, until very al dente, about 4 minutes. Drain in a colander.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">03</span>
+                  <p>Add macaroni to cheese sauce in pan and mix until well coated. Evenly spread out half of macaroni mixture in a 13x9" baking dish. Sprinkle half of remaining cheddar evenly over. Layer remaining macaroni mixture on top and sprinkle with remaining cheddar. Bake until all of the cheese is melted, about 10 minutes. Let cool slightly before serving.</p>
+              </div>
+          </div>
       </div>
     </section>
 

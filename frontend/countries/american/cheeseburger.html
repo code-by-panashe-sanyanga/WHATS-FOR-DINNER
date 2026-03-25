@@ -6,9 +6,9 @@
     <title>Cheeseburger | Whats for Dinner</title>
     <link rel="icon" type="image/x-icon" href="../../assets/icons/favicon-32x32.png">
     <link rel="stylesheet" href="../../styles/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   </head>
   <body>
-    <!-- I keep the shared layout here so this page matches the rest of the site -->
     <header>
       <div class="top-bar">
         <a href="https://instagram.com" title="Instagram"><img src="../../assets/icons/instagram.svg" alt="Instagram"></a>
@@ -27,38 +27,67 @@
     </header>
 
     <section class="recipe-hero">
-      <h1>Cheeseburger</h1>
+      <div class="hero-text-box">
+          <span class="dish-country">American</span>
+          <h1>Cheeseburger</h1>
+          <div class="recipe-meta" style="display: flex; justify-content: center; gap: 20px; margin-top: 10px; color: var(--dark-grey); font-weight: 600;">
+              <span><i class="far fa-clock"></i> 20 MINS PREP</span>
+              <span><i class="fas fa-utensils"></i> SERVES 4</span>
+          </div>
+      </div>
       <div class="recipe-main-img">
-        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Cheeseburger.png" alt="Cheeseburger" />
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Cheeseburger.png" alt="Cheeseburger" />
       </div>
     </section>
 
-    <section class="recipe-content">
-      <div class="ingredients">
-        <h2>Ingredients</h2>
-        <ul>
-          <li>3/4 pound freshly ground sirloin</li>
-          <li>"1/4 pound freshly ground brisket (if you cant find brisket, substitute ground chuck)", 2 tablespoons unsalted butter, plus more if needed</li>
-          <li>"4 potato rolls, preferably Martins brand", 2 tablespoons vegetable oil</li>
-          <li>Kosher salt, to taste</li>
-          <li>Freshly ground black pepper, to taste</li>
-          <li>4 slices American cheese</li>
-          <li>Four 1/4-inch-thick tomato slices</li>
-          <li>4 burger-sized pieces green-leaf lettuce</li>
-          <li>Epicurious Not-So-Secret Sauce</li>
-          <li>2 large griddle spatulas</li>
-        </ul>
-      </div>
+    <section class="recipe-details-container" style="max-width: 900px; margin: 40px auto; padding: 0 20px;">
+      <div class="recipe-info-layout">
+          <div class="ingredients-list">
+              <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Ingredients</h2>
+              <ul style="list-style: none; padding: 0;">
+                  <li class="recipe-step-item"><input type="checkbox"> 3/4 pound freshly ground sirloin</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 1/4 pound freshly ground brisket (if you can't find brisket, substitute ground chuck)</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 2 tablespoons unsalted butter, plus more if needed</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 4 potato rolls, preferably Martin's brand</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 2 tablespoons vegetable oil</li>
+                  <li class="recipe-step-item"><input type="checkbox"> Kosher salt, to taste</li>
+                  <li class="recipe-step-item"><input type="checkbox"> Freshly ground black pepper, to taste</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 4 slices American cheese</li>
+                  <li class="recipe-step-item"><input type="checkbox"> Four 1/4-inch-thick tomato slices</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 4 burger-sized pieces green-leaf lettuce</li>
+                  <li class="recipe-step-item"><input type="checkbox"> Epicurious Not-So-Secret Sauce</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 2 large griddle spatulas</li>
+              </ul>
+          </div>
 
-      <div class="instructions">
-        <h2>Instructions</h2>
-        <ol>
-          <li>In a large bowl, use your hands to gently combine ground sirloin and brisket. Divide into four equal-sized, loosely meat pucks about 2 1/2 inches thick. Place patties on a plate lined with plastic wrap or parchment; transfer to the freezer for 15 minutes (do not exceed this amount of time).</li>
-          <li>Meanwhile, heat a griddle, large cast-iron skillet, or large heavy stainless-steel skillet over medium-high heat. Melt 2 tablespoons butter and place the buns, cut-side down, in the pan. Cook until cut sides are golden-brown, about 2 minutes (you may need to do this in two batches, using additional butter if needed). Place toasted buns on four plates, reserving griddle or skillet.</li>
-          <li>Remove patties from freezer. Increase heat to high and add 2 tablespoons oil to the griddle or skillet; heat until oil begins to smoke. Working one at a time, add a patty to griddle and immediately press one of the spatulas flat on top of the patty. Use the handle of the other to hammer the spatula down, smashing the patty until 1/2 inch thick. (You'll have to hammer harder and longer than you might think.) Press down and slide the spatula to remove it without tearing the patty; generously season patty with salt and pepper. Repeat smashing process with remaining patties.</li>
-          <li>Flip each patty once the first side is deeply browned and crisp with craggly edges, 1 1/2 to 2 minutes for medium. Season the cooked side generously with salt and pepper, then add a slice of cheese and continue to cook until melted, 1 1/2 to 2 minutes more. Transfer cooked patties to bottom burger buns.</li>
-          <li>Top burgers with tomatoes and lettuce; spread top buns with Not-So-Secret Sauce and place on top. Serve immediately.</li>
-        </ol>
+          <div class="instructions-list">
+              <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Instructions</h2>
+              
+              <div class="instruction-step">
+                  <span class="step-label">01</span>
+                  <p>In a large bowl, use your hands to gently combine ground sirloin and brisket. Divide into four equal-sized, loosely formed meat pucks about 2 1/2 inches thick. Place patties on a plate lined with plastic wrap or parchment; transfer to the freezer for 15 minutes (do not exceed this amount of time).</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">02</span>
+                  <p>Meanwhile, heat a griddle, large cast-iron skillet, or large heavy stainless-steel skillet over medium-high heat. Melt 2 tablespoons butter and place the buns, cut-side down, in the pan. Cook until cut sides are golden-brown, about 2 minutes (you may need to do this in two batches, using additional butter if needed). Place toasted buns on four plates, reserving griddle or skillet.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">03</span>
+                  <p>Remove patties from freezer. Increase heat to high and add 2 tablespoons oil to the griddle or skillet; heat until oil begins to smoke. Working one at a time, add a patty to griddle and immediately press one of the spatulas flat on top of the patty. Use the handle of the other to hammer the spatula down, smashing the patty until 1/2 inch thick. (You'll have to hammer harder and longer than you might think.) Press down and slide the spatula to remove it without tearing the patty; generously season patty with salt and pepper. Repeat smashing process with remaining patties.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">04</span>
+                  <p>Flip each patty once the first side is deeply browned and crisp with craggly edges, 1 1/2 to 2 minutes for medium. Season the cooked side generously with salt and pepper, then add a slice of cheese and continue to cook until melted, 1 1/2 to 2 minutes more. Transfer cooked patties to bottom burger buns.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">05</span>
+                  <p>Top burgers with tomatoes and lettuce; spread top buns with Not-So-Secret Sauce and place on top. Serve immediately.</p>
+              </div>
+          </div>
       </div>
     </section>
 
@@ -71,7 +100,6 @@
       </div>
       <div class="footer-bottom">WHATS FOR DINNER @ 2026</div>
     </footer>
-
     <script src="../../js/script.js"></script>
   </body>
 </html>

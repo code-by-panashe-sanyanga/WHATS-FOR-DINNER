@@ -6,9 +6,9 @@
     <title>Buffalo Wings | Whats for Dinner</title>
     <link rel="icon" type="image/x-icon" href="../../assets/icons/favicon-32x32.png">
     <link rel="stylesheet" href="../../styles/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   </head>
   <body>
-    <!-- I keep the shared layout here so this page matches the rest of the site -->
     <header>
       <div class="top-bar">
         <a href="https://instagram.com" title="Instagram"><img src="../../assets/icons/instagram.svg" alt="Instagram"></a>
@@ -27,34 +27,64 @@
     </header>
 
     <section class="recipe-hero">
-      <h1>Buffalo Wings</h1>
+      <div class="hero-text-box">
+          <span class="dish-country">American</span>
+          <h1>Buffalo Wings</h1>
+          <div class="recipe-meta" style="display: flex; justify-content: center; gap: 20px; margin-top: 10px; color: var(--dark-grey); font-weight: 600;">
+              <span><i class="far fa-clock"></i> 45 MINS PREP</span>
+              <span><i class="fas fa-utensils"></i> SERVES 4</span>
+          </div>
+      </div>
       <div class="recipe-main-img">
-        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Buffalo_wings.jpg" alt="Buffalo Wings" />
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Buffalo_wings.jpg" alt="Buffalo Wings" />
       </div>
     </section>
 
-    <section class="recipe-content">
-      <div class="ingredients">
-        <h2>Ingredients</h2>
-        <ul>
-          <li>4 large carrots, peeled</li>
-          <li>4 large ribs celery, trimmed</li>
-          <li>4 pounds chicken wings, (about 24), tips removed, rinsed and patted dry</li>
-          <li>1/2 cup unsalted butter</li>
-          <li>2 tablespoons Tabasco sauce</li>
-          <li>1 cup peanut oil</li>
-          <li>1 cup vegetable oil</li>
-          <li>Salt and pepper, to taste</li>
-          <li>Danish Blue-Cheese Dip</li>        </ul>
-      </div>
-      <div class="instructions">
-        <h2>Instructions</h2>
-        <ol>
-          <li>1. Cut the carrots and celery into sticks; set aside.</li>
-          <li>2. Using a sharp knife, separate the chicken wings at the joint so you have a "drumstick" and a "thigh." Set aside.</li>
-          <li>3. Melt the butter with the Tabasco sauce in a small saucepan. Transfer it to a large bowl and set aside.</li>
-          <li>4. Heat the peanut and vegetable oils in a deep, heavy pot over medium-high heat. When the oils are hot, cook the chicken in batches until golden brown and cooked through, about 10 minutes. Remove with tongs and drain on paper towels. Place in the bowl and toss with the Tabasco mixture to coat. Season with salt and pepper.</li>
-          <li>5. Serve the wings immediately with the carrot and celery sticks and dip alongside</li>        </ol>
+    <section class="recipe-details-container" style="max-width: 900px; margin: 40px auto; padding: 0 20px;">
+      <div class="recipe-info-layout">
+          <div class="ingredients-list">
+              <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Ingredients</h2>
+              <ul style="list-style: none; padding: 0;">
+                  <li class="recipe-step-item"><input type="checkbox"> 4 large carrots, peeled</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 4 large ribs celery, trimmed</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 4 pounds chicken wings (about 24), tips removed</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 1/2 cup unsalted butter</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 2 tablespoons Tabasco sauce</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 1 cup peanut oil</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 1 cup vegetable oil</li>
+                  <li class="recipe-step-item"><input type="checkbox"> Salt and pepper, to taste</li>
+                  <li class="recipe-step-item"><input type="checkbox"> Danish Blue-Cheese Dip</li>
+              </ul>
+          </div>
+
+          <div class="instructions-list">
+              <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Instructions</h2>
+              
+              <div class="instruction-step">
+                  <span class="step-label">01</span>
+                  <p><strong>Prep Vegetables:</strong> Cut the carrots and celery into sticks; set aside.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">02</span>
+                  <p><strong>Prep Chicken:</strong> Using a sharp knife, separate the chicken wings at the joint so you have a "drumstick" and a "thigh." Rinse and pat dry, then set aside.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">03</span>
+                  <p><strong>Sauce Base:</strong> Melt the butter with the Tabasco sauce in a small saucepan. Transfer it to a large bowl and set aside.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">04</span>
+                  <p><strong>Fry & Toss:</strong> Heat the peanut and vegetable oils in a deep, heavy pot over medium-high heat. When the oils are hot, cook the chicken in batches until golden brown and cooked through, about 10 minutes. Remove with tongs and drain on paper towels. Place in the bowl and toss with the Tabasco mixture to coat. Season with salt and pepper.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">05</span>
+                  <p><strong>Serve:</strong> Serve the wings immediately with the carrot and celery sticks and blue-cheese dip alongside.</p>
+              </div>
+          </div>
       </div>
     </section>
 

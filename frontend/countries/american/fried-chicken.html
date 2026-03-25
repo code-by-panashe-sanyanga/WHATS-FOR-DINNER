@@ -6,9 +6,9 @@
     <title>Fried Chicken | Whats for Dinner</title>
     <link rel="icon" type="image/x-icon" href="../../assets/icons/favicon-32x32.png">
     <link rel="stylesheet" href="../../styles/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   </head>
   <body>
-    <!-- I keep the shared layout here so this page matches the rest of the site -->
     <header>
       <div class="top-bar">
         <a href="https://instagram.com" title="Instagram"><img src="../../assets/icons/instagram.svg" alt="Instagram"></a>
@@ -27,34 +27,60 @@
     </header>
 
     <section class="recipe-hero">
-      <h1>Fried Chicken</h1>
+      <div class="hero-text-box">
+          <span class="dish-country">American</span>
+          <h1>Fried Chicken</h1>
+          <div class="recipe-meta" style="display: flex; justify-content: center; gap: 20px; margin-top: 10px; color: var(--dark-grey); font-weight: 600;">
+              <span><i class="far fa-clock"></i> 60 MINS PREP</span>
+              <span><i class="fas fa-utensils"></i> SERVES 4</span>
+          </div>
+      </div>
       <div class="recipe-main-img">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Fried-Chicken-Set.jpg/330px-Fried-Chicken-Set.jpg" alt="Fried Chicken" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Fried-Chicken-Set.jpg/330px-Fried-Chicken-Set.jpg" alt="Fried Chicken" />
       </div>
     </section>
 
-    <section class="recipe-content">
-      <div class="ingredients">
-        <h2>Ingredients</h2>
-        <ul>
-          <li>1 quart buttermilk</li>
-          <li>3 1/2 pound chicken parts (bone-in, skin-on; if using breasts, halve)</li>
-          <li>2 cups all-purpose flour</li>
-          <li>1 tablespoon paprika</li>
-          <li>1 teaspoon cayenne pepper</li>
-          <li>1 teaspoon garlic powder</li>
-          <li>2 teaspoons kosher salt</li>
-          <li>Freshly ground pepper</li>
-          <li>Peanut oil, for frying</li>
-          <li>Deep-fry thermometer</li>        </ul>
-      </div>
-      <div class="instructions">
-        <h2>Instructions</h2>
-        <ol>
-          <li>Place buttermilk in a large, shallow nonreactive dish and add chicken. Cover and refrigerate for at least 2 hours or overnight.</li>
-          <li>Combine flour, paprika, cayenne, garlic powder, salt, and pepper in a large plastic bag.</li>
-          <li>Remove chicken pieces from buttermilk and add to bag with flour mixture. Shake to coat; dust off excess.</li>
-          <li>Pour 3/4" peanut oil into a heavy skillet. Heat oil over medium-high heat until it registers 350° on a deep-fry thermometer. Reduce heat to medium and add the chicken pieces, a few at a time. Fry each piece for 10-12 minutes, turning occasionally, until it is crispy and golden and internal temperature registers 165° on an instant-read thermometer. Drain on paper towels; serve.</li>        </ol>
+    <section class="recipe-details-container" style="max-width: 900px; margin: 40px auto; padding: 0 20px;">
+      <div class="recipe-info-layout">
+          <div class="ingredients-list">
+              <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Ingredients</h2>
+              <ul style="list-style: none; padding: 0;">
+                  <li class="recipe-step-item"><input type="checkbox"> 1 quart buttermilk</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 3 1/2 pound chicken parts (bone-in, skin-on; if using breasts, halve)</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 2 cups all-purpose flour</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 1 tablespoon paprika</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 1 teaspoon cayenne pepper</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 1 teaspoon garlic powder</li>
+                  <li class="recipe-step-item"><input type="checkbox"> 2 teaspoons kosher salt</li>
+                  <li class="recipe-step-item"><input type="checkbox"> Freshly ground pepper</li>
+                  <li class="recipe-step-item"><input type="checkbox"> Peanut oil, for frying</li>
+                  <li class="recipe-step-item"><input type="checkbox"> Deep-fry thermometer</li>
+              </ul>
+          </div>
+
+          <div class="instructions-list">
+              <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Instructions</h2>
+              
+              <div class="instruction-step">
+                  <span class="step-label">01</span>
+                  <p>Place buttermilk in a large, shallow nonreactive dish and add chicken. Cover and refrigerate for at least 2 hours or overnight.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">02</span>
+                  <p>Combine flour, paprika, cayenne, garlic powder, salt, and pepper in a large plastic bag.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">03</span>
+                  <p>Remove chicken pieces from buttermilk and add to bag with flour mixture. Shake to coat; dust off excess.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">04</span>
+                  <p>Pour 3/4" peanut oil into a heavy skillet. Heat oil over medium-high heat until it registers 350° on a deep-fry thermometer. Reduce heat to medium and add the chicken pieces, a few at a time. Fry each piece for 10-12 minutes, turning occasionally, until it is crispy and golden and internal temperature registers 165° on an instant-read thermometer. Drain on paper towels; serve.</p>
+              </div>
+          </div>
       </div>
     </section>
 
