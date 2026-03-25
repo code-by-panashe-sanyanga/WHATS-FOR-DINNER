@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../../styles/style.css" />
   </head>
   <body>
-    <!-- I keep the shared layout here so this page matches the rest of the site -->
     <header>
       <div class="top-bar">
         <a href="https://instagram.com" title="Instagram"><img src="../../assets/icons/instagram.svg" alt="Instagram"></a>
@@ -27,35 +26,61 @@
     </header>
 
     <section class="recipe-hero">
-      <h1>Bangers and Mash</h1>
-      <div class="recipe-main-img">
+    <div class="hero-text-box">
+        <span class="dish-country">United Kingdom</span>
+        <h1>Bangers and Mash</h1>
+        <div class="recipe-meta" style="display: flex; justify-content: center; gap: 20px; margin-top: 10px; color: var(--dark-grey); font-weight: 600;">
+            <span><i class="far fa-clock"></i> 10 MINS PREP</span>
+            <span><i class="fas fa-utensils"></i> SERVES 4</span>
+        </div>
+    </div>
+    <div class="recipe-main-img">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Sausage_and_mash_with_peas.jpg/330px-Sausage_and_mash_with_peas.jpg" alt="Bangers and Mash" />
-      </div>
-    </section>
+    </div>
+</section>
 
-    <section class="recipe-content">
-      <div class="ingredients">
-        <h2>Ingredients</h2>
-        <ul>
-          <li>2 medium fennel bulbs, fronds reserved, bulbs halved through root end, thinly sliced lengthwise</li>
-          <li>1 small red onion, halved through root end, thinly sliced lengthwise</li>
-          <li>3 sprigs rosemary</li>
-          <li>4 Tbsp. extra-virgin olive oil, divided, plus more for drizzling</li>
-          <li>Kosher salt, freshly ground pepper</li>
-          <li>7 sweet Italian sausages (about 1 1/2 lb. total)</li>
-          <li>1 medium navel orange</li>
-          <li>1 Tbsp. red wine vinegar</li>
-          <li>Flaky sea salt</li>        </ul>
-      </div>
-      <div class="instructions">
-        <h2>Instructions</h2>
-        <ol>
-          <li>Place a rack in highest position in oven; preheat to 425°F. Combine fennel bulbs, red onion, and rosemary sprigs on a large rimmed baking sheet. Drizzle with 3 Tbsp. oil, season generously with kosher salt and pepper, and toss to combine. Arrange sausages on top, spacing evenly and nestling into vegetables. Prick sausages all over with the tip of a paring knife and drizzle with 1 Tbsp. oil. Roast until sausages are browned on top and cooked though and fennel is tender and deeply browned in spots, 25–30 minutes.</li>
-          <li>Meanwhile, coarsely chop reserved fennel fronds (you want about 1/4 cup); set aside. Cut the ends off orange to reveal flesh. Rest orange upright on a cut side and cut down around orange to remove peel and white pith, rotating it as you go; discard peel. Working over a small bowl, hold orange in your hand and cut between membranes to release segments into bowl. Squeeze membranes to extract any remaining juice into bowl; discard membranes. Add vinegar to orange segments and juice and toss to combine; season with kosher salt and pepper.</li>
-          <li>Remove baking sheet from oven. Using your hand or a spoon to block segments, pour juices from orange over sausage and fennel mixture. Set orange segments aside and let sausages and fennel mixture cool 5 minutes.</li>
-          <li>Transfer sausages and fennel mixture to a platter. Crumble rosemary leaves over and scatter reserved orange segments and fennel fronds on top. Season with sea salt and a bit more pepper; drizzle with oil.</li>        </ol>
-      </div>
-    </section>
+<section class="recipe-details-container" style="max-width: 900px; margin: 40px auto; padding: 0 20px;">
+    <div class="recipe-info-layout">
+        <div class="ingredients-list">
+            <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Ingredients</h2>
+            <ul style="list-style: none; padding: 0;">
+                <li class="recipe-step-item"><input type="checkbox"> 2 medium fennel bulbs, fronds reserved, bulbs sliced</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1 small red onion, thinly sliced</li>
+                <li class="recipe-step-item"><input type="checkbox"> 3 sprigs rosemary</li>
+                <li class="recipe-step-item"><input type="checkbox"> 4 Tbsp. extra-virgin olive oil, divided</li>
+                <li class="recipe-step-item"><input type="checkbox"> Kosher salt, freshly ground pepper</li>
+                <li class="recipe-step-item"><input type="checkbox"> 7 sweet Italian sausages (about 1 1/2 lb. total)</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1 medium navel orange</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1 Tbsp. red wine vinegar</li>
+                <li class="recipe-step-item"><input type="checkbox"> Flaky sea salt</li>
+            </ul>
+        </div>
+
+        <div class="instructions-list">
+            <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Instructions</h2>
+            
+            <div class="instruction-step">
+                <span class="step-label">01</span>
+                <p><strong>Prep and Roast:</strong> Preheat oven to 425°F. Toss fennel, onion, and rosemary on a baking sheet with oil and seasoning. Arrange sausages on top, prick with a knife, and roast for 25–30 minutes until browned.</p>
+            </div>
+
+            <div class="instruction-step">
+                <span class="step-label">02</span>
+                <p><strong>Prepare Toppings:</strong> Chop reserved fennel fronds. Peel and segment the orange over a bowl to catch the juice. Mix orange segments and juice with vinegar, salt, and pepper.</p>
+            </div>
+
+            <div class="instruction-step">
+                <span class="step-label">03</span>
+                <p><strong>Deglaze:</strong> Pour the orange juices over the hot sausages and fennel straight from the oven. Let the mixture sit and cool for about 5 minutes.</p>
+            </div>
+
+            <div class="instruction-step">
+                <span class="step-label">04</span>
+                <p><strong>Garnish & Serve:</strong> Transfer to a platter. Scatter the rosemary, orange segments, and fennel fronds on top. Finish with a drizzle of oil and flaky sea salt.</p>
+            </div>
+        </div>
+    </div>
+</section>
 
     <footer>
       <div class="footer-links">
