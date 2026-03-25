@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../../styles/style.css" />
   </head>
   <body>
-    <!-- I keep the shared layout here so this page matches the rest of the site -->
     <header>
       <div class="top-bar">
        <a href="https://instagram.com" title="Instagram"><img src="../../assets/icons/instagram.svg" alt="Instagram"></a>
@@ -27,68 +26,81 @@
     </header>
 
     <section class="page-hero">
-      <h1>UNITED KINGDOM</h1>
+      <span class="category-tag" style="display: block; text-align: center; color: var(--primary); font-weight: bold; letter-spacing: 2px; margin-bottom: 10px;">CUISINE</span>
+      <h1 style="margin-top: 0;">United Kingdom</h1>
     </section>
 
-    <section class="recipe-tiles">
-      <!-- Fish and Chips -->
+    <section class="recipe-grid">
       <div class="recipe-card">
         <div class="recipe-img">
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Fish_and_chips_blackpool.jpg/330px-Fish_and_chips_blackpool.jpg" alt="Fish and Chips" />
+          <span class="card-meta-tag">45 MINS</span>
         </div>
-        <h3>Fish and Chips</h3>
-        <p>Crispy battered cod or haddock served with golden chips and mushy peas.</p>
-        <a href="fish-and-chips.html">View Recipe</a>
+        <div class="card-content" style="padding: 20px;">
+          <h3>Fish and Chips</h3>
+          <p>Crispy battered cod or haddock served with golden chips and mushy peas.</p>
+          <a href="fish-and-chips.html" class="btn-primary" style="display: inline-block; margin-top: 15px; text-decoration: none; text-align: center;">View Recipe</a>
+        </div>
       </div>
 
-      <!-- Full English Breakfast -->
       <div class="recipe-card">
         <div class="recipe-img">
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Full_English_breakfast_%28cropped%29.jpg/330px-Full_English_breakfast_%28cropped%29.jpg" alt="Full English Breakfast" />
+          <span class="card-meta-tag">30 MINS</span>
         </div>
-        <h3>Full English Breakfast</h3>
-        <p>A hearty morning plate with bacon, eggs, sausages, beans, toast, and grilled tomato.</p>
-        <a href="full-english-breakfast.html">View Recipe</a>
+        <div class="card-content" style="padding: 20px;">
+          <h3>Full English Breakfast</h3>
+          <p>A hearty morning plate with bacon, eggs, sausages, beans, toast, and grilled tomato.</p>
+          <a href="full-english-breakfast.html" class="btn-primary" style="display: inline-block; margin-top: 15px; text-decoration: none; text-align: center;">View Recipe</a>
+        </div>
       </div>
 
-      <!-- Shepherd's Pie -->
       <div class="recipe-card">
         <div class="recipe-img">
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Homerton_College_-_Shepherd%27s_pie_%28cropped%29.jpg/330px-Homerton_College_-_Shepherd%27s_pie_%28cropped%29.jpg" alt="Shepherd's Pie" />
+          <span class="card-meta-tag">1.5 HOURS</span>
         </div>
-        <h3>Shepherd's Pie</h3>
-        <p>Slow-cooked minced lamb in rich gravy topped with a golden mashed potato crust.</p>
-        <a href="shepherds-pie.html">View Recipe</a>
+        <div class="card-content" style="padding: 20px;">
+          <h3>Shepherd's Pie</h3>
+          <p>Slow-cooked minced lamb in rich gravy topped with a golden mashed potato crust.</p>
+          <a href="shepherds-pie.html" class="btn-primary" style="display: inline-block; margin-top: 15px; text-decoration: none; text-align: center;">View Recipe</a>
+        </div>
       </div>
 
-      <!-- Roast Beef Sunday Dinner -->
       <div class="recipe-card">
         <div class="recipe-img">
           <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Roast_beef.jpg" alt="Roast Beef" />
+          <span class="card-meta-tag">2 HOURS</span>
         </div>
-        <h3>Roast Beef</h3>
-        <p>Classic Sunday roast with tender beef, roasted potatoes, yorkshire pudding, and gravy.</p>
-        <a href="roast-beef.html">View Recipe</a>
+        <div class="card-content" style="padding: 20px;">
+          <h3>Roast Beef</h3>
+          <p>Classic Sunday roast with tender beef, roasted potatoes, yorkshire pudding, and gravy.</p>
+          <a href="roast-beef.html" class="btn-primary" style="display: inline-block; margin-top: 15px; text-decoration: none; text-align: center;">View Recipe</a>
+        </div>
       </div>
 
-      <!-- Chicken Tikka Masala -->
       <div class="recipe-card">
         <div class="recipe-img">
           <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Chicken_tikka_masala.jpg" alt="Chicken Tikka Masala" />
+          <span class="card-meta-tag">45 MINS</span>
         </div>
-        <h3>Chicken Tikka Masala</h3>
-        <p>Tender marinated chicken in a creamy spiced tomato sauce — Britain's favourite curry.</p>
-        <a href="chicken-tikka-masala.html">View Recipe</a>
+        <div class="card-content" style="padding: 20px;">
+          <h3>Chicken Tikka Masala</h3>
+          <p>Tender marinated chicken in a creamy spiced tomato sauce — Britain's favourite curry.</p>
+          <a href="chicken-tikka-masala.html" class="btn-primary" style="display: inline-block; margin-top: 15px; text-decoration: none; text-align: center;">View Recipe</a>
+        </div>
       </div>
 
-      <!-- Bangers and Mash -->
       <div class="recipe-card">
         <div class="recipe-img">
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Sausage_and_mash_with_peas.jpg/330px-Sausage_and_mash_with_peas.jpg" alt="Bangers and Mash" />
+          <span class="card-meta-tag">35 MINS</span>
         </div>
-        <h3>Bangers and Mash</h3>
-        <p>Pork sausages on creamy mashed potato, smothered in rich onion gravy.</p>
-        <a href="bangers-and-mash.html">View Recipe</a>
+        <div class="card-content" style="padding: 20px;">
+          <h3>Bangers and Mash</h3>
+          <p>Pork sausages on creamy mashed potato, smothered in rich onion gravy.</p>
+          <a href="bangers-and-mash.html" class="btn-primary" style="display: inline-block; margin-top: 15px; text-decoration: none; text-align: center;">View Recipe</a>
+        </div>
       </div>
     </section>
 
@@ -105,3 +117,6 @@
     <script src="../../js/script.js"></script>
   </body>
 </html>
+
+
+
