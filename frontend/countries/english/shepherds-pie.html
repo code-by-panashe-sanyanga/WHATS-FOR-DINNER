@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../../styles/style.css" />
   </head>
   <body>
-    <!-- I keep the shared layout here so this page matches the rest of the site -->
     <header>
       <div class="top-bar">
         <a href="https://instagram.com" title="Instagram"><img src="../../assets/icons/instagram.svg" alt="Instagram"></a>
@@ -27,41 +26,63 @@
     </header>
 
     <section class="recipe-hero">
-      <h1>Shepherd's Pie</h1>
+      <div class="hero-text-box">
+          <span class="dish-country">Ireland</span>
+          <h1>Shepherd's Pie</h1>
+          <div class="recipe-meta" style="display: flex; justify-content: center; gap: 20px; margin-top: 10px; color: var(--dark-grey); font-weight: 600;">
+              <span><i class="far fa-clock"></i> 20 MINS PREP</span>
+              <span><i class="fas fa-utensils"></i> SERVES 4</span>
+          </div>
+      </div>
       <div class="recipe-main-img">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Homerton_College_-_Shepherd%27s_pie_%28cropped%29.jpg/330px-Homerton_College_-_Shepherd%27s_pie_%28cropped%29.jpg" alt="Shepherd's Pie" />
       </div>
     </section>
 
-    <section class="recipe-content">
-      <div class="ingredients">
-        <h2>Ingredients</h2>
-        <ul>
-          <li>1 tablespoon vegetable oil</li>
-          <li>1 large onion, peeled and chopped</li>
-          <li>1 large carrot, peeled and chopped</li>
-          <li>1 pound ground lamb (or substitute half with another ground meat)</li>
-          <li>1 cup beef or chicken broth</li>
-          <li>1 tablespoon tomato paste</li>
-          <li>1 teaspoon chopped fresh or dry rosemary</li>
-          <li>1 tablespoon chopped Italian parsley</li>
-          <li>1 cup frozen peas</li>
-          <li>2 pounds russet potatoes, peeled and cut into chunks</li>
-          <li>6 tablespoons unsalted butter</li>
-          <li>1/2 cup milk (any fat content)</li>
-          <li>Kosher salt to taste</li>        </ul>
-      </div>
-      <div class="instructions">
-        <h2>Instructions</h2>
-        <ol>
-          <li>1. Preheat oven to 375°F.</li>
-          <li>2. In a large sauté pan over medium-high heat, heat the oil, then add the onion, carrot, and meat. Cook until browned, 8 to 10 minutes.</li>
-          <li>3. Drain the fat and add the broth, tomato paste, and herbs. Simmer until the juices thicken, about 10 minutes, then add the peas.</li>
-          <li>4. Pour the mixture into a 1 1/2-quart baking dish; set aside.</li>
-          <li>5. Meanwhile, bring the potatoes to a boil in salted water. Cook until tender, about 20 minutes; drain.</li>
-          <li>6. Mash the potatoes with the butter, milk, and salt.</li>
-          <li>7. Spread them over the meat mixture, then crosshatch the top with a fork.</li>
-          <li>8. Bake until golden, 30 to 35 minutes.</li>        </ol>
+    <section class="recipe-details-container" style="max-width: 900px; margin: 40px auto; padding: 0 20px;">
+      <div class="recipe-info-layout">
+          <div class="ingredients-list">
+              <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Ingredients</h2>
+              <ul style="list-style: none; padding: 0;">
+                <li class="recipe-step-item"><input type="checkbox"> 1 tablespoon vegetable oil</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1 large onion, peeled and chopped</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1 large carrot, peeled and chopped</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1 pound ground lamb (or substitute half with another ground meat)</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1 cup beef or chicken broth</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1 tablespoon tomato paste</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1 teaspoon chopped fresh or dry rosemary</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1 tablespoon chopped Italian parsley</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1 cup frozen peas</li>
+                <li class="recipe-step-item"><input type="checkbox"> 2 pounds russet potatoes, peeled and cut into chunks</li>
+                <li class="recipe-step-item"><input type="checkbox"> 6 tablespoons unsalted butter</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1/2 cup milk (any fat content)</li>
+                <li class="recipe-step-item"><input type="checkbox"> Kosher salt to taste</li>
+              </ul>
+          </div>
+
+          <div class="instructions-list">
+              <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Instructions</h2>
+              
+              <div class="instruction-step">
+                  <span class="step-label">01</span>
+                  <p><strong>Prep and Brown:</strong> Preheat oven to 375°F. In a large sauté pan over medium-high heat, heat the oil, then add the onion, carrot, and meat. Cook until browned, 8 to 10 minutes.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">02</span>
+                  <p><strong>Simmer Filling:</strong> Drain the fat and add the broth, tomato paste, and herbs. Simmer until the juices thicken, about 10 minutes, then add the peas. Pour the mixture into a 1 1/2-quart baking dish; set aside.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">03</span>
+                  <p><strong>Prepare Mash:</strong> Meanwhile, bring the potatoes to a boil in salted water. Cook until tender, about 20 minutes; drain. Mash the potatoes with the butter, milk, and salt.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">04</span>
+                  <p><strong>Assemble and Bake:</strong> Spread the mashed potatoes over the meat mixture, then crosshatch the top with a fork. Bake until golden, 30 to 35 minutes.</p>
+              </div>
+          </div>
       </div>
     </section>
 
