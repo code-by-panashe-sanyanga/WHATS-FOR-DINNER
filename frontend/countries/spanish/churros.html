@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../../styles/style.css" />
   </head>
   <body>
-    <!-- I keep the shared layout here so this page matches the rest of the site -->
     <header>
       <div class="top-bar">
         <a href="https://instagram.com" title="Instagram"><img src="../../assets/icons/instagram.svg" alt="Instagram"></a>
@@ -27,35 +26,57 @@
     </header>
 
     <section class="recipe-hero">
-      <h1>Churros</h1>
+      <div class="hero-text-box">
+          <span class="dish-country">Spain</span>
+          <h1>Churros</h1>
+          <div class="recipe-meta" style="display: flex; justify-content: center; gap: 20px; margin-top: 10px; color: var(--dark-grey); font-weight: 600;">
+              <span><i class="far fa-clock"></i> 40 MINS PREP</span>
+              <span><i class="fas fa-utensils"></i> SERVES 4</span>
+          </div>
+      </div>
       <div class="recipe-main-img">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Chocolate_con_churros_%2827343655726%29.jpg/330px-Chocolate_con_churros_%2827343655726%29.jpg" alt="Churros" />
       </div>
     </section>
 
-    <section class="recipe-content">
-      <div class="ingredients">
-        <h2>Ingredients</h2>
-        <ul>
-          <li>About 2 quarts olive oil (not extra-virgin) or vegetable oil</li>
-          <li>1(1-inch-wide) strip orange or lemon zest</li>
-          <li>2 cups water</li>
-          <li>1/4 teaspoon salt</li>
-          <li>2 cups all-purpose flour</li>
-          <li>1/2 cup coarse sugar crystals or granulated sugar or cinnamon sugar (1/2 cup sugar with 1 tablespoon cinnamon)</li>
-          <li>"Warm chocolate sauce (see cooks note below)"</li>
-          <li>Equipment: a deep-fat thermometer; a metal or plastic churro-maker fitted with a 5/8-inch star opening</li>        </ul>
-      </div>
-      <div class="instructions">
-        <h2>Instructions</h2>
-        <ol>
-          <li>Heat 1 3/4 inches oil to 400°F in a wide 3 1/2-to 4-quart heavy pot over high heat (oil will be just beginning to smoke). Drop in zest (oil will bubble vigorously) and fry until browned, about 1 minute. Remove with tongs.</li>
-          <li>Prepare churros while oil heats:</li>
-          <li>Line 2 trays with parchment paper.</li>
-          <li>Bring water with salt to a boil in a heavy medium saucepan, covered. Add 2 teaspoons olive oil and remove from heat. Immediately add flour and stir vigorously with a wooden spoon until combined (mixture will be stiff and not very smooth). Fill churro-maker with some hot dough and wrap a kitchen towel around churro-maker canister.</li>
-          <li>Turn screw handle of churro-maker until dough emerges from star opening. Holding opening about 2 inches above a tray, turn handle to squeeze long lines of dough onto parchment. Cut lines into 3-inch pieces with kitchen shears. Repeat with remaining dough, including any scraps.</li>
-          <li>Fry churros, 10 to 12 at a time, turning occasionally, until golden but still slightly moist in center, 3 to 4 minutes per batch. Drain on paper towels. Return oil to 400°F between batches.</li>
-          <li>Roll warm churros in sugar and serve with warm chocolate sauce if desired.</li>        </ol>
+    <section class="recipe-details-container" style="max-width: 900px; margin: 40px auto; padding: 0 20px;">
+      <div class="recipe-info-layout">
+          <div class="ingredients-list">
+              <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Ingredients</h2>
+              <ul style="list-style: none; padding: 0;">
+                <li class="recipe-step-item"><input type="checkbox"> 1 cup all-purpose flour</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1/2 cup sugar</li>
+                <li class="recipe-step-item"><input type="checkbox"> Vegetable oil (for deep-frying)</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1 cup water</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1/2 teaspoon salt</li>
+                <li class="recipe-step-item"><input type="checkbox"> 2 teaspoons olive oil</li>
+                <li class="recipe-step-item"><input type="checkbox"> Cinnamon (to taste)</li>
+              </ul>
+          </div>
+
+          <div class="instructions-list">
+              <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Instructions</h2>
+              
+              <div class="instruction-step">
+                  <span class="step-label">01</span>
+                  <p><strong>Prep and Heat:</strong> Sift the flour into a medium bowl. Mix the sugar and cinnamon in a shallow dish for coating. Heat 1 inch of oil in a wide heavy pan to 400°F.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">02</span>
+                  <p><strong>Make the Dough:</strong> Bring water, salt, and 2 tsp olive oil to a boil in a saucepan. Remove from heat and immediately stir in the flour vigorously until a stiff dough forms.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">03</span>
+                  <p><strong>Shape:</strong> Transfer the hot dough into a churro-maker or piping bag with a star opening. Pipe 3-inch long lines of dough onto parchment paper and cut with shears.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">04</span>
+                  <p><strong>Fry and Coat:</strong> Fry churros in batches for 3–4 minutes until golden. Drain on paper towels, then roll in the cinnamon sugar mixture while warm. Serve with chocolate sauce.</p>
+              </div>
+          </div>
       </div>
     </section>
 
