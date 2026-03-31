@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../../styles/style.css" />
   </head>
   <body>
-    <!-- I keep the shared layout here so this page matches the rest of the site -->
     <header>
       <div class="top-bar">
         <a href="https://instagram.com" title="Instagram"><img src="../../assets/icons/instagram.svg" alt="Instagram"></a>
@@ -27,35 +26,57 @@
     </header>
 
     <section class="recipe-hero">
-      <h1>Burritos</h1>
+      <div class="hero-text-box">
+          <span class="dish-country">Mexico</span>
+          <h1>Burritos</h1>
+          <div class="recipe-meta" style="display: flex; justify-content: center; gap: 20px; margin-top: 10px; color: var(--dark-grey); font-weight: 600;">
+              <span><i class="far fa-clock"></i> 30 MINS PREP</span>
+              <span><i class="fas fa-utensils"></i> SERVES 4</span>
+          </div>
+      </div>
       <div class="recipe-main-img">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Burrito.JPG/330px-Burrito.JPG" alt="Burritos" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Burrito.JPG/330px-Burrito.JPG" alt="Burritos" />
       </div>
     </section>
 
-    <section class="recipe-content">
-      <div class="ingredients">
-        <h2>Ingredients</h2>
-        <ul>
-          <li>4 eggs</li>
-          <li>2 tablespoons milk</li>
-          <li>3/4 cup pinto beans, cooked, rinsed and drained</li>
-          <li>1/2 cup salsa</li>
-          <li>canola oil spray, oil or butter for pan</li>
-          <li>2 corn tortillas, warmed if desired</li>
-          <li>sour cream</li>
-          <li>cheese or avocado</li>
-          <li>optional</li>        </ul>
-      </div>
-      <div class="instructions">
-        <h2>Instructions</h2>
-        <ol>
-          <li>Whisk the eggs, milk, and salt in a bowl.</li>
-          <li>Heat a nonstick pan over low to medium heat and spray or grease with oil or butter.</li>
-          <li>Pour in the egg mixture and stir until almost scrambled, about 2 minutes.</li>
-          <li>Add the beans and salsa and cook for 2 minutes or until ingredients are heated through.</li>
-          <li>Place scrambled egg mixture and other optional ingredients into tortillas and roll or fold in half.</li>
-          <li>Serve.</li>        </ol>
+    <section class="recipe-details-container" style="max-width: 900px; margin: 40px auto; padding: 0 20px;">
+      <div class="recipe-info-layout">
+          <div class="ingredients-list">
+              <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Ingredients</h2>
+              <ul style="list-style: none; padding: 0;">
+                <li class="recipe-step-item"><input type="checkbox"> 4 eggs</li>
+                <li class="recipe-step-item"><input type="checkbox"> 2 tablespoons milk</li>
+                <li class="recipe-step-item"><input type="checkbox"> 3/4 cup pinto beans, cooked, rinsed and drained</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1/2 cup salsa</li>
+                <li class="recipe-step-item"><input type="checkbox"> Canola oil spray, oil or butter for pan</li>
+                <li class="recipe-step-item"><input type="checkbox"> 2 corn tortillas, warmed if desired</li>
+                <li class="recipe-step-item"><input type="checkbox"> Sour cream, cheese or avocado (optional)</li>
+              </ul>
+          </div>
+
+          <div class="instructions-list">
+              <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Instructions</h2>
+              
+              <div class="instruction-step">
+                  <span class="step-label">01</span>
+                  <p><strong>Whisk the Base:</strong> In a bowl, whisk together the eggs, milk, and a pinch of salt until well combined.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">02</span>
+                  <p><strong>Scramble:</strong> Heat a nonstick pan over low to medium heat and grease with oil or butter. Pour in the egg mixture and stir until they are almost scrambled (about 2 minutes).</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">03</span>
+                  <p><strong>Heat Fillings:</strong> Add the pinto beans and salsa to the pan. Continue to cook for another 2 minutes or until all ingredients are heated through.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">04</span>
+                  <p><strong>Assemble and Serve:</strong> Spoon the scrambled egg mixture onto the tortillas. Add optional sour cream, cheese, or avocado, then roll or fold in half to serve.</p>
+              </div>
+          </div>
       </div>
     </section>
 
