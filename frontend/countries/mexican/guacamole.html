@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../../styles/style.css" />
   </head>
   <body>
-    <!-- I keep the shared layout here so this page matches the rest of the site -->
     <header>
       <div class="top-bar">
         <a href="https://instagram.com" title="Instagram"><img src="../../assets/icons/instagram.svg" alt="Instagram"></a>
@@ -27,31 +26,58 @@
     </header>
 
     <section class="recipe-hero">
-      <h1>Guacamole</h1>
+      <div class="hero-text-box">
+          <span class="dish-country">Mexico</span>
+          <h1>Guacamole</h1>
+          <div class="recipe-meta" style="display: flex; justify-content: center; gap: 20px; margin-top: 10px; color: var(--dark-grey); font-weight: 600;">
+              <span><i class="far fa-clock"></i> 10 MINS PREP</span>
+              <span><i class="fas fa-utensils"></i> SERVES 4</span>
+          </div>
+      </div>
       <div class="recipe-main-img">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Guacamole_IMGP1271.jpg/330px-Guacamole_IMGP1271.jpg" alt="Guacamole" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Guacamole_IMGP1271.jpg/330px-Guacamole_IMGP1271.jpg" alt="Guacamole" />
       </div>
     </section>
 
-    <section class="recipe-content">
-      <div class="ingredients">
-        <h2>Ingredients</h2>
-        <ul>
-          <li>2 cups kale leaves</li>
-          <li>4 Hass ripe avocados</li>
-          <li>3 ripe tomatoes, seeded, finely chopped</li>
-          <li>1/4 cup minced red onion</li>
-          <li>2 jalapeno chilies, seeded, finely chopped</li>
-          <li>1 lime, juiced</li>
-          <li>1/2 teaspoon sea salt</li>
-          <li>1/4 cup fresh cilantro</li>
-          <li>minced</li>        </ul>
-      </div>
-      <div class="instructions">
-        <h2>Instructions</h2>
-        <ol>
-          <li>Place the kale leaves in a food processor and pulse until they are finely chopped. Cut the avocados in half, and remove the pits. Scoop out the flesh and place in a large wooden or metal bowl. Add salt and mash with the back of a wooden spoon until desired texture is reached—I like mine a bit chunky. Stir in kale leaves and remaining ingredients. Taste and adjust the seasonings with salt.</li>
-          <li>Place a piece of plastic wrap directly over the surface of the dip. Store in the refrigerator up to 10 hours. Serve with whole grain tortilla chips, toasted whole wheat pita wedges, or toasted soft corn tortillas.</li>        </ol>
+    <section class="recipe-details-container" style="max-width: 900px; margin: 40px auto; padding: 0 20px;">
+      <div class="recipe-info-layout">
+          <div class="ingredients-list">
+              <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Ingredients</h2>
+              <ul style="list-style: none; padding: 0;">
+                <li class="recipe-step-item"><input type="checkbox"> 3 large avocados</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1 cup kale leaves, stems removed</li>
+                <li class="recipe-step-item"><input type="checkbox"> 2 plum tomatoes, seeded and finely chopped</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1/4 cup minced red onion</li>
+                <li class="recipe-step-item"><input type="checkbox"> 2 jalapeño chilies, seeded and finely chopped</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1 lime, juiced</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1/2 teaspoon sea salt</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1/4 cup fresh cilantro, minced</li>
+              </ul>
+          </div>
+
+          <div class="instructions-list">
+              <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Instructions</h2>
+              
+              <div class="instruction-step">
+                  <span class="step-label">01</span>
+                  <p><strong>Prep the Kale:</strong> Place the kale leaves in a food processor and pulse until they are finely chopped.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">02</span>
+                  <p><strong>Mash Avocados:</strong> Remove the pits from the avocados and scoop the flesh into a large bowl. Add salt and mash with a wooden spoon until you reach your desired texture.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">03</span>
+                  <p><strong>Mix Ingredients:</strong> Stir in the chopped kale, tomatoes, red onion, jalapeños, lime juice, and cilantro. Taste and adjust salt as needed.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">04</span>
+                  <p><strong>Store and Serve:</strong> If not serving immediately, place plastic wrap directly on the surface of the dip to prevent browning and refrigerate. Serve with tortilla chips or pita wedges.</p>
+              </div>
+          </div>
       </div>
     </section>
 
