@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../../styles/style.css" />
   </head>
   <body>
-    <!-- I keep the shared layout here so this page matches the rest of the site -->
     <header>
       <div class="top-bar">
         <a href="https://instagram.com" title="Instagram"><img src="../../assets/icons/instagram.svg" alt="Instagram"></a>
@@ -27,42 +26,60 @@
     </header>
 
     <section class="recipe-hero">
-      <h1>Croquetas</h1>
-      <div class="recipe-main-img">
+    <div class="hero-text-box">
+        <span class="dish-country">Spain</span>
+        <h1>Croquetas</h1>
+        <div class="recipe-meta" style="display: flex; justify-content: center; gap: 20px; margin-top: 10px; color: var(--dark-grey); font-weight: 600;">
+            <span><i class="far fa-clock"></i> 50 MINS PREP</span>
+            <span><i class="fas fa-utensils"></i> SERVES 4</span>
+        </div>
+    </div>
+    <div class="recipe-main-img">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Croquetas_Caseras_%287068664101%29.jpg/330px-Croquetas_Caseras_%287068664101%29.jpg" alt="Croquetas" />
-      </div>
-    </section>
+    </div>
+</section>
 
-    <section class="recipe-content">
-      <div class="ingredients">
-        <h2>Ingredients</h2>
-        <ul>
-          <li>1 pound large boiling potatoes (about 2)</li>
-          <li>3 large eggs</li>
-          <li>1 tablespoon chopped fresh flat-leaf parsley</li>
-          <li>1 tablespoon finely chopped fresh chives</li>
-          <li>1/4 teaspoon chopped fresh tarragon</li>
-          <li>2 tablespoons unsalted butter, softened</li>
-          <li>1/2 teaspoon salt</li>
-          <li>1/8 teaspoon black pepper</li>
-          <li>3/4 cup all-purpose flour</li>
-          <li>3/4 cup fine dry bread crumbs</li>
-          <li>About 4 cups olive oil (not extra-virgin) for frying</li>
-          <li>Accompaniment: saffron alioli</li>
-          <li>a potato ricer; a deep-fat thermometer</li>        </ul>
-      </div>
-      <div class="instructions">
-        <h2>Instructions</h2>
-        <ol>
-          <li>Peel potatoes and cut into 1-inch pieces. Cover with salted cold water by 1 inch in a 2-quart saucepan, then boil until tender, about 8 minutes. Drain in a colander. Force potatoes through ricer into a medium bowl and cool.</li>
-          <li>Lightly beat 1 egg in a small bowl with a fork. Add to cooled potatoes along with herbs, butter, salt, and pepper and stir just until combined.</li>
-          <li>Spoon tablespoons of potato mixture onto a tray, then lightly roll each into a ball between palms of your hands and return to tray.</li>
-          <li>Lightly beat remaining 2 eggs in a small bowl and set aside. Spread flour in a shallow bowl, then spread bread crumbs in another shallow bowl.</li>
-          <li>Working in 4 batches (of 6 or 7), roll balls in flour to coat, gently shaking off excess flour. Dip balls in egg, turning to coat and letting excess drip off, then roll in bread crumbs and return to tray. Chill, covered, 30 minutes.</li>
-          <li>Preheat oven to 200°F.</li>
-          <li>Heat 1 1/2 inches oil in a 3-quart pot until it registers 360°F on thermometer. Working in 4 batches, fry croquetas, turning if necessary, until browned, about 1 1/2 minutes per batch. Transfer with a slotted spoon to paper towels to drain, then transfer to a baking pan and keep warm in oven while frying remaining croquetas. (Return oil to 360°F between batches.)</li>        </ol>
-      </div>
-    </section>
+<section class="recipe-details-container" style="max-width: 900px; margin: 40px auto; padding: 0 20px;">
+    <div class="recipe-info-layout">
+        <div class="ingredients-list">
+            <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Ingredients</h2>
+            <ul style="list-style: none; padding: 0;">
+                <li class="recipe-step-item"><input type="checkbox"> 1 1/2 lbs russet potatoes, peeled and quartered</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1/4 cup heavy cream</li>
+                <li class="recipe-step-item"><input type="checkbox"> 2 tablespoons unsalted butter</li>
+                <li class="recipe-step-item"><input type="checkbox"> 2 large egg yolks</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1/2 teaspoon salt and 1/4 teaspoon black pepper</li>
+                <li class="recipe-step-item"><input type="checkbox"> 2 large eggs, lightly beaten</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1/2 cup all-purpose flour</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1 cup fine dry bread crumbs</li>
+                <li class="recipe-step-item"><input type="checkbox"> Vegetable oil for deep-frying</li>
+            </ul>
+        </div>
+
+        <div class="instructions-list">
+    <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Instructions</h2>
+    
+    <div class="instruction-step">
+        <span class="step-label">01</span>
+        <p><strong>Prepare the Mash:</strong> Boil potatoes in salted water until tender (about 15-20 mins). Drain and mash until smooth, then stir in cream, butter, egg yolks, salt, and pepper.</p>
+    </div>
+
+    <div class="instruction-step">
+        <span class="step-label">02</span>
+        <p><strong>Shape the Croquetas:</strong> Spoon tablespoons of the potato mixture and roll them into small balls between your palms.</p>
+    </div>
+
+    <div class="instruction-step">
+        <span class="step-label">03</span>
+        <p><strong>Bread the Balls:</strong> Roll each ball in flour, then dip in the beaten eggs, and finally coat thoroughly in bread crumbs. Chill the breaded balls for 30 minutes to help them set.</p>
+    </div>
+
+    <div class="instruction-step">
+        <span class="step-label">04</span>
+        <p><strong>Fry and Keep Warm:</strong> Heat 1 1/2 inches of oil to 360°F. Fry in batches for about 1 1/2 minutes until golden brown. Drain on paper towels and keep warm in a 200°F oven until ready to serve.</p>
+    </div>
+</div>
+</section>
 
     <footer>
       <div class="footer-links">
