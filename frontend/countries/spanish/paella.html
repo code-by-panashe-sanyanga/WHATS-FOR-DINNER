@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../../styles/style.css" />
   </head>
   <body>
-    <!-- I keep the shared layout here so this page matches the rest of the site -->
     <header>
       <div class="top-bar">
         <a href="https://instagram.com" title="Instagram"><img src="../../assets/icons/instagram.svg" alt="Instagram"></a>
@@ -27,40 +26,64 @@
     </header>
 
     <section class="recipe-hero">
-      <h1>Paella</h1>
+      <div class="hero-text-box">
+          <span class="dish-country">Spain</span>
+          <h1>Paella</h1>
+          <div class="recipe-meta" style="display: flex; justify-content: center; gap: 20px; margin-top: 10px; color: var(--dark-grey); font-weight: 600;">
+              <span><i class="far fa-clock"></i> 1 HOUR PREP</span>
+              <span><i class="fas fa-utensils"></i> SERVES 4</span>
+          </div>
+      </div>
       <div class="recipe-main-img">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/01_Paella_Valenciana_original.jpg/330px-01_Paella_Valenciana_original.jpg" alt="Paella" />
       </div>
     </section>
 
-    <section class="recipe-content">
-      <div class="ingredients">
-        <h2>Ingredients</h2>
-        <ul>
-          <li>1 large onion, finely chopped</li>
-          <li>5 tablespoons olive oil</li>
-          <li>2 garlic cloves, crushed to a paste or finely chopped</li>
-          <li>2 tomatoes, peeled and chopped</li>
-          <li>1/2 teaspoon sugar</li>
-          <li>Salt</li>
-          <li>1 teaspoon pimentón dulce (or sweet paprika)</li>
-          <li>A good pinch of saffron threads</li>
-          <li>4 cleaned small squid, bodies sliced into 1/4-inch-wide rings, tentacles left whole</li>
-          <li>2 cups medium-grain Spanish paella rice or risotto rice, such as Arborio or Carnaroli</li>
-          <li>3 cups fish or chicken stock, plus more if needed</li>
-          <li>1 cup dry white wine</li>
-          <li>12 jumbo shrimp in their shells</li>
-          <li>16 mussels</li>
-          <li>scrubbed and debearded</li>        </ul>
-      </div>
-      <div class="instructions">
-        <h2>Instructions</h2>
-        <ol>
-          <li>Fry the onion in the oil in a 16-inch paella pan until soft, stirring often. Stir in the garlic, and before it begins to color, add the tomatoes. Add the sugar, salt to taste, pimentón (or paprika), and saffron, stir well, and cook until the tomatoes are reduced to a jammy sauce and the oil is sizzling. Add the squid and cook, stirring, for a minute or so. Add the rice and stir well until all the grains are coated. (You can prepare the dish to this point up to an hour in advance.)</li>
-          <li>Bring the stock and wine to a boil in a saucepan. Pour over the rice, bring to a boil, and add salt to taste (even if the broth tastes a bit salty, it will not be salty when it is absorbed by the rice). Stir well and spread the rice out evenly in the pan (do not stir again). Cook the rice over low heat for 18 to 20 minutes, moving the pan around and rotating it so that the rice cooks evenly. Lay the shrimp on top after 10 minutes and turn them when they have become pink on the first side. Add a little more hot stock toward the end if the rice seems too dry and you hear crackly frying noises before it is done. When the rice is done, turn off the heat and cover the pan with a large piece of foil.</li>
-          <li>Steam the mussels with a finger of water in a pan with a tight-fitting lid. As soon as they open, they are cooked. Throw away any that have not opened.</li>
-          <li>Arrange the mussels on top of the paella.</li>        </ol>
-      </div>
+    <section class="recipe-details-container" style="max-width: 900px; margin: 40px auto; padding: 0 20px;">
+        <div class="recipe-info-layout">
+            <div class="ingredients-list">
+                <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Ingredients</h2>
+                <ul style="list-style: none; padding: 0;">
+                    <li class="recipe-step-item"><input type="checkbox"> 1 large onion, finely chopped</li>
+                    <li class="recipe-step-item"><input type="checkbox"> 5 tablespoons olive oil</li>
+                    <li class="recipe-step-item"><input type="checkbox"> 2 garlic cloves, crushed or chopped</li>
+                    <li class="recipe-step-item"><input type="checkbox"> 2 tomatoes, peeled and chopped</li>
+                    <li class="recipe-step-item"><input type="checkbox"> 1/2 teaspoon sugar and salt</li>
+                    <li class="recipe-step-item"><input type="checkbox"> 1 teaspoon pimentón dulce (sweet paprika)</li>
+                    <li class="recipe-step-item"><input type="checkbox"> A good pinch of saffron threads</li>
+                    <li class="recipe-step-item"><input type="checkbox"> 4 small squid, bodies sliced into rings</li>
+                    <li class="recipe-step-item"><input type="checkbox"> 2 cups medium-grain Spanish paella rice</li>
+                    <li class="recipe-step-item"><input type="checkbox"> 3 cups fish or chicken stock</li>
+                    <li class="recipe-step-item"><input type="checkbox"> 1 cup dry white wine</li>
+                    <li class="recipe-step-item"><input type="checkbox"> 12 jumbo shrimp in shells</li>
+                    <li class="recipe-step-item"><input type="checkbox"> 16 mussels, scrubbed and debearded</li>
+                </ul>
+            </div>
+
+            <div class="instructions-list">
+                <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Instructions</h2>
+                
+                <div class="instruction-step">
+                    <span class="step-label">01</span>
+                    <p><strong>Create the Sofrito:</strong> Fry the onion in oil until soft. Stir in garlic, tomatoes, sugar, salt, pimentón, and saffron. Cook until reduced to a jammy sauce. Add squid and rice, stirring until grains are coated.</p>
+                </div>
+
+                <div class="instruction-step">
+                    <span class="step-label">02</span>
+                    <p><strong>Cook the Rice:</strong> Pour boiling stock and wine over the rice. Cook over low heat for 18–20 minutes without stirring. Lay shrimp on top after 10 minutes, turning when pink. Cover with foil once the rice is done.</p>
+                </div>
+
+                <div class="instruction-step">
+                    <span class="step-label">03</span>
+                    <p><strong>Steam Mussels:</strong> Steam the mussels in a separate pan with a little water until they open. Discard any that remain closed.</p>
+                </div>
+
+                <div class="instruction-step">
+                    <span class="step-label">04</span>
+                    <p><strong>Finish:</strong> Arrange the cooked mussels on top of the paella before serving.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer>
