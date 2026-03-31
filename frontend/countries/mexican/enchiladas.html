@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../../styles/style.css" />
   </head>
   <body>
-    <!-- I keep the shared layout here so this page matches the rest of the site -->
     <header>
       <div class="top-bar">
         <a href="https://instagram.com" title="Instagram"><img src="../../assets/icons/instagram.svg" alt="Instagram"></a>
@@ -27,43 +26,59 @@
     </header>
 
     <section class="recipe-hero">
-      <h1>Enchiladas</h1>
+      <div class="hero-text-box">
+          <span class="dish-country">Mexico</span>
+          <h1>Enchiladas</h1>
+          <div class="recipe-meta" style="display: flex; justify-content: center; gap: 20px; margin-top: 10px; color: var(--dark-grey); font-weight: 600;">
+              <span><i class="far fa-clock"></i> 45 MINS PREP</span>
+              <span><i class="fas fa-utensils"></i> SERVES 4</span>
+          </div>
+      </div>
       <div class="recipe-main-img">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Enchilada_Rice_Beans.jpg/330px-Enchilada_Rice_Beans.jpg" alt="Enchiladas" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Enchilada_Rice_Beans.jpg/330px-Enchilada_Rice_Beans.jpg" alt="Enchiladas" />
       </div>
     </section>
 
-    <section class="recipe-content">
-      <div class="ingredients">
-        <h2>Ingredients</h2>
-        <ul>
-          <li>1 Tbsp. vegetable oil</li>
-          <li>1/2 white onion, coarsely chopped</li>
-          <li>4 garlic cloves, crushed</li>
-          <li>3 small serrano chiles, halved lengthwise, seeds removed if desired</li>
-          <li>12 oz. tomatillos (6–7), husks removed, rinsed, halved</li>
-          <li>1 cup cilantro leaves with tender stems</li>
-          <li>Kosher salt</li>
-          <li>1 Tbsp. vegetable oil</li>
-          <li>1/4 white onion, coarsely chopped</li>
-          <li>1 garlic clove, crushed</li>
-          <li>3 guajillo chiles, seeds removed</li>
-          <li>2 dried chiles de árbol (optional; omit for a milder sauce)</li>
-          <li>3 plum tomatoes, quartered</li>
-          <li>Kosher salt</li>
-          <li>1 (3 1/2–4-lb.) chicken</li>        </ul>
-      </div>
-      <div class="instructions">
-        <h2>Instructions</h2>
-        <ol>
-          <li>Heat oil in a large saucepan over medium. Cook onion and garlic, stirring occasionally, until starting to soften, about 5 minutes. Add chiles and cook, stirring occasionally, until onion is lightly browned and vegetables are soft, about 5 minutes. Add tomatillos and cook, stirring occasionally, just until starting to soften, about 3 minutes. Add cilantro and 1 1/2 cups water. Bring to a boil, reduce heat, and simmer until tomatillos soften, 20–25 minutes. Let cool slightly; transfer to a blender. Purée until smooth; season with salt. Return salsa verde to saucepan and keep warm until ready to use.</li>
-          <li>Heat oil in a large saucepan over medium. Cook onion and garlic, stirring occasionally, until starting to soften, about 5 minutes. Add both chiles, tomatoes, and 1 1/2 cups water. Bring to a boil, reduce heat, and simmer until tomatoes and chiles soften, 20–25 minutes. Let cool slightly; transfer to a blender. Purée until smooth; season with salt. Return salsa roja to saucepan and keep warm until ready to use.</li>
-          <li>Place chicken, bay leaves, and allspice in a small pot and pour in water to cover by 1"; season lightly with salt. Bring to a boil, reduce heat, and simmer gently until chicken is nearly cooked through (an instant-read thermometer inserted into the thickest part of chicken should register 145°F–150°F), 20–25 minutes from the time water starts simmering. Let chicken cool at least 1 hour (it should be just warm). If you have the time, cover and chill up to 12 hours.</li>
-          <li>Remove chicken from broth. Pull meat from bones and shred; discard skin and bones. Place meat in a large saucepan and pour in just enough broth to cover. Set aside any remaining broth for another use. Gently reheat chicken over medium-low; season with salt.</li>
-          <li>Meanwhile, mix crème fraîche and queso fresco in a small bowl to combine.</li>
-          <li>Heat oil in a small skillet over medium-high until hot but not smoking. Submerge each tortilla in oil long enough to soften but not so long that they fall apart, 5–10 seconds each. Transfer to a rimmed baking sheet lined with paper towels to drain.</li>
-          <li>Working one at a time, fill each tortilla with about 1/3 cup shredded chicken and roll up tightly. Place 3 tortillas each, seam side down, into bowls. Ladle 1/2 cup of each sauce on opposite ends of enchiladas. Top with a big spoonful of crème fraîche mixture and scatter onion over.</li>
-          <li>Chicken can be poached and shredded 3 days ahead. Place in a small bowl and pour in broth to submerge; cover and chill.</li>        </ol>
+    <section class="recipe-details-container" style="max-width: 900px; margin: 40px auto; padding: 0 20px;">
+      <div class="recipe-info-layout">
+          <div class="ingredients-list">
+              <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Ingredients</h2>
+              <ul style="list-style: none; padding: 0;">
+                <li class="recipe-step-item"><input type="checkbox"> 1 rotisserie chicken</li>
+                <li class="recipe-step-item"><input type="checkbox"> 2 cups chicken broth</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1/2 cup crème fraîche</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1/2 cup crumbled queso fresco</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1/4 cup vegetable oil</li>
+                <li class="recipe-step-item"><input type="checkbox"> 12 corn tortillas</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1 cup salsa roja or salsa verde</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1/2 small white onion, thinly sliced</li>
+                <li class="recipe-step-item"><input type="checkbox"> Kosher salt to taste</li>
+              </ul>
+          </div>
+
+          <div class="instructions-list">
+              <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Instructions</h2>
+              
+              <div class="instruction-step">
+                  <span class="step-label">01</span>
+                  <p><strong>Prepare the Chicken:</strong> Pull meat from the rotisserie chicken and shred it. Reheat the shredded meat in a pan with just enough broth to cover, seasoning with salt as needed.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">02</span>
+                  <p><strong>Prepare Toppings:</strong> In a small bowl, mix the crème fraîche and crumbled queso fresco until combined.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">03</span>
+                  <p><strong>Soften Tortillas:</strong> Heat oil in a skillet and submerge each tortilla for 5–10 seconds to soften. Drain on paper towels.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">04</span>
+                  <p><strong>Assemble:</strong> Fill each tortilla with 1/3 cup of shredded chicken, roll tightly, and place seam-side down. Ladle your chosen sauce over the top and garnish with the cheese mixture and sliced onions.</p>
+              </div>
+          </div>
       </div>
     </section>
 
