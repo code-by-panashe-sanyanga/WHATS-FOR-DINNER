@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../../styles/style.css" />
   </head>
   <body>
-    <!-- I keep the shared layout here so this page matches the rest of the site -->
     <header>
       <div class="top-bar">
         <a href="https://instagram.com" title="Instagram"><img src="../../assets/icons/instagram.svg" alt="Instagram"></a>
@@ -27,38 +26,67 @@
     </header>
 
     <section class="recipe-hero">
-      <h1>Full English Breakfast</h1>
-      <div class="recipe-main-img">
+    <div class="hero-text-box">
+        <span class="dish-country">England</span>
+        <h1>Full English Breakfast</h1>
+        <div class="recipe-meta" style="display: flex; justify-content: center; gap: 20px; margin-top: 10px; color: var(--dark-grey); font-weight: 600;">
+            <span><i class="far fa-clock"></i> 35 MINS PREP</span>
+            <span><i class="fas fa-utensils"></i> SERVES 2</span>
+        </div>
+    </div>
+    <div class="recipe-main-img">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Full_English_breakfast_%28cropped%29.jpg/330px-Full_English_breakfast_%28cropped%29.jpg" alt="Full English Breakfast" />
-      </div>
-    </section>
+    </div>
+</section>
 
-    <section class="recipe-content">
-      <div class="ingredients">
-        <h2>Ingredients</h2>
-        <ul>
-          <li>1 medium red onion, trimmed, cut in half through equator, peeled, separated into rings</li>
-          <li>1 tsp. soy sauce</li>
-          <li>½ tsp. garlic powder</li>
-          <li>2 Tbsp. extra-virgin olive oil, divided</li>
-          <li>Kosher salt</li>
-          <li>¼ cup finely chopped soft herbs, such as basil, cilantro, and/or dill</li>
-          <li>2 Tbsp. green or red hot sauce</li>
-          <li>1 Tbsp. unsalted butter</li>
-          <li>4 large eggs, lightly beaten</li>
-          <li>2 whole-grain English muffins, toasted</li>
-          <li>2 oz. sliced sharp cheddar cheese</li>        </ul>
-      </div>
-      <div class="instructions">
-        <h2>Instructions</h2>
-        <ol>
-          <li>Preheat oven to 350°F. Toss onion, soy sauce, garlic powder, and 1 Tbsp. oil on a large rimmed baking sheet to coat. Season with salt. Bake, tossing once halfway through, until onion is browned around the edges and very tender, 25–35 minutes. Let cool 5 minutes.</li>
-          <li>Meanwhile, toss herbs, hot sauce, and remaining 1 Tbsp. oil in a small bowl. Season with salt, if needed.</li>
-          <li>Melt butter in a small nonstick skillet over medium heat. Add eggs; season with salt. Cook, stirring with a rubber spatula, until eggs have set into creamy folds, 1–2 minutes.</li>
-          <li>Spread herb sauce on cut sides of muffins. Transfer bottom halves to a rimmed baking sheet. Top with eggs, then lay cheese over. Bake bottom halves just until cheese is melted, about 5 minutes. Top with onion and close with muffin tops.</li>
-          <li>Do Ahead: Onion can be cooked 5 days ahead. Transfer to an airtight container and chill. To make a sandwich quickly without turning your oven on, fold the cheese into the eggs when they have just begun to set, top with onion (no need to rewarm), and assemble with toasted English muffins.</li>        </ol>
-      </div>
-    </section>
+<section class="recipe-details-container" style="max-width: 900px; margin: 40px auto; padding: 0 20px;">
+    <div class="recipe-info-layout">
+        <div class="ingredients-list">
+            <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Ingredients</h2>
+            <ul style="list-style: none; padding: 0;">
+                <li class="recipe-step-item"><input type="checkbox"> 1 medium red onion, trimmed, cut in half through equator, peeled, separated into rings</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1 tsp. soy sauce</li>
+                <li class="recipe-step-item"><input type="checkbox"> ½ tsp. garlic powder</li>
+                <li class="recipe-step-item"><input type="checkbox"> 2 Tbsp. extra-virgin olive oil, divided</li>
+                <li class="recipe-step-item"><input type="checkbox"> Kosher salt</li>
+                <li class="recipe-step-item"><input type="checkbox"> ¼ cup finely chopped soft herbs, such as basil, cilantro, and/or dill</li>
+                <li class="recipe-step-item"><input type="checkbox"> 2 Tbsp. green or red hot sauce</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1 Tbsp. unsalted butter</li>
+                <li class="recipe-step-item"><input type="checkbox"> 4 large eggs, lightly beaten</li>
+                <li class="recipe-step-item"><input type="checkbox"> 2 whole-grain English muffins, toasted</li>
+                <li class="recipe-step-item"><input type="checkbox"> 2 oz. sliced sharp cheddar cheese</li>
+            </ul>
+        </div>
+
+        <div class="instructions-list">
+    <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Instructions</h2>
+    
+    <div class="instruction-step">
+        <span class="step-label">01</span>
+        <p><strong>Roast the Onion:</strong> Preheat oven to 350°F. Toss onion, soy sauce, garlic powder, and 1 Tbsp. oil on a large rimmed baking sheet to coat. Season with salt. Bake, tossing once halfway through, until onion is browned around the edges and very tender, 25–35 minutes. Let cool 5 minutes.</p>
+    </div>
+
+    <div class="instruction-step">
+        <span class="step-label">02</span>
+        <p><strong>Mix the Herb Sauce:</strong> Meanwhile, toss herbs, hot sauce, and remaining 1 Tbsp. oil in a small bowl. Season with salt, if needed.</p>
+    </div>
+
+    <div class="instruction-step">
+        <span class="step-label">03</span>
+        <p><strong>Cook the Eggs:</strong> Melt butter in a small nonstick skillet over medium heat. Add eggs; season with salt. Cook, stirring with a rubber spatula, until eggs have set into creamy folds, 1–2 minutes.</p>
+    </div>
+
+    <div class="instruction-step">
+        <span class="step-label">04</span>
+        <p><strong>Assemble and Bake:</strong> Spread herb sauce on cut sides of muffins. Transfer bottom halves to a rimmed baking sheet. Top with eggs, then lay cheese over. Bake bottom halves just until cheese is melted, about 5 minutes. Top with onion and close with muffin tops.</p>
+    </div>
+
+    <div class="instruction-step">
+        <span class="step-label">05</span>
+        <p><strong>Do Ahead:</strong> Onion can be cooked 5 days ahead. Transfer to an airtight container and chill. To make a sandwich quickly without turning your oven on, fold the cheese into the eggs when they have just begun to set, top with onion (no need to rewarm), and assemble with toasted English muffins.</p>
+    </div>
+</div>
+</section>
 
     <footer>
       <div class="footer-links">
