@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../../styles/style.css" />
   </head>
   <body>
-    <!-- I keep the shared layout here so this page matches the rest of the site -->
     <header>
       <div class="top-bar">
         <a href="https://instagram.com" title="Instagram"><img src="../../assets/icons/instagram.svg" alt="Instagram"></a>
@@ -27,39 +26,62 @@
     </header>
 
     <section class="recipe-hero">
-      <h1>Tacos</h1>
+      <div class="hero-text-box">
+          <span class="dish-country">Mexico</span>
+          <h1>Tacos</h1>
+          <div class="recipe-meta" style="display: flex; justify-content: center; gap: 20px; margin-top: 10px; color: var(--dark-grey); font-weight: 600;">
+              <span><i class="far fa-clock"></i> 20 MINS PREP</span>
+              <span><i class="fas fa-utensils"></i> SERVES 4</span>
+          </div>
+      </div>
       <div class="recipe-main-img">
-        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Tacos_de_carnitas.jpg" alt="Tacos" />
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Tacos_de_carnitas.jpg" alt="Tacos" />
       </div>
     </section>
 
-    <section class="recipe-content">
-      <div class="ingredients">
-        <h2>Ingredients</h2>
-        <ul>
-          <li>1 can (14 oz) young green jackfruit in water</li>
-          <li>1 white onion</li>
-          <li>4 garlic cloves</li>
-          <li>1 tbsp vegetable oil</li>
-          <li>1 tbsp maple syrup</li>
-          <li>7 tbsp vegetable stock</li>
-          <li>1/2 tsp Tabasco sauce</li>
-          <li>4 limes</li>
-          <li>1 1/2 tsp ground cumin</li>
-          <li>1 1/2 tsp smoked paprika</li>
-          <li>1/2-1 tsp chili powder</li>
-          <li>1/2 tsp salt</li>
-          <li>Handful fresh cilantro</li>
-          <li>12 crunchy taco shells</li>
-          <li>1 cup guacamole</li>        </ul>
-      </div>
-      <div class="instructions">
-        <h2>Instructions</h2>
-        <ol>
-          <li>Tip the jackfruit into a sieve or colander to drain the excess water and pat the pieces down with a clean kitchen towel to dry them off | Cut into 1/4-inch strips and put to one side</li>
-          <li>Peel and slice the onion and garlic very thinly | Warm the vegetable oil in the frying pan | Add the onion and garlic to the pan and stir with a wooden spoon until soft and translucent | Add the jackfruit, maple syrup, vegetable stock, and Tabasco sauce | Cut 1 of the limes in half and squeeze in the juice of one half, catching any seeds in your other hand | Stir until the jackfruit is well covered</li>
-          <li>Put the lid on the pan, turn down the heat, and let it simmer for 7–10 minutes, stirring occasionally, until the liquid has been absorbed into the jackfruit | Take the lid off the pan and sprinkle in all the spices and the salt | Stir until the jackfruit pieces are well covered and taking on the color of the spices | Transfer the jackfruit pieces to a serving dish</li>
-          <li>Slice the remaining limes into wedges and remove the leaves from the cilantro by running your thumb and forefinger from the top to the base of the stems (the leaves should easily come away), saving the stems for another recipe | Serve the taco shells, jackfruit, guacamole, salsa, lime wedges, and cilantro leaves on individual plates and let everyone build their own tacos</li>        </ol>
+    <section class="recipe-details-container" style="max-width: 900px; margin: 40px auto; padding: 0 20px;">
+      <div class="recipe-info-layout">
+          <div class="ingredients-list">
+              <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Ingredients</h2>
+              <ul style="list-style: none; padding: 0;">
+                <li class="recipe-step-item"><input type="checkbox"> 12 taco shells</li>
+                <li class="recipe-step-item"><input type="checkbox"> 2 cans (20 oz each) young green jackfruit in brine, drained and rinsed</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1 red onion, finely chopped</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1 cup vegetable stock</li>
+                <li class="recipe-step-item"><input type="checkbox"> 2 tablespoons maple syrup</li>
+                <li class="recipe-step-item"><input type="checkbox"> 2 tablespoons Tabasco sauce</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1 tablespoon ground cumin</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1 tablespoon smoked paprika</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1 teaspoon chili powder</li>
+                <li class="recipe-step-item"><input type="checkbox"> 2 limes</li>
+                <li class="recipe-step-item"><input type="checkbox"> Fresh cilantro</li>
+                <li class="recipe-step-item"><input type="checkbox"> Guacamole and salsa for serving</li>
+              </ul>
+          </div>
+
+          <div class="instructions-list">
+              <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Instructions</h2>
+              
+              <div class="instruction-step">
+                  <span class="step-label">01</span>
+                  <p><strong>Prep the Jackfruit:</strong> Chop the jackfruit into small pieces and sauté with the red onion in a large pan until the onion is soft and translucent.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">02</span>
+                  <p><strong>Simmer:</strong> Add the maple syrup, vegetable stock, Tabasco, and the juice of half a lime. Cover and simmer for 7–10 minutes until the liquid is fully absorbed.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">03</span>
+                  <p><strong>Season:</strong> Remove the lid and sprinkle in the cumin, smoked paprika, chili powder, and salt. Stir until the jackfruit is well coated and takes on the rich color of the spices.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">04</span>
+                  <p><strong>Assemble and Serve:</strong> Serve the warm spiced jackfruit in taco shells topped with guacamole, fresh salsa, cilantro leaves, and extra lime wedges.</p>
+              </div>
+          </div>
       </div>
     </section>
 
