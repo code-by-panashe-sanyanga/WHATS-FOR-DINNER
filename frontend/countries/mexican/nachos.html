@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../../styles/style.css" />
   </head>
   <body>
-    <!-- I keep the shared layout here so this page matches the rest of the site -->
     <header>
       <div class="top-bar">
         <a href="https://instagram.com" title="Instagram"><img src="../../assets/icons/instagram.svg" alt="Instagram"></a>
@@ -27,30 +26,56 @@
     </header>
 
     <section class="recipe-hero">
-      <h1>Nachos</h1>
+      <div class="hero-text-box">
+          <span class="dish-country">Mexico</span>
+          <h1>Nachos</h1>
+          <div class="recipe-meta" style="display: flex; justify-content: center; gap: 20px; margin-top: 10px; color: var(--dark-grey); font-weight: 600;">
+              <span><i class="far fa-clock"></i> 15 MINS PREP</span>
+              <span><i class="fas fa-utensils"></i> SERVES 4</span>
+          </div>
+      </div>
       <div class="recipe-main-img">
-        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nachos.jpg" alt="Nachos" />
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nachos.jpg" alt="Nachos" />
       </div>
     </section>
 
-    <section class="recipe-content">
-      <div class="ingredients">
-        <h2>Ingredients</h2>
-        <ul>
-          <li>1 bag tortilla chips (i used 1/2 baked blue corn & half white corn)</li>
-          <li>2 cups cheese (I used a mexican blend cheese which is a blend of monterey jack, cheddar and queso blanco)</li>
-          <li>1- 15 oz can black beans</li>
-          <li>drained and rinsed</li>        </ul>
-      </div>
-      <div class="instructions">
-        <h2>Instructions</h2>
-        <ol>
-          <li>Preheat oven to 350 degrees.</li>
-          <li>Place 1/2 of chips in an oven safe dish or on a cookie sheet.</li>
-          <li>Cover with 1/2 of the cheese and beans.</li>
-          <li>Cover with the remaining chips, cheese and beans and bake for 10-15 minutes or until cheese is melted over chips.</li>
-          <li>Top with guacamole, sour cream, salsa and or olives.</li>
-          <li>Optional Accompaniments: Sour Cream, Guacamole, Salsa, Sliced Black Olives</li>        </ol>
+    <section class="recipe-details-container" style="max-width: 900px; margin: 40px auto; padding: 0 20px;">
+      <div class="recipe-info-layout">
+          <div class="ingredients-list">
+              <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Ingredients</h2>
+              <ul style="list-style: none; padding: 0;">
+                <li class="recipe-step-item"><input type="checkbox"> 1 bag tortilla chips (blue or white corn)</li>
+                <li class="recipe-step-item"><input type="checkbox"> 2 cups Mexican blend cheese (Monterey Jack, Cheddar, Queso Blanco)</li>
+                <li class="recipe-step-item"><input type="checkbox"> 15 oz can black beans, drained and rinsed</li>
+                <li class="recipe-step-item"><input type="checkbox"> Guacamole and salsa</li>
+                <li class="recipe-step-item"><input type="checkbox"> Sour cream</li>
+                <li class="recipe-step-item"><input type="checkbox"> Sliced black olives (optional)</li>
+              </ul>
+          </div>
+
+          <div class="instructions-list">
+              <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Instructions</h2>
+              
+              <div class="instruction-step">
+                  <span class="step-label">01</span>
+                  <p><strong>Prep and Layer:</strong> Preheat your oven to 350°F. Place half of the tortilla chips in an oven-safe dish or on a cookie sheet.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">02</span>
+                  <p><strong>First Toppings:</strong> Cover the first layer of chips with half of the cheese and half of the black beans.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">03</span>
+                  <p><strong>Final Layer and Bake:</strong> Repeat the process with the remaining chips, cheese, and beans. Bake for 10–15 minutes until the cheese is completely melted over the chips.</p>
+              </div>
+
+              <div class="instruction-step">
+                  <span class="step-label">04</span>
+                  <p><strong>Garnish:</strong> Finish the dish by topping with guacamole, sour cream, and fresh salsa. Add sliced black olives if desired.</p>
+              </div>
+          </div>
       </div>
     </section>
 
