@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../../styles/style.css" />
   </head>
   <body>
-    <!-- I keep the shared layout here so this page matches the rest of the site -->
     <header>
       <div class="top-bar">
         <a href="https://instagram.com" title="Instagram"><img src="../../assets/icons/instagram.svg" alt="Instagram"></a>
@@ -27,37 +26,66 @@
     </header>
 
     <section class="recipe-hero">
-      <h1>Roast Beef</h1>
-      <div class="recipe-main-img">
+    <div class="hero-text-box">
+        <span class="dish-country">England</span>
+        <h1>Roast Beef</h1>
+        <div class="recipe-meta" style="display: flex; justify-content: center; gap: 20px; margin-top: 10px; color: var(--dark-grey); font-weight: 600;">
+            <span><i class="far fa-clock"></i> 20 MINS PREP</span>
+            <span><i class="fas fa-utensils"></i> SERVES 4</span>
+        </div>
+    </div>
+    <div class="recipe-main-img">
         <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Roast_beef.jpg" alt="Roast Beef" />
-      </div>
-    </section>
+    </div>
+</section>
 
-    <section class="recipe-content">
-      <div class="ingredients">
-        <h2>Ingredients</h2>
-        <ul>
-          <li>1 (4-lb.) New York strip roast, preferably prime, untied</li>
-          <li>Kosher salt, freshly ground pepper</li>
-          <li>6 garlic cloves, finely grated</li>
-          <li>3 Tbsp. finely chopped rosemary</li>
-          <li>5 Tbsp. extra-virgin olive oil, divided</li>
-          <li>1/2 cup plain whole-milk Greek yogurt</li>
-          <li>1/2 cup sour cream</li>
-          <li>2 Tbsp. prepared horseradish</li>
-          <li>1/2 tsp. finely grated lemon zest</li>
-          <li>Warm rolls and cornichons (for serving)</li>        </ul>
-      </div>
-      <div class="instructions">
-        <h2>Instructions</h2>
-        <ol>
-          <li>Lightly score fat cap of roast, spacing cuts about 3/4" apart, with a sharp knife, being careful not to slice into the flesh. Season roast generously on all sides with salt and pepper. Mix garlic, rosemary, and 3 Tbsp. oil in a small bowl and rub all over roast. Loosely cover with plastic wrap and chill at least 12 hours and up to 2 days.</li>
-          <li>Preheat oven to 200°F. Place roast on a wire rack set inside a large rimmed baking sheet. Roast until an instant-read thermometer inserted into the thickest part of meat registers 118°F–120°F for medium-rare, about 2 1/2 hours. Let rest 1 hour (internal temperature will continue to climb to 125°F–130°F).</li>
-          <li>Mix together yogurt, sour cream, horseradish, and lemon zest in a small bowl; season sauce with salt.</li>
-          <li>Heat remaining 2 Tbsp. oil in a large skillet over medium. Cook roast just until browned, about 2 minutes per side. Transfer to a cutting board and thinly slice. Serve with horseradish sauce, rolls, and cornichons.</li>
-          <li>Beef can be roasted and browned 3 days ahead. Cover and chill. Let sit at room temperature 1–2 hours before serving.</li>        </ol>
-      </div>
-    </section>
+<section class="recipe-details-container" style="max-width: 900px; margin: 40px auto; padding: 0 20px;">
+    <div class="recipe-info-layout">
+        <div class="ingredients-list">
+            <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Ingredients</h2>
+            <ul style="list-style: none; padding: 0;">
+                <li class="recipe-step-item"><input type="checkbox"> 1 (4-lb.) New York strip roast, preferably prime, untied</li>
+                <li class="recipe-step-item"><input type="checkbox"> Kosher salt, freshly ground pepper</li>
+                <li class="recipe-step-item"><input type="checkbox"> 6 garlic cloves, finely grated</li>
+                <li class="recipe-step-item"><input type="checkbox"> 3 Tbsp. finely chopped rosemary</li>
+                <li class="recipe-step-item"><input type="checkbox"> 5 Tbsp. extra-virgin olive oil, divided</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1/2 cup plain whole-milk Greek yogurt</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1/2 cup sour cream</li>
+                <li class="recipe-step-item"><input type="checkbox"> 2 Tbsp. prepared horseradish</li>
+                <li class="recipe-step-item"><input type="checkbox"> 1/2 tsp. finely grated lemon zest</li>
+                <li class="recipe-step-item"><input type="checkbox"> Warm rolls and cornichons (for serving)</li>
+            </ul>
+        </div>
+
+        <div class="instructions-list">
+    <h2 class="section-title" style="text-align: left; font-size: 1.5rem; margin-bottom: 20px;">Instructions</h2>
+    
+    <div class="instruction-step">
+        <span class="step-label">01</span>
+        <p><strong>Prep and Season:</strong> Lightly score the fat cap of the roast, spacing cuts about 3/4" apart. Season generously with salt and pepper. Mix garlic, rosemary, and 3 Tbsp. oil in a small bowl and rub all over the roast. Loosely cover and chill for 12 hours up to 2 days.</p>
+    </div>
+
+    <div class="instruction-step">
+        <span class="step-label">02</span>
+        <p><strong>Roast and Rest:</strong> Preheat oven to 200°F. Place roast on a wire rack inside a baking sheet and roast until the internal temperature registers 118°F–120°F (about 2.5 hours). Let the meat rest for 1 hour.</p>
+    </div>
+
+    <div class="instruction-step">
+        <span class="step-label">03</span>
+        <p><strong>Make the Sauce:</strong> While the meat rests, mix together the yogurt, sour cream, horseradish, and lemon zest in a small bowl. Season with salt to taste.</p>
+    </div>
+
+    <div class="instruction-step">
+        <span class="step-label">04</span>
+        <p><strong>Brown and Serve:</strong> Heat the remaining 2 Tbsp. oil in a large skillet over medium heat. Cook the roast just until browned (about 2 minutes per side), then thinly slice and serve with the sauce, rolls, and cornichons.</p>
+    </div>
+
+    <div class="instruction-step">
+        <span class="step-label">05</span>
+        <p><strong>Do Ahead:</strong> The beef can be roasted and browned up to 3 days ahead. Cover and chill, then let it sit at room temperature for 1–2 hours before serving.</p>
+    </div>
+</div>
+</section>
 
     <footer>
       <div class="footer-links">
