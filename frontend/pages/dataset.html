@@ -107,10 +107,17 @@
         const ingredients = (item.ingredients || []).slice(0, 8).map(i => `<li>${i}</li>`).join('');
         const hasMore = (item.ingredients || []).length > 8 ? `<li>+${item.ingredients.length - 8} more</li>` : '';
 
+        const imageHtml = item.imageName
+        ? `<img src="${item.imageName}" alt="${item.title}" style="max-width: 150px; width: 100%; height: auto; display: block; margin: 10px 0; border-radius: 8px;" />`
+        : '';
+
+        const imageKeyHtml = item.imageName ? '' : `<p class="dataset-image-name">Image key: ${item.imageName || 'N/A'}</p>`;
+        
         return `
           <article class="dataset-card">
             <h3>${item.title}</h3>
-            <p class="dataset-image-name">Image key: ${item.imageName || 'N/A'}</p>
+            ${imageHtml}
+            ${imageKeyHtml}
             <h4>Ingredients</h4>
             <ul>${ingredients}${hasMore}</ul>
           </article>
